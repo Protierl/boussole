@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0D1219">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<title>BOUSSOLE · bot 24h/24</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,700;12..96,800&family=Spline+Sans+Mono:wght@400;500;600&display=swap');
+:root{
+  --bg:#0D1219;--card:#151C27;--card2:#1B2432;--line:#26303F;
+  --ink:#EAF0F7;--dim:#8DA0B5;--faint:#5B6B7E;
+  --brass:#D9A441;--brassDim:#8A6A2C;--up:#3DD68C;--down:#F26D78;
+  --cAction:#6E9BD1;--cETF:#9A8FD1;--cMP:#D9A441;--cCash:#54677D;
+}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+html,body{margin:0;background:var(--bg)}
+body{font-family:'Bricolage Grotesque',system-ui,sans-serif;color:var(--ink);min-height:100vh;padding-bottom:70px}
+.mono{font-family:'Spline Sans Mono',ui-monospace,monospace;font-variant-numeric:tabular-nums}
+.wrap{max-width:640px;margin:0 auto;padding:0 14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px;margin-top:12px}
+.label{font-size:10.5px;letter-spacing:1.6px;text-transform:uppercase;color:var(--faint);font-weight:600}
+.chip{font-family:'Spline Sans Mono',monospace;font-size:10px;padding:2px 7px;border-radius:6px;letter-spacing:.5px}
+.up{color:var(--up)}.down{color:var(--down)}.dim{color:var(--dim)}.faint{color:var(--faint)}
+header{position:sticky;top:0;z-index:20;background:rgba(13,18,25,.95);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+.hrow{max-width:640px;margin:0 auto;padding:12px 14px;display:flex;align-items:center;gap:10px}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:12px}
+.kpi{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:12px 13px}
+.kpi .v{font-size:16.5px;font-weight:600;margin-top:5px}
+button{font-family:inherit;cursor:pointer}
+.rbtn{width:36px;height:36px;border-radius:10px;border:1px solid var(--line);background:var(--card);color:var(--brass);display:flex;align-items:center;justify-content:center;flex-shrink:0}
+@keyframes spin{to{transform:rotate(360deg)}}
+.spin{animation:spin 1s linear infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.35}}
+.pulse{animation:pulse 2.2s ease-in-out infinite}
+.fade{animation:fadeUp .5s cubic-bezier(.2,.7,.2,1) both}
+@keyframes fadeUp{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+h2{font-size:10.5px;letter-spacing:1.6px;text-transform:uppercase;color:var(--faint);font-weight:600;margin:22px 2px 0}
+table{width:100%;border-collapse:collapse;font-size:12px}
+.bar{height:4px;background:var(--card2);border-radius:4px;overflow:hidden;margin-top:9px}
+.bar>div{height:100%;opacity:.85}
+.warn{margin-top:12px;padding:9px 12px;border-radius:10px;background:rgba(217,164,65,.07);border:1px solid rgba(217,164,65,.27);color:var(--brass);font-size:12px}
+.err{margin-top:12px;padding:14px;border-radius:10px;background:rgba(242,109,120,.07);border:1px solid rgba(242,109,120,.3);color:var(--down);font-size:12.5px;line-height:1.5}
+a{color:var(--brass)}
+footer{text-align:center;margin-top:28px;color:var(--faint);font-size:10px;letter-spacing:1.2px;line-height:1.8;padding:0 14px}
+.stamp{position:absolute;top:6px;right:4px;opacity:.9;transform:rotate(-11deg)}
+@media(prefers-reduced-motion:reduce){.spin,.pulse,.fade{animation:none!important}}
+</style>
+</head>
+<body>
+<header>
+  <div class="hrow">
+    <svg width="18" height="18" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="none" stroke="#D9A441" stroke-width="1.6"/><path d="M12 4 L14.4 12 L12 20 L9.6 12 Z" fill="#D9A441"/><path d="M12 4 L14.4 12 L9.6 12 Z" fill="#EAF0F7" opacity=".9"/></svg>
+    <div style="flex:1;min-width:0">
+      <div style="display:flex;align-items:center;gap:7px">
+        <span style="font-weight:800;font-size:14.5px;letter-spacing:3.2px">BOUSSOLE</span>
+        <span class="chip" style="color:var(--brass);background:rgba(217,164,65,.12);border:1px solid rgba(217,164,65,.27)">24H/24</span>
+      </div>
+      <div id="sub" style="display:flex;align-items:center;gap:6px;font-size:10.5px;color:var(--dim);flex-wrap:wrap">chargement…</div>
+    </div>
+    <button class="rbtn" id="refresh" title="Actualiser" aria-label="Actualiser">
+      <svg id="ric" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M21 12a9 9 0 1 1-2.64-6.36"/><path d="M21 3v6h-6"/></svg>
+    </button>
+  </div>
+</header>
+
+<div class="wrap" id="app">
+  <div class="card fade" style="text-align:center;padding:28px"><span class="pulse dim" style="font-size:13px">Lecture de l'état du bot…</span></div>
+</div>
+
+<footer>BOUSSOLE · SIMULATION SUR COURS RÉELS · CAPITAL FICTIF<br>
+Outil pédagogique — aucun argent réel, aucune garantie, pas un conseil en investissement.<br>
+<a id="repoLink" href="#" style="color:var(--faint)">Dépôt GitHub</a></footer>
+
+<script>
+"use strict";
+/* ── BOUSSOLE · tableau de bord GitHub Pages ─────────────────────────
+   Les données (etat.json) sont servies par le même site : zéro CORS,
+   zéro relais, toujours à jour ~1 min après chaque cycle du bot. */
+
+const CAPITAL = 10000, DAY = 86400000;
+const NOM = {AAPL:["Apple","Action"],MSFT:["Microsoft","Action"],NVDA:["Nvidia","Action"],GOOGL:["Alphabet","Action"],AMZN:["Amazon","Action"],META:["Meta","Action"],JPM:["JPMorgan","Action"],SPY:["S&P 500","ETF"],QQQ:["Nasdaq 100","ETF"],EEM:["Marchés émergents","ETF"],TLT:["Obligations US 20 ans","ETF"],EZU:["Zone euro","ETF"],GLD:["Or","Matière première"],SLV:["Argent","Matière première"],USO:["Pétrole WTI","Matière première"],DBC:["Panier mat. prem.","Matière première"]};
+const CATC = {"Action":"var(--cAction)","ETF":"var(--cETF)","Matière première":"var(--cMP)","Liquidités":"var(--cCash)"};
+const nom = s => (NOM[s]||[s,"Action"])[0], cat = s => (NOM[s]||[s,"Action"])[1];
+
+const eur = (v,d=2)=>new Intl.NumberFormat("fr-FR",{style:"currency",currency:"EUR",minimumFractionDigits:d,maximumFractionDigits:d}).format(v);
+const usdF = v=>new Intl.NumberFormat("fr-FR",{style:"currency",currency:"USD",minimumFractionDigits:2}).format(v);
+const pct = (v,sign=true,d=1)=>v==null||!isFinite(v)?"—":(sign&&v>0?"+":"")+(v*100).toLocaleString("fr-FR",{minimumFractionDigits:d,maximumFractionDigits:d})+" %";
+const num = (v,d=2)=>v.toLocaleString("fr-FR",{maximumFractionDigits:d});
+const hm = t=>new Date(t).toLocaleTimeString("fr-FR",{hour:"2-digit",minute:"2-digit"});
+const dFull = t=>new Date(t).toLocaleDateString("fr-FR",{day:"2-digit",month:"short"})+" · "+hm(t);
+const dShort = t=>new Date(t).toLocaleDateString("fr-FR",{day:"2-digit",month:"short"});
+const ago = t=>{const s=Math.max(0,(Date.now()-t)/1e3);return s<90?"à l'instant":s<3600?"il y a "+Math.round(s/60)+" min":"il y a "+(s/3600).toFixed(s<7200?1:0).replace(".",",")+" h"};
+const cls = v=>v==null?"dim":v>=0?"up":"down";
+const pnlTxt = (v,suffix)=>v==null?"—":suffix==="%"?pct(v):(v>=0?"+":"")+eur(v);
+const esc = s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+
+function marcheUS(){
+  try{
+    const p=new Intl.DateTimeFormat("en-US",{timeZone:"America/New_York",hour12:false,weekday:"short",hour:"numeric",minute:"numeric"}).formatToParts(new Date());
+    const g=t=>p.find(x=>x.type===t)?.value, wd=g("weekday"), m=+g("hour")*60+ +g("minute");
+    return wd!=="Sat"&&wd!=="Sun"&&m>=570&&m<960;
+  }catch(e){return false}
+}
+
+function perfStats(hist, createdAt, equity){
+  const out={totalR:equity/CAPITAL-1,pnl:equity-CAPITAL,cagr:null,maxDD:null,vol:null,sharpe:null,dayR:null};
+  if(!hist.length) return out;
+  const byDay=new Map();
+  for(const p of hist) byDay.set(new Date(p.t).toLocaleDateString("fr-FR"),p.eq);
+  const today=new Date().toLocaleDateString("fr-FR");
+  let prevDay=null;
+  for(const [d,v] of byDay) if(d!==today) prevDay=v;
+  byDay.set(today,equity);
+  const daily=[...byDay.values()];
+  const days=Math.max((Date.now()-createdAt)/DAY,.04);
+  if(days>=1) out.cagr=Math.pow(equity/CAPITAL,365/days)-1;
+  let peak=-Infinity,dd=0;
+  for(const v of daily){peak=Math.max(peak,v);dd=Math.min(dd,v/peak-1)}
+  out.maxDD=dd;
+  if(daily.length>=5){
+    const r=[];for(let i=1;i<daily.length;i++)r.push(daily[i]/daily[i-1]-1);
+    const m=r.reduce((a,b)=>a+b,0)/r.length;
+    const sd=Math.sqrt(r.reduce((a,b)=>a+(b-m)*(b-m),0)/(r.length-1));
+    out.vol=sd*Math.sqrt(252); if(sd>0) out.sharpe=m/sd*Math.sqrt(252);
+  }
+  if(prevDay) out.dayR=equity/prevDay-1;
+  return out;
+}
+
+/* Courbe SVG maison (aucune dépendance) */
+function chartSVG(hist,H=200){
+  const pts=hist.filter(p=>isFinite(p.eq));
+  if(pts.length<2) return `<div style="height:${H}px;display:flex;align-items:center;justify-content:center;color:var(--faint);font-size:12.5px;text-align:center;padding:16px">La courbe se dessine au fil des passages du bot<br>(un point par heure).</div>`;
+  const W=600,padL=42,padR=8,padT=10,padB=22;
+  const xs=pts.map(p=>p.t), t0=Math.min(...xs), t1=Math.max(...xs);
+  const vals=pts.flatMap(p=>[p.eq,p.bench]).filter(v=>v!=null&&isFinite(v)).concat([CAPITAL]);
+  let lo=Math.min(...vals), hi=Math.max(...vals);
+  const m=(hi-lo)*.12||50; lo-=m; hi+=m;
+  const X=t=>padL+(t-t0)/Math.max(t1-t0,1)*(W-padL-padR);
+  const Y=v=>padT+(hi-v)/(hi-lo)*(H-padT-padB);
+  const path=k=>pts.filter(p=>p[k]!=null&&isFinite(p[k])).map((p,i)=>(i?"L":"M")+X(p.t).toFixed(1)+","+Y(p[k]).toFixed(1)).join(" ");
+  const eqP=path("eq");
+  const area=eqP+` L${X(t1).toFixed(1)},${(H-padB).toFixed(1)} L${X(pts.find(p=>isFinite(p.eq)).t).toFixed(1)},${(H-padB).toFixed(1)} Z`;
+  const yTicks=[lo+(hi-lo)*.15,(lo+hi)/2,hi-(hi-lo)*.15].map(v=>`<text x="${padL-6}" y="${Y(v)+3}" text-anchor="end" fill="var(--faint)" font-size="9" font-family="'Spline Sans Mono',monospace">${(v/1000).toLocaleString("fr-FR",{maximumFractionDigits:1})} k</text>`).join("");
+  const n=Math.min(4,pts.length);
+  const xTicks=Array.from({length:n},(_,i)=>{const t=t0+(t1-t0)*i/(n-1);return `<text x="${X(t)}" y="${H-6}" text-anchor="middle" fill="var(--faint)" font-size="9" font-family="'Spline Sans Mono',monospace">${dShort(t)}</text>`}).join("");
+  return `<svg viewBox="0 0 ${W} ${H}" style="width:100%;height:auto;display:block">
+    <defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#D9A441" stop-opacity=".32"/><stop offset="100%" stop-color="#D9A441" stop-opacity="0"/></linearGradient></defs>
+    ${[.25,.5,.75].map(f=>`<line x1="${padL}" x2="${W-padR}" y1="${padT+f*(H-padT-padB)}" y2="${padT+f*(H-padT-padB)}" stroke="var(--line)" stroke-dasharray="3 6"/>`).join("")}
+    <line x1="${padL}" x2="${W-padR}" y1="${Y(CAPITAL)}" y2="${Y(CAPITAL)}" stroke="var(--faint)" stroke-dasharray="4 4" opacity=".8"/>
+    <path d="${area}" fill="url(#g)"/>
+    ${path("bench")?`<path d="${path("bench")}" fill="none" stroke="var(--dim)" stroke-width="1.3" stroke-dasharray="5 4"/>`:""}
+    <path d="${eqP}" fill="none" stroke="var(--brass)" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/>
+    ${yTicks}${xTicks}</svg>`;
+}
+
+function rendre(e){
+  document.getElementById("repoLink").href="https://github.com/Protierl/boussole";
+  const fx=e.fx||1.08, lastPx=e.lastPx||{};
+  const rows=[];
+  for(const s in (e.positions||{})){
+    const p=e.positions[s], lp=lastPx[s];
+    if(!lp||!lp.px) continue;
+    const val=p.qty*lp.px/fx;
+    rows.push({s,qty:p.qty,px:lp.px,val,cost:p.costEUR,pnl:val-p.costEUR,pnlPct:p.costEUR>0?val/p.costEUR-1:0,dayPct:lp.prev?lp.px/lp.prev-1:null});
+  }
+  rows.sort((a,b)=>b.val-a.val);
+  const invested=rows.reduce((a,r)=>a+r.val,0);
+  const equity=(e.cashEUR||0)+invested;
+  const P=perfStats(e.histo||[],e.creeLe||Date.now(),equity);
+  const st=e.stats||{}, closed=st.clotures||0, wr=closed>0?(st.gagnants||0)/closed:null;
+  const stale=e.majLe&&Date.now()-e.majLe>3*3600e3;
+
+  document.getElementById("sub").innerHTML=
+    `<span class="${marcheUS()?'pulse':''}" style="width:6px;height:6px;border-radius:6px;background:${marcheUS()?'var(--up)':'var(--faint)'};display:inline-block"></span>`+
+    `Marché US ${marcheUS()?"ouvert":"fermé"} <span class="mono" style="color:var(--brass)">· publié ${ago(e.majLe||Date.now())}</span>`;
+
+  const alloc={};
+  for(const r of rows) alloc[cat(r.s)]=(alloc[cat(r.s)]||0)+r.val;
+  alloc["Liquidités"]=Math.max(e.cashEUR||0,0);
+
+  const kpis=[
+    ["Rendement total",pct(P.totalR),P.totalR],
+    ["Perf. annualisée",P.cagr==null?"— (trop tôt)":pct(P.cagr),P.cagr],
+    ["Drawdown max",P.maxDD==null?"—":pct(P.maxDD,false),P.maxDD===0?.0001:P.maxDD],
+    ["Sharpe",P.sharpe==null?"—":P.sharpe.toLocaleString("fr-FR",{maximumFractionDigits:2}),null],
+    ["Volatilité ann.",P.vol==null?"—":pct(P.vol,false),null],
+    ["Exposition",pct(equity>0?invested/equity:0,false,0),null],
+    ["Trades clôturés",closed+(wr!=null?" · "+Math.round(wr*100)+" % gagnants":""),null],
+    ["Frais cumulés",eur(st.frais||0),null],
+  ];
+
+  let h="";
+  if(stale) h+=`<div class="warn">Le bot n'a pas publié depuis ${((Date.now()-e.majLe)/3600e3).toFixed(0)} h — vérifie l'onglet Actions du dépôt GitHub.</div>`;
+
+  h+=`<div class="card fade" style="position:relative;overflow:hidden;padding:18px 16px 16px">
+    <svg class="stamp" width="84" height="84" viewBox="0 0 120 120"><defs><path id="stp" d="M60,60 m-42,0 a42,42 0 1,1 84,0 a42,42 0 1,1 -84,0"/></defs><circle cx="60" cy="60" r="53" fill="none" stroke="#D9A441" stroke-width="2" opacity=".85"/><circle cx="60" cy="60" r="32" fill="none" stroke="#D9A441" stroke-width="1" opacity=".7"/><text fill="#D9A441" font-size="9.2" letter-spacing="2.2" font-family="'Spline Sans Mono',monospace" opacity=".95"><textPath href="#stp" xlink:href="#stp">SIMULATION · COURS RÉELS · CAPITAL FICTIF ·</textPath></text><text x="60" y="58" text-anchor="middle" fill="#D9A441" font-weight="800" font-size="16" font-family="'Bricolage Grotesque',sans-serif">10 K€</text><text x="60" y="72" text-anchor="middle" fill="#D9A441" font-size="7" letter-spacing="2" font-family="'Spline Sans Mono',monospace">PAPIER</text></svg>
+    <div class="label">Bot autonome · GitHub Actions</div>
+    <div class="mono" style="font-size:38px;font-weight:600;line-height:1.15;margin:4px 0 2px">${eur(equity)}</div>
+    <div style="display:flex;gap:14px;align-items:baseline;flex-wrap:wrap">
+      <span class="mono ${cls(P.pnl)}" style="font-size:14px;font-weight:700">${pnlTxt(P.pnl)}</span>
+      <span class="mono ${cls(P.totalR)}" style="font-size:14px;font-weight:700">${pnlTxt(P.totalR,"%")}</span>
+      ${P.dayR!=null?`<span style="font-size:11.5px;color:var(--dim)">jour <span class="mono ${cls(P.dayR)}">${pct(P.dayR)}</span></span>`:""}
+    </div>
+    <div style="margin:14px -4px 0">${chartSVG(e.histo||[])}</div>
+    <div style="display:flex;gap:14px;font-size:10.5px;color:var(--faint);margin-top:4px;flex-wrap:wrap">
+      <span><span style="display:inline-block;width:14px;height:2.5px;background:var(--brass);border-radius:2px;vertical-align:middle;margin-right:5px"></span>Bot</span>
+      <span><span style="display:inline-block;width:14px;border-top:2px dashed var(--dim);vertical-align:middle;margin-right:5px"></span>S&P 500 (10 k€ investis)</span>
+      <span style="margin-left:auto">valeurs du dernier passage</span>
+    </div></div>`;
+
+  h+=`<div class="grid2 fade">`+kpis.map(([k,v,c])=>`<div class="kpi"><div class="label">${k}</div><div class="mono v ${c==null?"":cls(c)}">${v}</div></div>`).join("")+`</div>`;
+
+  h+=`<div class="card fade"><div class="label" style="margin-bottom:10px">Répartition</div>`+
+    Object.entries(alloc).filter(([,v])=>v>0.5).map(([k,v])=>`
+      <div style="display:flex;align-items:center;gap:8px;font-size:12px;padding:4px 0">
+        <span style="width:9px;height:9px;border-radius:3px;background:${CATC[k]};flex-shrink:0"></span>
+        <span class="dim" style="flex:1">${k}</span>
+        <span class="mono">${eur(v,0)}</span>
+        <span class="mono faint" style="width:40px;text-align:right">${equity>0?Math.round(v/equity*100):0} %</span>
+      </div>`).join("")+`</div>`;
+
+  h+=`<h2>Positions</h2>`;
+  if(!rows.length) h+=`<div class="card" style="text-align:center;color:var(--dim);font-size:13px;padding:26px">Aucune position — le bot est en liquidités.</div>`;
+  for(const r of rows){
+    h+=`<div class="card" style="padding:12px 14px">
+      <div style="display:flex;align-items:center;gap:8px;flex-wrap:wrap">
+        <span class="mono" style="font-weight:700;font-size:14px">${r.s}</span>
+        <span class="chip" style="color:${CATC[cat(r.s)]};background:color-mix(in srgb,${CATC[cat(r.s)]} 12%,transparent);border:1px solid color-mix(in srgb,${CATC[cat(r.s)]} 27%,transparent)">${cat(r.s)}</span>
+        <span style="flex:1"></span>
+        <span class="mono ${cls(r.pnlPct)}" style="font-size:13.5px;font-weight:700">${pct(r.pnlPct)}</span>
+      </div>
+      <div class="dim" style="font-size:11.5px;margin:3px 0 9px">${nom(r.s)}</div>
+      <div class="mono" style="display:flex;justify-content:space-between;font-size:12px">
+        <span class="faint">${num(r.qty,4)} × ${usdF(r.px)}</span>
+        <span style="font-weight:600">${eur(r.val)}</span>
+        <span class="${cls(r.pnl)}">${pnlTxt(r.pnl)}</span>
+      </div>
+      <div class="bar"><div style="width:${Math.min(r.val/equity*100,100)}%;background:${CATC[cat(r.s)]}"></div></div>
+      <div style="display:flex;justify-content:space-between;font-size:10.5px;color:var(--faint);margin-top:4px">
+        <span>${Math.round(r.val/equity*100)} % du portefeuille</span>
+        ${r.dayPct!=null?`<span>jour <span class="mono ${cls(r.dayPct)}">${pct(r.dayPct)}</span></span>`:""}
+      </div></div>`;
+  }
+
+  const sig=e.signaux||[];
+  if(sig.length){
+    h+=`<h2>Signaux · classement momentum</h2><div class="card" style="padding:8px 14px">`;
+    sig.forEach((a,i)=>{
+      const held=!!(e.positions||{})[a.s];
+      h+=`<div style="display:flex;align-items:center;gap:8px;padding:8px 0;${i?"border-top:1px solid var(--line)":""}">
+        <span class="mono faint" style="font-size:11px;width:18px">${i+1}</span>
+        <span class="mono" style="font-weight:700;font-size:13px">${a.s}</span>
+        ${held?`<span class="chip" style="color:var(--up);background:rgba(61,214,140,.12);border:1px solid rgba(61,214,140,.27)">détenu</span>`:a.cible>0?`<span class="chip" style="color:var(--brass);background:rgba(217,164,65,.12);border:1px solid rgba(217,164,65,.27)">cible ${Math.round(a.cible*100)} %</span>`:""}
+        <span style="flex:1"></span>
+        <span style="font-size:10.5px;color:${a.trend?"var(--up)":"var(--down)"}">${a.trend?"▲":"▽"}</span>
+        <span class="mono ${a.mom==null?"faint":a.mom>0?"up":"down"}" style="font-size:12.5px;font-weight:700;width:72px;text-align:right">${a.mom==null?"—":pct(a.mom)}</span>
+      </div>`;
+    });
+    h+=`</div>`;
+  }
+
+  const trades=e.trades||[];
+  if(trades.length){
+    h+=`<h2>Derniers ordres</h2>`;
+    for(const t of trades.slice(0,10)){
+      h+=`<div class="card" style="padding:11px 14px">
+        <div style="display:flex;align-items:center;gap:8px">
+          <span class="chip" style="color:${t.sens==="ACHAT"?"var(--up)":"var(--down)"};background:color-mix(in srgb,${t.sens==="ACHAT"?"var(--up)":"var(--down)"} 12%,transparent);border:1px solid color-mix(in srgb,${t.sens==="ACHAT"?"var(--up)":"var(--down)"} 27%,transparent)">${t.sens}</span>
+          <span class="mono" style="font-weight:700;font-size:13.5px">${t.sym}</span>
+          <span class="faint" style="font-size:11px">${esc(t.nom||nom(t.sym))}</span>
+          <span style="flex:1"></span>
+          <span class="mono faint" style="font-size:10.5px">${dFull(t.t)}</span>
+        </div>
+        <div class="mono dim" style="display:flex;justify-content:space-between;font-size:11.5px;margin-top:7px">
+          <span>${num(t.qty,4)} × ${usdF(t.px)}</span><span style="color:var(--ink)">${eur(t.valEUR)}</span><span class="faint">frais ${eur(t.frais)}</span>
+        </div>
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-top:6px">
+          <span style="font-size:11.5px;color:var(--brassDim)">${esc(t.raison||"")}</span>
+          ${t.pnl!=null?`<span style="font-size:11px">P&L <span class="mono ${cls(t.pnl)}" style="font-weight:700">${pnlTxt(t.pnl)}</span></span>`:""}
+        </div></div>`;
+    }
+    if(closed>0) h+=`<div class="card" style="padding:12px 14px;display:flex;justify-content:space-between"><span class="dim" style="font-size:12px">P&L réalisé cumulé</span><span class="mono ${cls(st.realise)}" style="font-size:13px;font-weight:700">${pnlTxt(st.realise||0)}</span></div>`;
+  }
+
+  const jr=e.journal||[];
+  if(jr.length){
+    h+=`<h2>Journal du bot</h2><div class="card" style="padding:8px 14px">`+
+      jr.slice(0,6).map((l,i)=>`<div style="display:flex;gap:10px;font-size:12px;padding:6px 0;${i?"border-top:1px solid var(--line)":""}"><span class="mono faint" style="flex-shrink:0">${dShort(l.t)} ${hm(l.t)}</span><span class="dim">${esc(l.msg)}</span></div>`).join("")+`</div>`;
+  }
+
+  h+=`<div class="card" style="font-size:11px;color:var(--faint);line-height:1.6">Créé le <span class="mono" style="color:var(--dim)">${dFull(e.creeLe)}</span> · le bot passe toutes les heures sur GitHub Actions et publie son état ici (~1 min de délai). Cette page se rafraîchit toute seule. Pour forcer un passage : <a href="https://github.com/Protierl/boussole/actions" style="color:var(--brass)">Actions → Run workflow</a>.</div>`;
+
+  document.getElementById("app").innerHTML=h;
+}
+
+function rendreErreur(msg){
+  document.getElementById("app").innerHTML=`<div class="err">Impossible de lire l'état du bot (${esc(msg)}).<br><br>
+  <button onclick="charger(true)" style="padding:11px 18px;border-radius:10px;border:none;background:var(--brass);color:#171308;font-weight:800;font-size:13px">Réessayer</button></div>`;
+  document.getElementById("sub").textContent="hors ligne";
+}
+
+let enCours=false;
+async function charger(manuel){
+  if(enCours) return; enCours=true;
+  const ic=document.getElementById("ric"); ic.classList.add("spin");
+  try{
+    const r=await fetch("etat.json?b="+Date.now(),{cache:"no-store"});
+    if(!r.ok) throw new Error("HTTP "+r.status);
+    const e=await r.json();
+    if(typeof e.cashEUR!=="number") throw new Error("format inattendu");
+    try{localStorage.setItem("boussole-cache",JSON.stringify(e))}catch(_){}
+    rendre(e);
+  }catch(err){
+    let cache=null;
+    try{cache=JSON.parse(localStorage.getItem("boussole-cache"))}catch(_){}
+    if(cache&&!manuel){rendre(cache);document.getElementById("sub").innerHTML+=` <span class="faint">· réseau indisponible, dernières données connues</span>`;}
+    else rendreErreur(err.message||"réseau");
+  }finally{ic.classList.remove("spin");enCours=false;}
+}
+
+document.getElementById("refresh").addEventListener("click",()=>charger(true));
+document.addEventListener("visibilitychange",()=>{if(!document.hidden)charger(false)});
+setInterval(()=>charger(false),60000);
+
+/* démarrage : cache instantané puis données fraîches */
+try{const c=JSON.parse(localStorage.getItem("boussole-cache"));if(c)rendre(c)}catch(_){}
+charger(false);
+</script>
+</body>
+</html>
