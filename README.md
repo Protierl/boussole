@@ -1,6 +1,6 @@
 # 🧭 BOUSSOLE — bot 24h/24
 
-**SIMULATION · cours réels · capital fictif** — mis à jour le 12/07/2026 à 17:18 (Paris) · sources : directes
+**SIMULATION · cours réels · capital fictif** — mis à jour le 12/07/2026 à 19:27 (Paris) · sources : directes
 
 ## 🔴 9 990,30 €
 
