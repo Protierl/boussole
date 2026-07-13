@@ -1,48 +1,54 @@
 # 🧭 BOUSSOLE — bot 24h/24
 
-**SIMULATION · cours réels · capital fictif** — mis à jour le 13/07/2026 à 19:24 (Paris) · sources : directes
+**SIMULATION · cours réels · capital fictif** — mis à jour le 13/07/2026 à 21:51 (Paris) · sources : directes
 
-## 🔴 9 853,45 €
+## 🔴 9 830,14 €
 
-**-146,55 € (-1,5 %)** · jour -1,5 % depuis le 12/07/2026
+**-169,86 € (-1,7 %)** · jour -1,7 % depuis le 12/07/2026
 
 ![Courbe de performance](courbe.png)
 
 | Indicateur | Valeur | Indicateur | Valeur |
 |---|---|---|---|
-| Perf. annualisée | -98,8 % | Volatilité ann. | — |
-| Drawdown max | -1,5 % | Sharpe | — |
-| Exposition | 97 % | Liquidités | 290,30 € |
-| Trades clôturés | 0 | Frais cumulés | 9,70 € |
-| EUR/USD | 1,1392 | P&L réalisé | 0,00 € |
+| Perf. annualisée | -99,1 % | Volatilité ann. | — |
+| Drawdown max | -1,7 % | Sharpe | — |
+| Exposition | 86 % | Liquidités | 1 366,34 € |
+| Trades clôturés | 5 (20 % gagnants) | Frais cumulés | 17,89 € |
+| EUR/USD | 1,1387 | P&L réalisé | -84,69 € |
 
 ## Positions
 
 | Actif | Qté | Cours | Valeur | P&L | Poids |
 |---|---|---|---|---|---|
-| **QQQ** Nasdaq 100 | 3,587 | 712,97 $ | 2 244,70 € | -1,6 % | 23 % |
-| **GOOGL** Alphabet | 6,268 | 356,09 $ | 1 959,12 € | -0,2 % | 20 % |
-| **EEM** Marchés émergents | 32,108 | 64,67 $ | 1 822,69 € | -3,2 % | 18 % |
-| **AAPL** Apple | 6,518 | 316,19 $ | 1 809,17 € | +0,4 % | 18 % |
-| **NVDA** Nvidia | 9,633 | 204,28 $ | 1 727,46 € | -3,0 % | 18 % |
+| **SPY** S&P 500 | 3,738 | 749,23 $ | 2 459,58 € | -0,1 % | 25 % |
+| **QQQ** Nasdaq 100 | 2,756 | 712,42 $ | 1 724,55 € | -1,6 % | 18 % |
+| **GOOGL** Alphabet | 4,878 | 352,43 $ | 1 509,75 € | -1,2 % | 15 % |
+| **AAPL** Apple | 5,026 | 317,51 $ | 1 401,44 € | +0,9 % | 14 % |
+| **EEM** Marchés émergents | 24,167 | 64,48 $ | 1 368,48 € | -3,4 % | 14 % |
 
 ## Signaux (classement momentum)
 
 | # | Actif | Momentum | Tendance | Cible |
 |---|---|---|---|---|
-| 1 | **USO** Pétrole WTI | +27,9 % | ▽ | — |
-| 2 | **AAPL** Apple | +21,7 % | ▲ | 14 % |
-| 3 | **QQQ** Nasdaq 100 | +15,8 % | ▲ | 17 % |
-| 4 | **GOOGL** Alphabet | +10,8 % | ▲ | 15 % |
-| 5 | **DBC** Panier mat. prem. | +10,7 % | ▽ | — |
-| 6 | **EEM** Marchés émergents | +10,3 % | ▲ | 14 % |
+| 1 | **USO** Pétrole WTI | +30,8 % | ▽ | — |
+| 2 | **AAPL** Apple | +22,2 % | ▲ | 14 % |
+| 3 | **QQQ** Nasdaq 100 | +15,7 % | ▲ | 18 % |
+| 4 | **DBC** Panier mat. prem. | +11,5 % | ▽ | — |
+| 5 | **EEM** Marchés émergents | +9,9 % | ▲ | 14 % |
+| 6 | **GOOGL** Alphabet | +9,7 % | ▲ | 15 % |
 | 7 | **SPY** S&P 500 | +9,5 % | ▲ | 25 % |
-| 8 | **NVDA** Nvidia | +9,3 % | ▲ | — |
+| 8 | **NVDA** Nvidia | +9,4 % | ▲ | — |
 
 ## Derniers ordres
 
 | Date | Sens | Actif | Montant | P&L | Raison |
 |---|---|---|---|---|---|
+| 13/07 21:51 | VENTE | **QQQ** | 519,42 € | -9,59 € | Allègement vers 18 % |
+| 13/07 21:51 | VENTE | **GOOGL** | 430,09 € | -6,01 € | Allègement vers 15 % |
+| 13/07 21:51 | VENTE | **EEM** | 449,65 € | -17,03 € | Allègement vers 14 % |
+| 13/07 21:51 | VENTE | **AAPL** | 416,09 € | +2,62 € | Allègement vers 14 % |
+| 13/07 21:51 | VENTE | **NVDA** | 1 728,56 € | -54,68 € | Sorti du Top 5 |
+| 13/07 21:51 | ACHAT | **SPY** | 2 459,58 € | — | Entrée momentum · rang 5 |
 | 12/07 14:08 | ACHAT | **QQQ** | 2 278,78 € | — | Entrée momentum · rang 2 |
 | 12/07 14:08 | ACHAT | **GOOGL** | 1 960,48 € | — | Entrée momentum · rang 5 |
 | 12/07 14:08 | ACHAT | **EEM** | 1 881,08 € | — | Entrée momentum · rang 3 |
@@ -51,6 +57,7 @@
 
 ## Journal
 
+- `13/07 21:51` — 6 ordres exécutés
 - `13/07 13:30` — Portefeuille déjà aligné — aucun ordre
 - `13/07 06:02` — Portefeuille déjà aligné — aucun ordre
 - `12/07 21:33` — Portefeuille déjà aligné — aucun ordre
