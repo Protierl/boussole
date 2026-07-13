@@ -1,30 +1,30 @@
 # 🧭 BOUSSOLE — bot 24h/24
 
-**SIMULATION · cours réels · capital fictif** — mis à jour le 13/07/2026 à 23:14 (Paris) · sources : directes
+**SIMULATION · cours réels · capital fictif** — mis à jour le 14/07/2026 à 00:13 (Paris) · sources : directes
 
-## 🔴 9 830,40 €
+## 🔴 9 828,91 €
 
-**-169,60 € (-1,7 %)** · jour -1,7 % depuis le 12/07/2026
+**-171,09 € (-1,7 %)** · jour -0,0 % depuis le 12/07/2026
 
 ![Courbe de performance](courbe.png)
 
 | Indicateur | Valeur | Indicateur | Valeur |
 |---|---|---|---|
-| Perf. annualisée | -98,9 % | Volatilité ann. | — |
+| Perf. annualisée | -98,8 % | Volatilité ann. | — |
 | Drawdown max | -1,7 % | Sharpe | — |
 | Exposition | 86 % | Liquidités | 1 366,34 € |
 | Trades clôturés | 5 (20 % gagnants) | Frais cumulés | 17,89 € |
-| EUR/USD | 1,1384 | P&L réalisé | -84,69 € |
+| EUR/USD | 1,1386 | P&L réalisé | -84,69 € |
 
 ## Positions
 
 | Actif | Qté | Cours | Valeur | P&L | Poids |
 |---|---|---|---|---|---|
-| **SPY** S&P 500 | 3,738 | 749,17 $ | 2 460,03 € | -0,1 % | 25 % |
-| **QQQ** Nasdaq 100 | 2,756 | 711,74 $ | 1 723,35 € | -1,7 % | 18 % |
-| **GOOGL** Alphabet | 4,878 | 352,51 $ | 1 510,49 € | -1,1 % | 15 % |
-| **AAPL** Apple | 5,026 | 317,31 $ | 1 400,93 € | +0,8 % | 14 % |
-| **EEM** Marchés émergents | 24,167 | 64,50 $ | 1 369,26 € | -3,4 % | 14 % |
+| **SPY** S&P 500 | 3,738 | 749,17 $ | 2 459,60 € | -0,1 % | 25 % |
+| **QQQ** Nasdaq 100 | 2,756 | 711,74 $ | 1 723,05 € | -1,7 % | 18 % |
+| **GOOGL** Alphabet | 4,878 | 352,51 $ | 1 510,22 € | -1,1 % | 15 % |
+| **AAPL** Apple | 5,026 | 317,31 $ | 1 400,68 € | +0,8 % | 14 % |
+| **EEM** Marchés émergents | 24,167 | 64,50 $ | 1 369,02 € | -3,4 % | 14 % |
 
 ## Signaux (classement momentum)
 
