@@ -1,30 +1,30 @@
 # 🧭 BOUSSOLE — bot 24h/24
 
-**SIMULATION · cours réels · capital fictif** — mis à jour le 14/07/2026 à 05:37 (Paris) · sources : directes
+**SIMULATION · cours réels · capital fictif** — mis à jour le 14/07/2026 à 08:27 (Paris) · sources : directes
 
-## 🔴 9 817,91 €
+## 🔴 9 822,27 €
 
-**-182,09 € (-1,8 %)** · jour -0,1 % depuis le 12/07/2026
+**-177,73 € (-1,8 %)** · jour -0,1 % depuis le 12/07/2026
 
 ![Courbe de performance](courbe.png)
 
 | Indicateur | Valeur | Indicateur | Valeur |
 |---|---|---|---|
-| Perf. annualisée | -98,3 % | Volatilité ann. | — |
-| Drawdown max | -1,9 % | Sharpe | — |
+| Perf. annualisée | -97,6 % | Volatilité ann. | — |
+| Drawdown max | -1,8 % | Sharpe | — |
 | Exposition | 84 % | Liquidités | 1 554,58 € |
 | Trades clôturés | 6 (17 % gagnants) | Frais cumulés | 20,71 € |
-| EUR/USD | 1,1397 | P&L réalisé | -104,77 € |
+| EUR/USD | 1,1391 | P&L réalisé | -104,77 € |
 
 ## Positions
 
 | Actif | Qté | Cours | Valeur | P&L | Poids |
 |---|---|---|---|---|---|
-| **SPY** S&P 500 | 3,738 | 749,17 $ | 2 457,23 € | -0,2 % | 25 % |
-| **QQQ** Nasdaq 100 | 2,756 | 711,74 $ | 1 721,38 € | -1,8 % | 18 % |
-| **AAPL** Apple | 5,026 | 317,31 $ | 1 399,33 € | +0,7 % | 14 % |
-| **EEM** Marchés émergents | 24,167 | 64,50 $ | 1 367,70 € | -3,5 % | 14 % |
-| **NVDA** Nvidia | 7,379 | 203,53 $ | 1 317,70 € | -0,1 % | 13 % |
+| **SPY** S&P 500 | 3,738 | 749,17 $ | 2 458,52 € | -0,1 % | 25 % |
+| **QQQ** Nasdaq 100 | 2,756 | 711,74 $ | 1 722,29 € | -1,8 % | 18 % |
+| **AAPL** Apple | 5,026 | 317,31 $ | 1 400,06 € | +0,8 % | 14 % |
+| **EEM** Marchés émergents | 24,167 | 64,50 $ | 1 368,42 € | -3,4 % | 14 % |
+| **NVDA** Nvidia | 7,379 | 203,53 $ | 1 318,39 € | -0,0 % | 13 % |
 
 ## Signaux (classement momentum)
 
