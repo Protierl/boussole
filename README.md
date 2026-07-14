@@ -1,30 +1,30 @@
 # 🧭 BOUSSOLE — bot 24h/24
 
-**SIMULATION · cours réels · capital fictif** — mis à jour le 14/07/2026 à 02:10 (Paris) · sources : directes
+**SIMULATION · cours réels · capital fictif** — mis à jour le 14/07/2026 à 05:37 (Paris) · sources : directes
 
-## 🔴 9 827,42 €
+## 🔴 9 817,91 €
 
-**-172,58 € (-1,7 %)** · jour -0,0 % depuis le 12/07/2026
+**-182,09 € (-1,8 %)** · jour -0,1 % depuis le 12/07/2026
 
 ![Courbe de performance](courbe.png)
 
 | Indicateur | Valeur | Indicateur | Valeur |
 |---|---|---|---|
-| Perf. annualisée | -98,5 % | Volatilité ann. | — |
-| Drawdown max | -1,8 % | Sharpe | — |
-| Exposition | 86 % | Liquidités | 1 366,34 € |
-| Trades clôturés | 5 (20 % gagnants) | Frais cumulés | 17,89 € |
-| EUR/USD | 1,1388 | P&L réalisé | -84,69 € |
+| Perf. annualisée | -98,3 % | Volatilité ann. | — |
+| Drawdown max | -1,9 % | Sharpe | — |
+| Exposition | 84 % | Liquidités | 1 554,58 € |
+| Trades clôturés | 6 (17 % gagnants) | Frais cumulés | 20,71 € |
+| EUR/USD | 1,1397 | P&L réalisé | -104,77 € |
 
 ## Positions
 
 | Actif | Qté | Cours | Valeur | P&L | Poids |
 |---|---|---|---|---|---|
-| **SPY** S&P 500 | 3,738 | 749,17 $ | 2 459,17 € | -0,1 % | 25 % |
-| **QQQ** Nasdaq 100 | 2,756 | 711,74 $ | 1 722,74 € | -1,7 % | 18 % |
-| **GOOGL** Alphabet | 4,878 | 352,51 $ | 1 509,96 € | -1,1 % | 15 % |
-| **AAPL** Apple | 5,026 | 317,31 $ | 1 400,43 € | +0,8 % | 14 % |
-| **EEM** Marchés émergents | 24,167 | 64,50 $ | 1 368,78 € | -3,4 % | 14 % |
+| **SPY** S&P 500 | 3,738 | 749,17 $ | 2 457,23 € | -0,2 % | 25 % |
+| **QQQ** Nasdaq 100 | 2,756 | 711,74 $ | 1 721,38 € | -1,8 % | 18 % |
+| **AAPL** Apple | 5,026 | 317,31 $ | 1 399,33 € | +0,7 % | 14 % |
+| **EEM** Marchés émergents | 24,167 | 64,50 $ | 1 367,70 € | -3,5 % | 14 % |
+| **NVDA** Nvidia | 7,379 | 203,53 $ | 1 317,70 € | -0,1 % | 13 % |
 
 ## Signaux (classement momentum)
 
@@ -43,6 +43,8 @@
 
 | Date | Sens | Actif | Montant | P&L | Raison |
 |---|---|---|---|---|---|
+| 14/07 05:37 | VENTE | **GOOGL** | 1 508,76 € | -20,08 € | Sorti du Top 5 |
+| 14/07 05:37 | ACHAT | **NVDA** | 1 317,70 € | — | Entrée momentum · rang 4 |
 | 13/07 21:51 | VENTE | **QQQ** | 519,42 € | -9,59 € | Allègement vers 18 % |
 | 13/07 21:51 | VENTE | **GOOGL** | 430,09 € | -6,01 € | Allègement vers 15 % |
 | 13/07 21:51 | VENTE | **EEM** | 449,65 € | -17,03 € | Allègement vers 14 % |
@@ -53,16 +55,15 @@
 | 12/07 14:08 | ACHAT | **GOOGL** | 1 960,48 € | — | Entrée momentum · rang 5 |
 | 12/07 14:08 | ACHAT | **EEM** | 1 881,08 € | — | Entrée momentum · rang 3 |
 | 12/07 14:08 | ACHAT | **AAPL** | 1 799,93 € | — | Entrée momentum · rang 1 |
-| 12/07 14:08 | ACHAT | **NVDA** | 1 779,73 € | — | Entrée momentum · rang 4 |
 
 ## Journal
 
+- `14/07 05:37` — 2 ordres exécutés
 - `13/07 21:51` — 6 ordres exécutés
 - `13/07 13:30` — Portefeuille déjà aligné — aucun ordre
 - `13/07 06:02` — Portefeuille déjà aligné — aucun ordre
 - `12/07 21:33` — Portefeuille déjà aligné — aucun ordre
 - `12/07 14:08` — 5 ordres exécutés
-- `12/07 14:08` — Bot initialisé · capital 10 000 €
 
 ---
 _Stratégie : momentum 3 & 6 mois, filtre MM100, Top 5 pondéré inverse-volatilité (max 25 %/ligne), bande 4 %, frais 0,10 %/ordre (min 1 €), arbitrage au plus toutes les 6 h. Passage horaire via GitHub Actions._
