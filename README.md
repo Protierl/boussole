@@ -1,30 +1,30 @@
 # 🧭 BOUSSOLE — bot 24h/24
 
-**SIMULATION · cours réels · capital fictif** — mis à jour le 17/07/2026 à 02:14 (Paris) · sources : directes
+**SIMULATION · cours réels · capital fictif** — mis à jour le 17/07/2026 à 05:42 (Paris) · sources : directes
 
-## 🔴 9 824,19 €
+## 🔴 9 829,67 €
 
-**-175,81 € (-1,8 %)** · jour -0,0 % depuis le 12/07/2026
+**-170,33 € (-1,7 %)** · jour +0,0 % depuis le 12/07/2026
 
 ![Courbe de performance](courbe.png)
 
 | Indicateur | Valeur | Indicateur | Valeur |
 |---|---|---|---|
-| Perf. annualisée | -76,2 % | Volatilité ann. | 14,8 % |
-| Drawdown max | -1,8 % | Sharpe | -6,10 |
-| Exposition | 94 % | Liquidités | 560,69 € |
-| Trades clôturés | 13 (8 % gagnants) | Frais cumulés | 49,55 € |
-| EUR/USD | 1,1448 | P&L réalisé | -193,17 € |
+| Perf. annualisée | -74,0 % | Volatilité ann. | 14,9 % |
+| Drawdown max | -1,8 % | Sharpe | -5,88 |
+| Exposition | 90 % | Liquidités | 980,23 € |
+| Trades clôturés | 14 (7 % gagnants) | Frais cumulés | 50,55 € |
+| EUR/USD | 1,1440 | P&L réalisé | -198,01 € |
 
 ## Positions
 
 | Actif | Qté | Cours | Valeur | P&L | Poids |
 |---|---|---|---|---|---|
-| **SPY** S&P 500 | 3,743 | 750,72 $ | 2 454,48 € | -0,2 % | 25 % |
-| **JPM** JPMorgan | 7,756 | 343,15 $ | 2 324,83 € | -1,0 % | 24 % |
-| **QQQ** Nasdaq 100 | 2,731 | 705,94 $ | 1 684,31 € | -2,7 % | 17 % |
-| **AAPL** Apple | 5,026 | 333,26 $ | 1 463,12 € | +5,3 % | 15 % |
-| **NVDA** Nvidia | 7,379 | 207,40 $ | 1 336,77 € | +1,3 % | 14 % |
+| **SPY** S&P 500 | 3,743 | 750,72 $ | 2 456,19 € | -0,1 % | 25 % |
+| **JPM** JPMorgan | 6,354 | 343,15 $ | 1 905,92 € | -0,9 % | 19 % |
+| **QQQ** Nasdaq 100 | 2,731 | 705,94 $ | 1 685,49 € | -2,7 % | 17 % |
+| **AAPL** Apple | 5,026 | 333,26 $ | 1 464,14 € | +5,4 % | 15 % |
+| **NVDA** Nvidia | 7,379 | 207,40 $ | 1 337,70 € | +1,4 % | 14 % |
 
 ## Signaux (classement momentum)
 
@@ -43,6 +43,7 @@
 
 | Date | Sens | Actif | Montant | P&L | Raison |
 |---|---|---|---|---|---|
+| 17/07 05:42 | VENTE | **JPM** | 420,54 € | -4,85 € | Allègement vers 19 % |
 | 16/07 20:33 | VENTE | **QQQ** | 453,43 € | -12,88 € | Allègement vers 17 % |
 | 16/07 20:33 | VENTE | **DBC** | 2 453,38 € | -24,55 € | Filtre de tendance (< MM100) |
 | 16/07 20:33 | ACHAT | **SPY** | 2 456,09 € | — | Entrée momentum · rang 4 |
@@ -54,16 +55,15 @@
 | 15/07 13:50 | VENTE | **SPY** | 2 474,99 € | -0,19 € | Sorti du Top 5 |
 | 15/07 13:50 | ACHAT | **DBC** | 2 473,01 € | — | Entrée momentum · rang 4 |
 | 15/07 05:38 | VENTE | **DBC** | 2 472,30 € | -6,46 € | Filtre de tendance (< MM100) |
-| 15/07 05:38 | ACHAT | **SPY** | 2 470,23 € | — | Entrée momentum · rang 5 |
 
 ## Journal
 
+- `17/07 05:42` — 1 ordre exécuté
 - `16/07 20:33` — 3 ordres exécutés
 - `16/07 13:55` — Portefeuille déjà aligné — aucun ordre
 - `16/07 05:40` — 2 ordres exécutés
 - `15/07 21:38` — 3 ordres exécutés
 - `15/07 13:50` — 2 ordres exécutés
-- `15/07 05:38` — 2 ordres exécutés
 
 ---
 _Stratégie : momentum 3 & 6 mois, filtre MM100, Top 5 pondéré inverse-volatilité (max 25 %/ligne), bande 4 %, frais 0,10 %/ordre (min 1 €), arbitrage au plus toutes les 6 h. Passage horaire via GitHub Actions._
