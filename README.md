@@ -1,30 +1,30 @@
 # 🧭 BOUSSOLE — bot 24h/24
 
-**SIMULATION · cours réels · capital fictif** — mis à jour le 17/07/2026 à 11:22 (Paris) · sources : directes
+**SIMULATION · cours réels · capital fictif** — mis à jour le 17/07/2026 à 13:42 (Paris) · sources : directes
 
-## 🔴 9 826,58 €
+## 🔴 9 831,22 €
 
-**-173,42 € (-1,7 %)** · jour -0,0 % depuis le 12/07/2026
+**-168,78 € (-1,7 %)** · jour +0,0 % depuis le 12/07/2026
 
 ![Courbe de performance](courbe.png)
 
 | Indicateur | Valeur | Indicateur | Valeur |
 |---|---|---|---|
-| Perf. annualisée | -72,9 % | Volatilité ann. | 14,8 % |
-| Drawdown max | -1,8 % | Sharpe | -6,00 |
+| Perf. annualisée | -71,3 % | Volatilité ann. | 14,9 % |
+| Drawdown max | -1,8 % | Sharpe | -5,82 |
 | Exposition | 90 % | Liquidités | 980,23 € |
 | Trades clôturés | 14 (7 % gagnants) | Frais cumulés | 50,55 € |
-| EUR/USD | 1,1444 | P&L réalisé | -198,01 € |
+| EUR/USD | 1,1438 | P&L réalisé | -198,01 € |
 
 ## Positions
 
 | Actif | Qté | Cours | Valeur | P&L | Poids |
 |---|---|---|---|---|---|
-| **SPY** S&P 500 | 3,743 | 750,72 $ | 2 455,33 € | -0,1 % | 25 % |
-| **JPM** JPMorgan | 6,354 | 343,15 $ | 1 905,25 € | -0,9 % | 19 % |
-| **QQQ** Nasdaq 100 | 2,731 | 705,94 $ | 1 684,90 € | -2,7 % | 17 % |
-| **AAPL** Apple | 5,026 | 333,26 $ | 1 463,63 € | +5,4 % | 15 % |
-| **NVDA** Nvidia | 7,379 | 207,40 $ | 1 337,24 € | +1,4 % | 14 % |
+| **SPY** S&P 500 | 3,743 | 750,72 $ | 2 456,62 € | -0,1 % | 25 % |
+| **JPM** JPMorgan | 6,354 | 343,15 $ | 1 906,25 € | -0,9 % | 19 % |
+| **QQQ** Nasdaq 100 | 2,731 | 705,94 $ | 1 685,78 € | -2,6 % | 17 % |
+| **AAPL** Apple | 5,026 | 333,26 $ | 1 464,40 € | +5,4 % | 15 % |
+| **NVDA** Nvidia | 7,379 | 207,40 $ | 1 337,94 € | +1,4 % | 14 % |
 
 ## Signaux (classement momentum)
 
@@ -58,12 +58,12 @@
 
 ## Journal
 
+- `17/07 13:42` — Portefeuille déjà aligné — aucun ordre
 - `17/07 05:42` — 1 ordre exécuté
 - `16/07 20:33` — 3 ordres exécutés
 - `16/07 13:55` — Portefeuille déjà aligné — aucun ordre
 - `16/07 05:40` — 2 ordres exécutés
 - `15/07 21:38` — 3 ordres exécutés
-- `15/07 13:50` — 2 ordres exécutés
 
 ---
 _Stratégie : momentum 3 & 6 mois, filtre MM100, Top 5 pondéré inverse-volatilité (max 25 %/ligne), bande 4 %, frais 0,10 %/ordre (min 1 €), arbitrage au plus toutes les 6 h. Passage horaire via GitHub Actions._
