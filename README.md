@@ -1,6 +1,6 @@
 # 🧭 BOUSSOLE — bot 24h/24
 
-**SIMULATION · cours réels · capital fictif** — mis à jour le 18/07/2026 à 01:10 (Paris) · sources : directes
+**SIMULATION · cours réels · capital fictif** — mis à jour le 18/07/2026 à 02:11 (Paris) · sources : directes
 
 ## 🔴 9 734,81 €
 
@@ -10,7 +10,7 @@
 
 | Indicateur | Valeur | Indicateur | Valeur |
 |---|---|---|---|
-| Perf. annualisée | -83,4 % | Volatilité ann. | 13,9 % |
+| Perf. annualisée | -83,2 % | Volatilité ann. | 13,9 % |
 | Drawdown max | -2,7 % | Sharpe | -8,19 |
 | Exposition | 93 % | Liquidités | 705,83 € |
 | Trades clôturés | 16 (6 % gagnants) | Frais cumulés | 58,81 € |
@@ -30,14 +30,14 @@
 
 | # | Actif | Momentum | Tendance | Cible |
 |---|---|---|---|---|
-| 1 | **USO** Pétrole WTI | +34,6 % | ▲ | 11 % |
-| 2 | **AAPL** Apple | +27,5 % | ▲ | 15 % |
-| 3 | **DBC** Panier mat. prem. | +11,7 % | ▲ | 25 % |
-| 4 | **JPM** JPMorgan | +10,4 % | ▲ | 25 % |
-| 5 | **QQQ** Nasdaq 100 | +10,4 % | ▲ | 21 % |
-| 6 | **SPY** S&P 500 | +6,8 % | ▲ | — |
-| 7 | **NVDA** Nvidia | +6,5 % | ▲ | — |
-| 8 | **EEM** Marchés émergents | +5,5 % | ▽ | — |
+| 1 | **USO** Pétrole WTI | +40,5 % | ▲ | 11 % |
+| 2 | **AAPL** Apple | +26,4 % | ▲ | 14 % |
+| 3 | **DBC** Panier mat. prem. | +13,7 % | ▲ | 24 % |
+| 4 | **JPM** JPMorgan | +10,1 % | ▲ | 25 % |
+| 5 | **QQQ** Nasdaq 100 | +9,5 % | ▲ | 22 % |
+| 6 | **SPY** S&P 500 | +6,0 % | ▲ | — |
+| 7 | **NVDA** Nvidia | +4,5 % | ▲ | — |
+| 8 | **EEM** Marchés émergents | +4,2 % | ▽ | — |
 
 ## Derniers ordres
 
