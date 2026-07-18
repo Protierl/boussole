@@ -1,19 +1,19 @@
 # 🧭 BOUSSOLE — bot 24h/24
 
-**SIMULATION · cours réels · capital fictif** — mis à jour le 18/07/2026 à 02:11 (Paris) · sources : directes
+**SIMULATION · cours réels · capital fictif** — mis à jour le 18/07/2026 à 05:35 (Paris) · sources : directes
 
-## 🔴 9 734,81 €
+## 🔴 9 733,81 €
 
-**-265,19 € (-2,7 %)** · jour +0,0 % depuis le 12/07/2026
+**-266,19 € (-2,7 %)** · jour -0,0 % depuis le 12/07/2026
 
 ![Courbe de performance](courbe.png)
 
 | Indicateur | Valeur | Indicateur | Valeur |
 |---|---|---|---|
-| Perf. annualisée | -83,2 % | Volatilité ann. | 13,9 % |
-| Drawdown max | -2,7 % | Sharpe | -8,19 |
-| Exposition | 93 % | Liquidités | 705,83 € |
-| Trades clôturés | 16 (6 % gagnants) | Frais cumulés | 58,81 € |
+| Perf. annualisée | -82,5 % | Volatilité ann. | 13,8 % |
+| Drawdown max | -2,7 % | Sharpe | -8,23 |
+| Exposition | 97 % | Liquidités | 262,98 € |
+| Trades clôturés | 16 (6 % gagnants) | Frais cumulés | 59,81 € |
 | EUR/USD | 1,1446 | P&L réalisé | -239,42 € |
 
 ## Positions
@@ -22,7 +22,7 @@
 |---|---|---|---|---|---|
 | **DBC** Panier mat. prem. | 96,208 | 28,98 $ | 2 435,87 € | -0,0 % | 25 % |
 | **JPM** JPMorgan | 7,986 | 341,10 $ | 2 379,80 € | -1,3 % | 24 % |
-| **QQQ** Nasdaq 100 | 2,731 | 695,33 $ | 1 659,29 € | -4,2 % | 17 % |
+| **QQQ** Nasdaq 100 | 3,459 | 695,33 $ | 2 101,13 € | -3,4 % | 22 % |
 | **AAPL** Apple | 5,026 | 333,74 $ | 1 465,48 € | +5,5 % | 15 % |
 | **USO** Pétrole WTI | 10,051 | 123,96 $ | 1 088,55 € | +0,1 % | 11 % |
 
@@ -43,6 +43,7 @@
 
 | Date | Sens | Actif | Montant | P&L | Raison |
 |---|---|---|---|---|---|
+| 18/07 05:35 | ACHAT | **QQQ** | 441,85 € | — | Renforcement vers 22 % |
 | 17/07 21:34 | VENTE | **NVDA** | 1 308,82 € | -11,50 € | Sorti du Top 5 |
 | 17/07 21:34 | VENTE | **SPY** | 2 431,08 € | -29,90 € | Sorti du Top 5 |
 | 17/07 21:34 | ACHAT | **DBC** | 2 434,00 € | — | Entrée momentum · rang 3 |
@@ -54,16 +55,15 @@
 | 16/07 20:33 | ACHAT | **SPY** | 2 456,09 € | — | Entrée momentum · rang 4 |
 | 16/07 05:40 | VENTE | **GOOGL** | 1 686,71 € | -2,85 € | Sorti du Top 5 |
 | 16/07 05:40 | ACHAT | **JPM** | 2 345,39 € | — | Entrée momentum · rang 3 |
-| 15/07 21:38 | VENTE | **EEM** | 1 380,20 € | -38,45 € | Sorti du Top 5 |
 
 ## Journal
 
+- `18/07 05:35` — 1 ordre exécuté
 - `17/07 21:34` — 5 ordres exécutés
 - `17/07 13:42` — Portefeuille déjà aligné — aucun ordre
 - `17/07 05:42` — 1 ordre exécuté
 - `16/07 20:33` — 3 ordres exécutés
 - `16/07 13:55` — Portefeuille déjà aligné — aucun ordre
-- `16/07 05:40` — 2 ordres exécutés
 
 ---
 _Stratégie : momentum 3 & 6 mois, filtre MM100, Top 5 pondéré inverse-volatilité (max 25 %/ligne), bande 4 %, frais 0,10 %/ordre (min 1 €), arbitrage au plus toutes les 6 h. Passage horaire via GitHub Actions._
