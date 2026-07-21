@@ -1,30 +1,30 @@
 # 🧭 BOUSSOLE — bot 24h/24
 
-**SIMULATION · cours réels · capital fictif** — mis à jour le 21/07/2026 à 22:37 (Paris) · sources : directes
+**SIMULATION · cours réels · capital fictif** — mis à jour le 22/07/2026 à 00:13 (Paris) · sources : directes
 
-## 🔴 9 905,41 €
+## 🔴 9 906,26 €
 
-**-94,59 € (-0,9 %)** · jour +1,7 % depuis le 12/07/2026
+**-93,74 € (-0,9 %)** · jour +0,0 % depuis le 12/07/2026
 
 ![Courbe de performance](courbe.png)
 
 | Indicateur | Valeur | Indicateur | Valeur |
 |---|---|---|---|
-| Perf. annualisée | -31,0 % | Volatilité ann. | 15,7 % |
-| Drawdown max | -2,7 % | Sharpe | -1,69 |
+| Perf. annualisée | -30,6 % | Volatilité ann. | 14,8 % |
+| Drawdown max | -2,7 % | Sharpe | -1,60 |
 | Exposition | 97 % | Liquidités | 262,98 € |
 | Trades clôturés | 16 (6 % gagnants) | Frais cumulés | 59,81 € |
-| EUR/USD | 1,1404 | P&L réalisé | -239,42 € |
+| EUR/USD | 1,1403 | P&L réalisé | -239,42 € |
 
 ## Positions
 
 | Actif | Qté | Cours | Valeur | P&L | Poids |
 |---|---|---|---|---|---|
-| **DBC** Panier mat. prem. | 96,208 | 29,57 $ | 2 494,62 € | +2,4 % | 25 % |
-| **JPM** JPMorgan | 7,986 | 345,23 $ | 2 417,48 € | +0,3 % | 24 % |
-| **QQQ** Nasdaq 100 | 3,459 | 708,97 $ | 2 150,24 € | -1,1 % | 22 % |
-| **AAPL** Apple | 5,026 | 327,74 $ | 1 444,44 € | +4,0 % | 15 % |
-| **USO** Pétrole WTI | 10,051 | 128,85 $ | 1 135,66 € | +4,4 % | 11 % |
+| **DBC** Panier mat. prem. | 96,208 | 29,57 $ | 2 494,83 € | +2,4 % | 25 % |
+| **JPM** JPMorgan | 7,986 | 345,23 $ | 2 417,70 € | +0,3 % | 24 % |
+| **QQQ** Nasdaq 100 | 3,459 | 708,97 $ | 2 150,43 € | -1,1 % | 22 % |
+| **AAPL** Apple | 5,026 | 327,74 $ | 1 444,56 € | +4,0 % | 15 % |
+| **USO** Pétrole WTI | 10,051 | 128,85 $ | 1 135,76 € | +4,5 % | 11 % |
 
 ## Signaux (classement momentum)
 
