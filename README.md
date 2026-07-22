@@ -1,48 +1,50 @@
 # 🧭 BOUSSOLE — bot 24h/24
 
-**SIMULATION · cours réels · capital fictif** — mis à jour le 22/07/2026 à 18:49 (Paris) · sources : directes
+**SIMULATION · cours réels · capital fictif** — mis à jour le 22/07/2026 à 20:35 (Paris) · sources : directes
 
-## 🔴 9 950,75 €
+## 🔴 9 943,24 €
 
-**-49,25 € (-0,5 %)** · jour +0,5 % depuis le 12/07/2026
+**-56,76 € (-0,6 %)** · jour +0,4 % depuis le 12/07/2026
 
 ![Courbe de performance](courbe.png)
 
 | Indicateur | Valeur | Indicateur | Valeur |
 |---|---|---|---|
-| Perf. annualisée | -16,2 % | Volatilité ann. | 15,1 % |
-| Drawdown max | -2,7 % | Sharpe | -0,82 |
-| Exposition | 97 % | Liquidités | 262,98 € |
-| Trades clôturés | 16 (6 % gagnants) | Frais cumulés | 59,81 € |
-| EUR/USD | 1,1412 | P&L réalisé | -239,42 € |
+| Perf. annualisée | -18,3 % | Volatilité ann. | 15,0 % |
+| Drawdown max | -2,7 % | Sharpe | -0,95 |
+| Exposition | 89 % | Liquidités | 1 083,27 € |
+| Trades clôturés | 17 (12 % gagnants) | Frais cumulés | 63,84 € |
+| EUR/USD | 1,1413 | P&L réalisé | -222,68 € |
 
 ## Positions
 
 | Actif | Qté | Cours | Valeur | P&L | Poids |
 |---|---|---|---|---|---|
-| **DBC** Panier mat. prem. | 96,208 | 29,84 $ | 2 515,21 € | +3,2 % | 25 % |
-| **JPM** JPMorgan | 7,986 | 348,66 $ | 2 439,79 € | +1,2 % | 25 % |
-| **QQQ** Nasdaq 100 | 3,459 | 708,45 $ | 2 147,16 € | -1,3 % | 22 % |
-| **AAPL** Apple | 5,026 | 324,46 $ | 1 428,98 € | +2,9 % | 14 % |
-| **USO** Pétrole WTI | 10,051 | 131,32 $ | 1 156,63 € | +6,4 % | 12 % |
+| **DBC** Panier mat. prem. | 96,208 | 29,90 $ | 2 520,47 € | +3,4 % | 25 % |
+| **QQQ** Nasdaq 100 | 3,459 | 706,81 $ | 2 142,00 € | -1,5 % | 22 % |
+| **NVDA** Nvidia | 8,576 | 213,59 $ | 1 605,01 € | -0,1 % | 16 % |
+| **AAPL** Apple | 5,026 | 323,98 $ | 1 426,74 € | +2,7 % | 14 % |
+| **USO** Pétrole WTI | 10,051 | 132,37 $ | 1 165,76 € | +7,2 % | 12 % |
 
 ## Signaux (classement momentum)
 
 | # | Actif | Momentum | Tendance | Cible |
 |---|---|---|---|---|
-| 1 | **USO** Pétrole WTI | +42,6 % | ▲ | 12 % |
-| 2 | **AAPL** Apple | +26,7 % | ▲ | 15 % |
-| 3 | **DBC** Panier mat. prem. | +14,6 % | ▲ | 25 % |
-| 4 | **NVDA** Nvidia | +13,3 % | ▲ | 16 % |
-| 5 | **JPM** JPMorgan | +13,3 % | ▲ | 25 % |
-| 6 | **QQQ** Nasdaq 100 | +13,2 % | ▲ | — |
-| 7 | **EEM** Marchés émergents | +9,1 % | ▲ | — |
-| 8 | **SPY** S&P 500 | +8,5 % | ▲ | — |
+| 1 | **USO** Pétrole WTI | +43,7 % | ▲ | 12 % |
+| 2 | **AAPL** Apple | +26,5 % | ▲ | 16 % |
+| 3 | **DBC** Panier mat. prem. | +14,9 % | ▲ | 25 % |
+| 4 | **NVDA** Nvidia | +13,4 % | ▲ | 16 % |
+| 5 | **QQQ** Nasdaq 100 | +13,0 % | ▲ | 25 % |
+| 6 | **JPM** JPMorgan | +12,8 % | ▲ | — |
+| 7 | **EEM** Marchés émergents | +8,8 % | ▲ | — |
+| 8 | **SPY** S&P 500 | +8,4 % | ▲ | — |
 
 ## Derniers ordres
 
 | Date | Sens | Actif | Montant | P&L | Raison |
 |---|---|---|---|---|---|
+| 22/07 20:35 | VENTE | **JPM** | 2 429,33 € | +16,73 € | Sorti du Top 5 |
+| 22/07 20:35 | ACHAT | **NVDA** | 1 605,01 € | — | Entrée momentum · rang 4 |
 | 18/07 05:35 | ACHAT | **QQQ** | 441,85 € | — | Renforcement vers 22 % |
 | 17/07 21:34 | VENTE | **NVDA** | 1 308,82 € | -11,50 € | Sorti du Top 5 |
 | 17/07 21:34 | VENTE | **SPY** | 2 431,08 € | -29,90 € | Sorti du Top 5 |
@@ -53,17 +55,15 @@
 | 16/07 20:33 | VENTE | **QQQ** | 453,43 € | -12,88 € | Allègement vers 17 % |
 | 16/07 20:33 | VENTE | **DBC** | 2 453,38 € | -24,55 € | Filtre de tendance (< MM100) |
 | 16/07 20:33 | ACHAT | **SPY** | 2 456,09 € | — | Entrée momentum · rang 4 |
-| 16/07 05:40 | VENTE | **GOOGL** | 1 686,71 € | -2,85 € | Sorti du Top 5 |
-| 16/07 05:40 | ACHAT | **JPM** | 2 345,39 € | — | Entrée momentum · rang 3 |
 
 ## Journal
 
+- `22/07 20:35` — 2 ordres exécutés
 - `22/07 14:05` — Portefeuille déjà aligné — aucun ordre
 - `22/07 05:49` — Portefeuille déjà aligné — aucun ordre
 - `21/07 20:42` — Portefeuille déjà aligné — aucun ordre
 - `21/07 14:02` — Portefeuille déjà aligné — aucun ordre
 - `21/07 05:48` — Portefeuille déjà aligné — aucun ordre
-- `20/07 20:21` — Portefeuille déjà aligné — aucun ordre
 
 ---
 _Stratégie : momentum 3 & 6 mois, filtre MM100, Top 5 pondéré inverse-volatilité (max 25 %/ligne), bande 4 %, frais 0,10 %/ordre (min 1 €), arbitrage au plus toutes les 6 h. Passage horaire via GitHub Actions._
