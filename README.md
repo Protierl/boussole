@@ -1,30 +1,30 @@
 # 🧭 BOUSSOLE — bot 24h/24
 
-**SIMULATION · cours réels · capital fictif** — mis à jour le 23/07/2026 à 00:17 (Paris) · sources : directes
+**SIMULATION · cours réels · capital fictif** — mis à jour le 23/07/2026 à 01:27 (Paris) · sources : directes
 
-## 🔴 9 927,02 €
+## 🔴 9 926,24 €
 
-**-72,98 € (-0,7 %)** · jour +0,0 % depuis le 12/07/2026
+**-73,76 € (-0,7 %)** · jour +0,0 % depuis le 12/07/2026
 
 ![Courbe de performance](courbe.png)
 
 | Indicateur | Valeur | Indicateur | Valeur |
 |---|---|---|---|
-| Perf. annualisée | -22,6 % | Volatilité ann. | 14,1 % |
-| Drawdown max | -2,7 % | Sharpe | -1,19 |
+| Perf. annualisée | -22,7 % | Volatilité ann. | 14,1 % |
+| Drawdown max | -2,7 % | Sharpe | -1,20 |
 | Exposition | 89 % | Liquidités | 1 083,27 € |
 | Trades clôturés | 17 (12 % gagnants) | Frais cumulés | 63,84 € |
-| EUR/USD | 1,1412 | P&L réalisé | -222,68 € |
+| EUR/USD | 1,1413 | P&L réalisé | -222,68 € |
 
 ## Positions
 
 | Actif | Qté | Cours | Valeur | P&L | Poids |
 |---|---|---|---|---|---|
-| **DBC** Panier mat. prem. | 96,208 | 29,86 $ | 2 517,32 € | +3,3 % | 25 % |
-| **QQQ** Nasdaq 100 | 3,459 | 705,35 $ | 2 137,76 € | -1,7 % | 22 % |
-| **NVDA** Nvidia | 8,576 | 212,06 $ | 1 593,61 € | -0,8 % | 16 % |
-| **AAPL** Apple | 5,026 | 325,89 $ | 1 435,28 € | +3,3 % | 14 % |
-| **USO** Pétrole WTI | 10,051 | 131,68 $ | 1 159,79 € | +6,7 % | 12 % |
+| **DBC** Panier mat. prem. | 96,208 | 29,86 $ | 2 517,09 € | +3,3 % | 25 % |
+| **QQQ** Nasdaq 100 | 3,459 | 705,35 $ | 2 137,57 € | -1,7 % | 22 % |
+| **NVDA** Nvidia | 8,576 | 212,06 $ | 1 593,47 € | -0,8 % | 16 % |
+| **AAPL** Apple | 5,026 | 325,89 $ | 1 435,15 € | +3,3 % | 14 % |
+| **USO** Pétrole WTI | 10,051 | 131,68 $ | 1 159,69 € | +6,7 % | 12 % |
 
 ## Signaux (classement momentum)
 
