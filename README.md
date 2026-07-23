@@ -1,43 +1,43 @@
 # 🧭 BOUSSOLE — bot 24h/24
 
-**SIMULATION · cours réels · capital fictif** — mis à jour le 23/07/2026 à 18:48 (Paris) · sources : directes
+**SIMULATION · cours réels · capital fictif** — mis à jour le 23/07/2026 à 20:38 (Paris) · sources : directes
 
-## 🟢 10 014,33 €
+## 🟢 10 002,40 €
 
-**+14,33 € (+0,1 %)** · jour +0,9 % depuis le 12/07/2026
+**+2,40 € (+0,0 %)** · jour +0,8 % depuis le 12/07/2026
 
 ![Courbe de performance](courbe.png)
 
 | Indicateur | Valeur | Indicateur | Valeur |
 |---|---|---|---|
-| Perf. annualisée | +4,8 % | Volatilité ann. | 14,9 % |
-| Drawdown max | -2,7 % | Sharpe | 0,23 |
+| Perf. annualisée | +0,8 % | Volatilité ann. | 14,7 % |
+| Drawdown max | -2,7 % | Sharpe | 0,04 |
 | Exposition | 97 % | Liquidités | 282,11 € |
 | Trades clôturés | 18 (11 % gagnants) | Frais cumulés | 67,82 € |
-| EUR/USD | 1,1380 | P&L réalisé | -240,06 € |
+| EUR/USD | 1,1378 | P&L réalisé | -240,06 € |
 
 ## Positions
 
 | Actif | Qté | Cours | Valeur | P&L | Poids |
 |---|---|---|---|---|---|
-| **DBC** Panier mat. prem. | 96,208 | 30,43 $ | 2 573,00 € | +5,6 % | 26 % |
-| **JPM** JPMorgan | 7,840 | 347,80 $ | 2 396,09 € | +0,2 % | 24 % |
-| **QQQ** Nasdaq 100 | 3,459 | 692,72 $ | 2 105,39 € | -3,2 % | 21 % |
-| **AAPL** Apple | 5,026 | 320,39 $ | 1 415,02 € | +1,9 % | 14 % |
-| **USO** Pétrole WTI | 10,051 | 140,70 $ | 1 242,72 € | +14,3 % | 12 % |
+| **DBC** Panier mat. prem. | 96,208 | 30,40 $ | 2 570,50 € | +5,5 % | 26 % |
+| **JPM** JPMorgan | 7,840 | 347,84 $ | 2 396,78 € | +0,3 % | 24 % |
+| **QQQ** Nasdaq 100 | 3,459 | 690,79 $ | 2 099,89 € | -3,4 % | 21 % |
+| **AAPL** Apple | 5,026 | 320,08 $ | 1 413,90 € | +1,8 % | 14 % |
+| **USO** Pétrole WTI | 10,051 | 140,28 $ | 1 239,22 € | +14,0 % | 12 % |
 
 ## Signaux (classement momentum)
 
 | # | Actif | Momentum | Tendance | Cible |
 |---|---|---|---|---|
-| 1 | **USO** Pétrole WTI | +50,3 % | ▲ | 10 % |
-| 2 | **AAPL** Apple | +23,3 % | ▲ | 13 % |
-| 3 | **DBC** Panier mat. prem. | +15,6 % | ▲ | 25 % |
+| 1 | **USO** Pétrole WTI | +49,8 % | ▲ | 10 % |
+| 2 | **AAPL** Apple | +23,2 % | ▲ | 13 % |
+| 3 | **DBC** Panier mat. prem. | +15,5 % | ▲ | 25 % |
 | 4 | **JPM** JPMorgan | +13,1 % | ▲ | 25 % |
-| 5 | **QQQ** Nasdaq 100 | +9,1 % | ▲ | 21 % |
-| 6 | **NVDA** Nvidia | +9,0 % | ▲ | — |
-| 7 | **EEM** Marchés émergents | +6,4 % | ▲ | — |
-| 8 | **SPY** S&P 500 | +5,7 % | ▲ | — |
+| 5 | **QQQ** Nasdaq 100 | +8,8 % | ▲ | 21 % |
+| 6 | **NVDA** Nvidia | +8,1 % | ▲ | — |
+| 7 | **EEM** Marchés émergents | +6,2 % | ▲ | — |
+| 8 | **SPY** S&P 500 | +5,6 % | ▲ | — |
 
 ## Derniers ordres
 
@@ -58,12 +58,12 @@
 
 ## Journal
 
+- `23/07 20:38` — Portefeuille déjà aligné — aucun ordre
 - `23/07 14:03` — Portefeuille déjà aligné — aucun ordre
 - `23/07 05:47` — 2 ordres exécutés
 - `22/07 20:35` — 2 ordres exécutés
 - `22/07 14:05` — Portefeuille déjà aligné — aucun ordre
 - `22/07 05:49` — Portefeuille déjà aligné — aucun ordre
-- `21/07 20:42` — Portefeuille déjà aligné — aucun ordre
 
 ---
 _Stratégie : momentum 3 & 6 mois, filtre MM100, Top 5 pondéré inverse-volatilité (max 25 %/ligne), bande 4 %, frais 0,10 %/ordre (min 1 €), arbitrage au plus toutes les 6 h. Passage horaire via GitHub Actions._
