@@ -1,42 +1,42 @@
 # 🧭 BOUSSOLE — bot 24h/24
 
-**SIMULATION · cours réels · capital fictif** — mis à jour le 24/07/2026 à 21:48 (Paris) · sources : directes
+**SIMULATION · cours réels · capital fictif** — mis à jour le 24/07/2026 à 23:30 (Paris) · sources : directes
 
-## 🟢 10 000,15 €
+## 🟢 10 022,11 €
 
-**+0,15 € (+0,0 %)** · jour -0,1 % depuis le 12/07/2026
+**+22,11 € (+0,2 %)** · jour +0,1 % depuis le 12/07/2026
 
 ![Courbe de performance](courbe.png)
 
 | Indicateur | Valeur | Indicateur | Valeur |
 |---|---|---|---|
-| Perf. annualisée | +0,0 % | Volatilité ann. | 14,1 % |
-| Drawdown max | -2,7 % | Sharpe | 0,01 |
+| Perf. annualisée | +6,7 % | Volatilité ann. | 14,1 % |
+| Drawdown max | -2,7 % | Sharpe | 0,34 |
 | Exposition | 97 % | Liquidités | 282,11 € |
 | Trades clôturés | 18 (11 % gagnants) | Frais cumulés | 67,82 € |
-| EUR/USD | 1,1374 | P&L réalisé | -240,06 € |
+| EUR/USD | 1,1375 | P&L réalisé | -240,06 € |
 
 ## Positions
 
 | Actif | Qté | Cours | Valeur | P&L | Poids |
 |---|---|---|---|---|---|
-| **DBC** Panier mat. prem. | 96,208 | 30,03 $ | 2 540,02 € | +4,3 % | 25 % |
-| **JPM** JPMorgan | 7,840 | 352,54 $ | 2 430,02 € | +1,7 % | 24 % |
-| **QQQ** Nasdaq 100 | 3,459 | 683,49 $ | 2 078,43 € | -4,4 % | 21 % |
-| **AAPL** Apple | 5,026 | 332,01 $ | 1 467,11 € | +5,6 % | 15 % |
-| **USO** Pétrole WTI | 10,051 | 136,07 $ | 1 202,46 € | +10,6 % | 12 % |
+| **DBC** Panier mat. prem. | 96,208 | 30,10 $ | 2 545,80 € | +4,5 % | 25 % |
+| **JPM** JPMorgan | 7,840 | 353,21 $ | 2 434,43 € | +1,8 % | 24 % |
+| **QQQ** Nasdaq 100 | 3,459 | 684,23 $ | 2 080,50 € | -4,3 % | 21 % |
+| **AAPL** Apple | 5,026 | 333,02 $ | 1 471,45 € | +5,9 % | 15 % |
+| **USO** Pétrole WTI | 10,051 | 136,69 $ | 1 207,83 € | +11,1 % | 12 % |
 
 ## Signaux (classement momentum)
 
 | # | Actif | Momentum | Tendance | Cible |
 |---|---|---|---|---|
-| 1 | **USO** Pétrole WTI | +45,2 % | ▲ | 10 % |
-| 2 | **AAPL** Apple | +27,6 % | ▲ | 16 % |
-| 3 | **JPM** JPMorgan | +14,6 % | ▲ | 24 % |
-| 4 | **DBC** Panier mat. prem. | +13,5 % | ▲ | 25 % |
-| 5 | **QQQ** Nasdaq 100 | +7,5 % | ▲ | 21 % |
-| 6 | **NVDA** Nvidia | +7,1 % | ▲ | — |
-| 7 | **SPY** S&P 500 | +5,6 % | ▲ | — |
+| 1 | **USO** Pétrole WTI | +45,9 % | ▲ | 11 % |
+| 2 | **AAPL** Apple | +27,9 % | ▲ | 17 % |
+| 3 | **JPM** JPMorgan | +14,8 % | ▲ | 25 % |
+| 4 | **DBC** Panier mat. prem. | +13,7 % | ▲ | 25 % |
+| 5 | **NVDA** Nvidia | +7,8 % | ▲ | 15 % |
+| 6 | **QQQ** Nasdaq 100 | +7,6 % | ▲ | — |
+| 7 | **SPY** S&P 500 | +5,8 % | ▲ | — |
 | 8 | **EEM** Marchés émergents | +4,7 % | ▽ | — |
 
 ## Derniers ordres
