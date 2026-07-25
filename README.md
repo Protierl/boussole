@@ -1,6 +1,6 @@
 # 🧭 BOUSSOLE — bot 24h/24
 
-**SIMULATION · cours réels · capital fictif** — mis à jour le 25/07/2026 à 01:17 (Paris) · sources : directes
+**SIMULATION · cours réels · capital fictif** — mis à jour le 25/07/2026 à 05:41 (Paris) · sources : directes
 
 ## 🟢 10 022,11 €
 
@@ -10,7 +10,7 @@
 
 | Indicateur | Valeur | Indicateur | Valeur |
 |---|---|---|---|
-| Perf. annualisée | +6,7 % | Volatilité ann. | 13,5 % |
+| Perf. annualisée | +6,6 % | Volatilité ann. | 13,5 % |
 | Drawdown max | -2,7 % | Sharpe | 0,32 |
 | Exposition | 97 % | Liquidités | 282,11 € |
 | Trades clôturés | 18 (11 % gagnants) | Frais cumulés | 67,82 € |
@@ -30,14 +30,14 @@
 
 | # | Actif | Momentum | Tendance | Cible |
 |---|---|---|---|---|
-| 1 | **USO** Pétrole WTI | +45,9 % | ▲ | 11 % |
-| 2 | **AAPL** Apple | +27,9 % | ▲ | 17 % |
-| 3 | **JPM** JPMorgan | +14,8 % | ▲ | 25 % |
-| 4 | **DBC** Panier mat. prem. | +13,7 % | ▲ | 25 % |
-| 5 | **NVDA** Nvidia | +7,8 % | ▲ | 15 % |
-| 6 | **QQQ** Nasdaq 100 | +7,6 % | ▲ | — |
-| 7 | **SPY** S&P 500 | +5,8 % | ▲ | — |
-| 8 | **EEM** Marchés émergents | +4,7 % | ▽ | — |
+| 1 | **USO** Pétrole WTI | +44,0 % | ▲ | 10 % |
+| 2 | **AAPL** Apple | +28,6 % | ▲ | 16 % |
+| 3 | **JPM** JPMorgan | +16,6 % | ▲ | 24 % |
+| 4 | **DBC** Panier mat. prem. | +12,6 % | ▲ | 25 % |
+| 5 | **QQQ** Nasdaq 100 | +6,5 % | ▲ | 20 % |
+| 6 | **SPY** S&P 500 | +5,4 % | ▲ | — |
+| 7 | **NVDA** Nvidia | +4,8 % | ▲ | — |
+| 8 | **EEM** Marchés émergents | +3,3 % | ▽ | — |
 
 ## Derniers ordres
 
@@ -58,12 +58,12 @@
 
 ## Journal
 
+- `25/07 05:41` — Portefeuille déjà aligné — aucun ordre
 - `24/07 21:48` — Portefeuille déjà aligné — aucun ordre
 - `24/07 13:56` — Portefeuille déjà aligné — aucun ordre
 - `24/07 05:48` — Portefeuille déjà aligné — aucun ordre
 - `23/07 20:38` — Portefeuille déjà aligné — aucun ordre
 - `23/07 14:03` — Portefeuille déjà aligné — aucun ordre
-- `23/07 05:47` — 2 ordres exécutés
 
 ---
 _Stratégie : momentum 3 & 6 mois, filtre MM100, Top 5 pondéré inverse-volatilité (max 25 %/ligne), bande 4 %, frais 0,10 %/ordre (min 1 €), arbitrage au plus toutes les 6 h. Passage horaire via GitHub Actions._
