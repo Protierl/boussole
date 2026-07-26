@@ -1,20 +1,20 @@
 # 🧭 BOUSSOLE — bot 24h/24
 
-**SIMULATION · cours réels · capital fictif** — mis à jour le 26/07/2026 à 01:14 (Paris) · sources : directes
+**SIMULATION · cours réels · capital fictif** — mis à jour le 26/07/2026 à 02:16 (Paris) · sources : directes
 
-## 🟢 10 018,56 €
+## 🟢 10 015,11 €
 
-**+18,56 € (+0,2 %)** · jour +0,0 % depuis le 12/07/2026
+**+15,11 € (+0,2 %)** · jour -0,0 % depuis le 12/07/2026
 
 ![Courbe de performance](courbe.png)
 
 | Indicateur | Valeur | Indicateur | Valeur |
 |---|---|---|---|
-| Perf. annualisée | +5,2 % | Volatilité ann. | 13,0 % |
-| Drawdown max | -2,7 % | Sharpe | 0,26 |
-| Exposition | 91 % | Liquidités | 888,89 € |
-| Trades clôturés | 19 (11 % gagnants) | Frais cumulés | 71,37 € |
-| EUR/USD | 1,1375 | P&L réalisé | -336,08 € |
+| Perf. annualisée | +4,2 % | Volatilité ann. | 13,0 % |
+| Drawdown max | -2,7 % | Sharpe | 0,22 |
+| Exposition | 96 % | Liquidités | 374,87 € |
+| Trades clôturés | 20 (10 % gagnants) | Frais cumulés | 74,82 € |
+| EUR/USD | 1,1375 | P&L réalisé | -339,02 € |
 
 ## Positions
 
@@ -22,8 +22,8 @@
 |---|---|---|---|---|---|
 | **DBC** Panier mat. prem. | 96,208 | 30,10 $ | 2 545,80 € | +4,5 % | 25 % |
 | **JPM** JPMorgan | 7,840 | 353,21 $ | 2 434,43 € | +1,8 % | 24 % |
+| **QQQ** Nasdaq 100 | 3,293 | 684,23 $ | 1 980,73 € | -0,1 % | 20 % |
 | **AAPL** Apple | 5,026 | 333,02 $ | 1 471,45 € | +5,9 % | 15 % |
-| **NVDA** Nvidia | 8,085 | 206,84 $ | 1 470,16 € | -0,1 % | 15 % |
 | **USO** Pétrole WTI | 10,051 | 136,69 $ | 1 207,83 € | +11,1 % | 12 % |
 
 ## Signaux (classement momentum)
@@ -43,6 +43,8 @@
 
 | Date | Sens | Actif | Montant | P&L | Raison |
 |---|---|---|---|---|---|
+| 26/07 02:16 | VENTE | **NVDA** | 1 470,16 € | -2,94 € | Sorti du Top 5 |
+| 26/07 02:16 | ACHAT | **QQQ** | 1 980,73 € | — | Entrée momentum · rang 5 |
 | 25/07 19:17 | VENTE | **QQQ** | 2 080,50 € | -96,02 € | Sorti du Top 5 |
 | 25/07 19:17 | ACHAT | **NVDA** | 1 470,16 € | — | Entrée momentum · rang 5 |
 | 23/07 05:47 | VENTE | **NVDA** | 1 590,82 € | -17,38 € | Sorti du Top 5 |
@@ -53,17 +55,15 @@
 | 17/07 21:34 | VENTE | **NVDA** | 1 308,82 € | -11,50 € | Sorti du Top 5 |
 | 17/07 21:34 | VENTE | **SPY** | 2 431,08 € | -29,90 € | Sorti du Top 5 |
 | 17/07 21:34 | ACHAT | **DBC** | 2 434,00 € | — | Entrée momentum · rang 3 |
-| 17/07 21:34 | ACHAT | **USO** | 1 086,23 € | — | Entrée momentum · rang 1 |
-| 17/07 21:34 | ACHAT | **JPM** | 485,82 € | — | Renforcement vers 24 % |
 
 ## Journal
 
+- `26/07 02:16` — 2 ordres exécutés
 - `25/07 19:17` — 2 ordres exécutés
 - `25/07 12:46` — Portefeuille déjà aligné — aucun ordre
 - `25/07 05:41` — Portefeuille déjà aligné — aucun ordre
 - `24/07 21:48` — Portefeuille déjà aligné — aucun ordre
 - `24/07 13:56` — Portefeuille déjà aligné — aucun ordre
-- `24/07 05:48` — Portefeuille déjà aligné — aucun ordre
 
 ---
 _Stratégie : momentum 3 & 6 mois, filtre MM100, Top 5 pondéré inverse-volatilité (max 25 %/ligne), bande 4 %, frais 0,10 %/ordre (min 1 €), arbitrage au plus toutes les 6 h. Passage horaire via GitHub Actions._
