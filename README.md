@@ -1,6 +1,6 @@
 # 🧭 BOUSSOLE — bot 24h/24
 
-**SIMULATION · cours réels · capital fictif** — mis à jour le 26/07/2026 à 02:16 (Paris) · sources : directes
+**SIMULATION · cours réels · capital fictif** — mis à jour le 26/07/2026 à 06:02 (Paris) · sources : directes
 
 ## 🟢 10 015,11 €
 
@@ -10,7 +10,7 @@
 
 | Indicateur | Valeur | Indicateur | Valeur |
 |---|---|---|---|
-| Perf. annualisée | +4,2 % | Volatilité ann. | 13,0 % |
+| Perf. annualisée | +4,1 % | Volatilité ann. | 13,0 % |
 | Drawdown max | -2,7 % | Sharpe | 0,22 |
 | Exposition | 96 % | Liquidités | 374,87 € |
 | Trades clôturés | 20 (10 % gagnants) | Frais cumulés | 74,82 € |
@@ -30,7 +30,7 @@
 
 | # | Actif | Momentum | Tendance | Cible |
 |---|---|---|---|---|
-| 1 | **USO** Pétrole WTI | +44,0 % | ▲ | 10 % |
+| 1 | **USO** Pétrole WTI | +45,9 % | ▲ | 9 % |
 | 2 | **AAPL** Apple | +28,6 % | ▲ | 16 % |
 | 3 | **JPM** JPMorgan | +16,6 % | ▲ | 24 % |
 | 4 | **DBC** Panier mat. prem. | +12,6 % | ▲ | 25 % |
