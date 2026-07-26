@@ -1,6 +1,6 @@
 # 🧭 BOUSSOLE — bot 24h/24
 
-**SIMULATION · cours réels · capital fictif** — mis à jour le 26/07/2026 à 11:25 (Paris) · sources : directes
+**SIMULATION · cours réels · capital fictif** — mis à jour le 26/07/2026 à 13:38 (Paris) · sources : directes
 
 ## 🟢 10 011,66 €
 
@@ -30,14 +30,14 @@
 
 | # | Actif | Momentum | Tendance | Cible |
 |---|---|---|---|---|
-| 1 | **USO** Pétrole WTI | +45,9 % | ▲ | 11 % |
-| 2 | **AAPL** Apple | +27,9 % | ▲ | 17 % |
-| 3 | **JPM** JPMorgan | +14,8 % | ▲ | 25 % |
-| 4 | **DBC** Panier mat. prem. | +13,7 % | ▲ | 25 % |
-| 5 | **NVDA** Nvidia | +7,8 % | ▲ | 15 % |
-| 6 | **QQQ** Nasdaq 100 | +7,6 % | ▲ | — |
-| 7 | **SPY** S&P 500 | +5,8 % | ▲ | — |
-| 8 | **EEM** Marchés émergents | +4,7 % | ▽ | — |
+| 1 | **USO** Pétrole WTI | +44,0 % | ▲ | 10 % |
+| 2 | **AAPL** Apple | +28,6 % | ▲ | 16 % |
+| 3 | **JPM** JPMorgan | +16,6 % | ▲ | 24 % |
+| 4 | **DBC** Panier mat. prem. | +12,6 % | ▲ | 25 % |
+| 5 | **QQQ** Nasdaq 100 | +6,5 % | ▲ | 20 % |
+| 6 | **SPY** S&P 500 | +5,4 % | ▲ | — |
+| 7 | **NVDA** Nvidia | +4,8 % | ▲ | — |
+| 8 | **EEM** Marchés émergents | +3,3 % | ▽ | — |
 
 ## Derniers ordres
 
