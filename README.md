@@ -1,30 +1,30 @@
 # 🧭 BOUSSOLE — bot 24h/24
 
-**SIMULATION · cours réels · capital fictif** — mis à jour le 27/07/2026 à 22:45 (Paris) · sources : directes
+**SIMULATION · cours réels · capital fictif** — mis à jour le 28/07/2026 à 00:19 (Paris) · sources : directes
 
-## 🔴 9 782,88 €
+## 🔴 9 780,51 €
 
-**-217,12 € (-2,2 %)** · jour -2,1 % depuis le 12/07/2026
+**-219,49 € (-2,2 %)** · jour -0,0 % depuis le 12/07/2026
 
 ![Courbe de performance](courbe.png)
 
 | Indicateur | Valeur | Indicateur | Valeur |
 |---|---|---|---|
-| Perf. annualisée | -40,6 % | Volatilité ann. | 15,1 % |
-| Drawdown max | -2,7 % | Sharpe | -2,41 |
+| Perf. annualisée | -40,9 % | Volatilité ann. | 14,6 % |
+| Drawdown max | -2,7 % | Sharpe | -2,36 |
 | Exposition | 92 % | Liquidités | 770,64 € |
 | Trades clôturés | 27 (19 % gagnants) | Frais cumulés | 93,65 € |
-| EUR/USD | 1,1371 | P&L réalisé | -387,50 € |
+| EUR/USD | 1,1374 | P&L réalisé | -387,50 € |
 
 ## Positions
 
 | Actif | Qté | Cours | Valeur | P&L | Poids |
 |---|---|---|---|---|---|
-| **SPY** S&P 500 | 3,766 | 739,09 $ | 2 447,66 € | +0,1 % | 25 % |
-| **JPM** JPMorgan | 6,086 | 356,20 $ | 1 906,36 € | +2,7 % | 19 % |
-| **DBC** Panier mat. prem. | 63,568 | 29,01 $ | 1 621,76 € | +0,7 % | 17 % |
-| **QQQ** Nasdaq 100 | 2,579 | 682,12 $ | 1 547,30 € | +0,3 % | 16 % |
-| **AAPL** Apple | 5,026 | 336,91 $ | 1 489,16 € | +7,2 % | 15 % |
+| **SPY** S&P 500 | 3,766 | 739,09 $ | 2 447,01 € | +0,1 % | 25 % |
+| **JPM** JPMorgan | 6,086 | 356,20 $ | 1 905,85 € | +2,7 % | 19 % |
+| **DBC** Panier mat. prem. | 63,568 | 29,01 $ | 1 621,33 € | +0,7 % | 17 % |
+| **QQQ** Nasdaq 100 | 2,579 | 682,12 $ | 1 546,90 € | +0,3 % | 16 % |
+| **AAPL** Apple | 5,026 | 336,91 $ | 1 488,77 € | +7,2 % | 15 % |
 
 ## Signaux (classement momentum)
 
