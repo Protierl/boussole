@@ -1,43 +1,43 @@
 # 🧭 BOUSSOLE — bot 24h/24
 
-**SIMULATION · cours réels · capital fictif** — mis à jour le 28/07/2026 à 16:43 (Paris) · sources : directes
+**SIMULATION · cours réels · capital fictif** — mis à jour le 28/07/2026 à 18:52 (Paris) · sources : directes
 
-## 🔴 9 732,39 €
+## 🔴 9 770,74 €
 
-**-267,61 € (-2,7 %)** · jour -0,5 % depuis le 12/07/2026
+**-229,26 € (-2,3 %)** · jour -0,1 % depuis le 12/07/2026
 
 ![Courbe de performance](courbe.png)
 
 | Indicateur | Valeur | Indicateur | Valeur |
 |---|---|---|---|
-| Perf. annualisée | -45,9 % | Volatilité ann. | 14,7 % |
-| Drawdown max | -2,9 % | Sharpe | -2,88 |
+| Perf. annualisée | -40,7 % | Volatilité ann. | 14,6 % |
+| Drawdown max | -2,7 % | Sharpe | -2,47 |
 | Exposition | 95 % | Liquidités | 504,55 € |
 | Trades clôturés | 28 (21 % gagnants) | Frais cumulés | 97,15 € |
-| EUR/USD | 1,1383 | P&L réalisé | -378,48 € |
+| EUR/USD | 1,1401 | P&L réalisé | -378,48 € |
 
 ## Positions
 
 | Actif | Qté | Cours | Valeur | P&L | Poids |
 |---|---|---|---|---|---|
-| **SPY** S&P 500 | 3,766 | 738,41 $ | 2 442,83 € | -0,1 % | 25 % |
-| **JPM** JPMorgan | 6,086 | 354,95 $ | 1 897,67 € | +2,3 % | 19 % |
-| **EZU** Zone euro | 31,394 | 67,88 $ | 1 871,95 € | -0,7 % | 19 % |
-| **QQQ** Nasdaq 100 | 2,579 | 672,17 $ | 1 523,13 € | -1,3 % | 16 % |
-| **AAPL** Apple | 5,026 | 337,97 $ | 1 492,27 € | +7,4 % | 15 % |
+| **SPY** S&P 500 | 3,766 | 742,47 $ | 2 452,38 € | +0,3 % | 25 % |
+| **JPM** JPMorgan | 6,086 | 356,10 $ | 1 900,78 € | +2,4 % | 19 % |
+| **EZU** Zone euro | 31,394 | 68,28 $ | 1 880,15 € | -0,3 % | 19 % |
+| **QQQ** Nasdaq 100 | 2,579 | 679,06 $ | 1 536,31 € | -0,4 % | 16 % |
+| **AAPL** Apple | 5,026 | 339,48 $ | 1 496,57 € | +7,7 % | 15 % |
 
 ## Signaux (classement momentum)
 
 | # | Actif | Momentum | Tendance | Cible |
 |---|---|---|---|---|
-| 1 | **USO** Pétrole WTI | +30,3 % | ▽ | — |
-| 2 | **AAPL** Apple | +29,3 % | ▲ | 13 % |
-| 3 | **JPM** JPMorgan | +15,9 % | ▲ | 20 % |
-| 4 | **DBC** Panier mat. prem. | +7,4 % | ▽ | — |
-| 5 | **SPY** S&P 500 | +4,9 % | ▲ | 25 % |
-| 6 | **QQQ** Nasdaq 100 | +4,3 % | ▽ | — |
-| 7 | **EZU** Zone euro | +2,0 % | ▲ | 24 % |
-| 8 | **EEM** Marchés émergents | +1,5 % | ▽ | — |
+| 1 | **AAPL** Apple | +29,9 % | ▲ | 12 % |
+| 2 | **USO** Pétrole WTI | +25,7 % | ▽ | — |
+| 3 | **JPM** JPMorgan | +16,3 % | ▲ | 17 % |
+| 4 | **DBC** Panier mat. prem. | +6,9 % | ▽ | — |
+| 5 | **SPY** S&P 500 | +5,5 % | ▲ | 25 % |
+| 6 | **QQQ** Nasdaq 100 | +5,4 % | ▲ | 16 % |
+| 7 | **EZU** Zone euro | +2,7 % | ▲ | 19 % |
+| 8 | **EEM** Marchés émergents | +2,2 % | ▽ | — |
 
 ## Derniers ordres
 
@@ -58,12 +58,12 @@
 
 ## Journal
 
+- `28/07 18:52` — Portefeuille déjà aligné — aucun ordre
 - `28/07 11:49` — Portefeuille déjà aligné — aucun ordre
 - `28/07 05:39` — 2 ordres exécutés
 - `27/07 20:49` — 6 ordres exécutés
 - `27/07 13:42` — Portefeuille déjà aligné — aucun ordre
 - `27/07 06:09` — 2 ordres exécutés
-- `26/07 23:12` — Portefeuille déjà aligné — aucun ordre
 
 ---
 _Stratégie : momentum 3 & 6 mois, filtre MM100, Top 5 pondéré inverse-volatilité (max 25 %/ligne), bande 4 %, frais 0,10 %/ordre (min 1 €), arbitrage au plus toutes les 6 h. Passage horaire via GitHub Actions._
