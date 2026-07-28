@@ -1,43 +1,43 @@
 # 🧭 BOUSSOLE — bot 24h/24
 
-**SIMULATION · cours réels · capital fictif** — mis à jour le 28/07/2026 à 14:15 (Paris) · sources : directes
+**SIMULATION · cours réels · capital fictif** — mis à jour le 28/07/2026 à 16:43 (Paris) · sources : directes
 
-## 🔴 9 781,22 €
+## 🔴 9 732,39 €
 
-**-218,78 € (-2,2 %)** · jour -0,0 % depuis le 12/07/2026
+**-267,61 € (-2,7 %)** · jour -0,5 % depuis le 12/07/2026
 
 ![Courbe de performance](courbe.png)
 
 | Indicateur | Valeur | Indicateur | Valeur |
 |---|---|---|---|
-| Perf. annualisée | -39,6 % | Volatilité ann. | 14,6 % |
-| Drawdown max | -2,7 % | Sharpe | -2,35 |
+| Perf. annualisée | -45,9 % | Volatilité ann. | 14,7 % |
+| Drawdown max | -2,9 % | Sharpe | -2,88 |
 | Exposition | 95 % | Liquidités | 504,55 € |
 | Trades clôturés | 28 (21 % gagnants) | Frais cumulés | 97,15 € |
-| EUR/USD | 1,1369 | P&L réalisé | -378,48 € |
+| EUR/USD | 1,1383 | P&L réalisé | -378,48 € |
 
 ## Positions
 
 | Actif | Qté | Cours | Valeur | P&L | Poids |
 |---|---|---|---|---|---|
-| **SPY** S&P 500 | 3,766 | 739,09 $ | 2 448,09 € | +0,1 % | 25 % |
-| **JPM** JPMorgan | 6,086 | 356,20 $ | 1 906,69 € | +2,8 % | 19 % |
-| **EZU** Zone euro | 31,394 | 68,26 $ | 1 884,89 € | -0,0 % | 19 % |
-| **QQQ** Nasdaq 100 | 2,579 | 682,12 $ | 1 547,58 € | +0,3 % | 16 % |
-| **AAPL** Apple | 5,026 | 336,91 $ | 1 489,42 € | +7,2 % | 15 % |
+| **SPY** S&P 500 | 3,766 | 738,41 $ | 2 442,83 € | -0,1 % | 25 % |
+| **JPM** JPMorgan | 6,086 | 354,95 $ | 1 897,67 € | +2,3 % | 19 % |
+| **EZU** Zone euro | 31,394 | 67,88 $ | 1 871,95 € | -0,7 % | 19 % |
+| **QQQ** Nasdaq 100 | 2,579 | 672,17 $ | 1 523,13 € | -1,3 % | 16 % |
+| **AAPL** Apple | 5,026 | 337,97 $ | 1 492,27 € | +7,4 % | 15 % |
 
 ## Signaux (classement momentum)
 
 | # | Actif | Momentum | Tendance | Cible |
 |---|---|---|---|---|
-| 1 | **USO** Pétrole WTI | +31,2 % | ▽ | — |
-| 2 | **AAPL** Apple | +28,9 % | ▲ | 11 % |
-| 3 | **JPM** JPMorgan | +16,3 % | ▲ | 17 % |
-| 4 | **DBC** Panier mat. prem. | +7,9 % | ▽ | — |
-| 5 | **QQQ** Nasdaq 100 | +5,9 % | ▲ | 15 % |
-| 6 | **SPY** S&P 500 | +5,0 % | ▲ | 25 % |
-| 7 | **EEM** Marchés émergents | +3,7 % | ▽ | — |
-| 8 | **EZU** Zone euro | +2,6 % | ▲ | 20 % |
+| 1 | **USO** Pétrole WTI | +30,3 % | ▽ | — |
+| 2 | **AAPL** Apple | +29,3 % | ▲ | 13 % |
+| 3 | **JPM** JPMorgan | +15,9 % | ▲ | 20 % |
+| 4 | **DBC** Panier mat. prem. | +7,4 % | ▽ | — |
+| 5 | **SPY** S&P 500 | +4,9 % | ▲ | 25 % |
+| 6 | **QQQ** Nasdaq 100 | +4,3 % | ▽ | — |
+| 7 | **EZU** Zone euro | +2,0 % | ▲ | 24 % |
+| 8 | **EEM** Marchés émergents | +1,5 % | ▽ | — |
 
 ## Derniers ordres
 
