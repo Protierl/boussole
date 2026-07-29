@@ -1,30 +1,30 @@
 # 🧭 BOUSSOLE — bot 24h/24
 
-**SIMULATION · cours réels · capital fictif** — mis à jour le 29/07/2026 à 23:13 (Paris) · sources : directes
+**SIMULATION · cours réels · capital fictif** — mis à jour le 30/07/2026 à 00:15 (Paris) · sources : directes
 
-## 🔴 9 568,79 €
+## 🔴 9 564,18 €
 
-**-431,21 € (-4,3 %)** · jour -2,1 % depuis le 12/07/2026
+**-435,82 € (-4,4 %)** · jour -0,0 % depuis le 12/07/2026
 
 ![Courbe de performance](courbe.png)
 
 | Indicateur | Valeur | Indicateur | Valeur |
 |---|---|---|---|
-| Perf. annualisée | -60,4 % | Volatilité ann. | 16,0 % |
-| Drawdown max | -4,5 % | Sharpe | -4,04 |
+| Perf. annualisée | -60,7 % | Volatilité ann. | 15,6 % |
+| Drawdown max | -4,6 % | Sharpe | -3,97 |
 | Exposition | 79 % | Liquidités | 2 020,15 € |
 | Trades clôturés | 31 (23 % gagnants) | Frais cumulés | 104,12 € |
-| EUR/USD | 1,1465 | P&L réalisé | -406,85 € |
+| EUR/USD | 1,1472 | P&L réalisé | -406,85 € |
 
 ## Positions
 
 | Actif | Qté | Cours | Valeur | P&L | Poids |
 |---|---|---|---|---|---|
-| **SPY** S&P 500 | 3,766 | 729,46 $ | 2 395,96 € | -2,0 % | 25 % |
-| **JPM** JPMorgan | 6,086 | 344,71 $ | 1 829,74 € | -1,4 % | 19 % |
-| **DBC** Panier mat. prem. | 61,933 | 29,42 $ | 1 589,24 € | -0,7 % | 17 % |
-| **AAPL** Apple | 3,691 | 338,19 $ | 1 088,80 € | +6,7 % | 11 % |
-| **USO** Pétrole WTI | 5,718 | 129,31 $ | 644,90 € | -1,2 % | 7 % |
+| **SPY** S&P 500 | 3,766 | 729,46 $ | 2 394,50 € | -2,1 % | 25 % |
+| **JPM** JPMorgan | 6,086 | 344,71 $ | 1 828,62 € | -1,4 % | 19 % |
+| **DBC** Panier mat. prem. | 61,933 | 29,42 $ | 1 588,27 € | -0,7 % | 17 % |
+| **AAPL** Apple | 3,691 | 338,19 $ | 1 088,14 € | +6,7 % | 11 % |
+| **USO** Pétrole WTI | 5,718 | 129,31 $ | 644,50 € | -1,3 % | 7 % |
 
 ## Signaux (classement momentum)
 
@@ -58,12 +58,12 @@
 
 ## Journal
 
+- `30/07 00:15` — Portefeuille déjà aligné — aucun ordre
 - `29/07 17:20` — 4 ordres exécutés
 - `29/07 08:46` — Portefeuille déjà aligné — aucun ordre
 - `29/07 02:10` — 1 ordre exécuté
 - `28/07 18:52` — Portefeuille déjà aligné — aucun ordre
 - `28/07 11:49` — Portefeuille déjà aligné — aucun ordre
-- `28/07 05:39` — 2 ordres exécutés
 
 ---
 _Stratégie : momentum 3 & 6 mois, filtre MM100, Top 5 pondéré inverse-volatilité (max 25 %/ligne), bande 4 %, frais 0,10 %/ordre (min 1 €), arbitrage au plus toutes les 6 h. Passage horaire via GitHub Actions._
