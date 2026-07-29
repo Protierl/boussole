@@ -1,30 +1,30 @@
 # 🧭 BOUSSOLE — bot 24h/24
 
-**SIMULATION · cours réels · capital fictif** — mis à jour le 29/07/2026 à 02:10 (Paris) · sources : directes
+**SIMULATION · cours réels · capital fictif** — mis à jour le 29/07/2026 à 05:43 (Paris) · sources : directes
 
-## 🔴 9 773,83 €
+## 🔴 9 761,38 €
 
-**-226,17 € (-2,3 %)** · jour +0,0 % depuis le 12/07/2026
+**-238,62 € (-2,4 %)** · jour -0,1 % depuis le 12/07/2026
 
 ![Courbe de performance](courbe.png)
 
 | Indicateur | Valeur | Indicateur | Valeur |
 |---|---|---|---|
-| Perf. annualisée | -39,7 % | Volatilité ann. | 14,2 % |
-| Drawdown max | -2,7 % | Sharpe | -2,36 |
+| Perf. annualisée | -41,1 % | Volatilité ann. | 14,2 % |
+| Drawdown max | -2,7 % | Sharpe | -2,50 |
 | Exposition | 91 % | Liquidités | 902,22 € |
 | Trades clôturés | 29 (24 % gagnants) | Frais cumulés | 98,15 € |
-| EUR/USD | 1,1387 | P&L réalisé | -349,79 € |
+| EUR/USD | 1,1403 | P&L réalisé | -349,79 € |
 
 ## Positions
 
 | Actif | Qté | Cours | Valeur | P&L | Poids |
 |---|---|---|---|---|---|
-| **SPY** S&P 500 | 3,766 | 740,86 $ | 2 450,07 € | +0,2 % | 25 % |
-| **JPM** JPMorgan | 6,086 | 357,31 $ | 1 909,61 € | +2,9 % | 20 % |
-| **EZU** Zone euro | 31,394 | 68,17 $ | 1 879,42 € | -0,3 % | 19 % |
-| **QQQ** Nasdaq 100 | 2,579 | 675,49 $ | 1 530,11 € | -0,8 % | 16 % |
-| **AAPL** Apple | 3,691 | 340,08 $ | 1 102,39 € | +8,0 % | 11 % |
+| **SPY** S&P 500 | 3,766 | 740,86 $ | 2 446,64 € | +0,1 % | 25 % |
+| **JPM** JPMorgan | 6,086 | 357,31 $ | 1 906,93 € | +2,8 % | 20 % |
+| **EZU** Zone euro | 31,394 | 68,17 $ | 1 876,79 € | -0,4 % | 19 % |
+| **QQQ** Nasdaq 100 | 2,579 | 675,49 $ | 1 527,96 € | -0,9 % | 16 % |
+| **AAPL** Apple | 3,691 | 340,08 $ | 1 100,84 € | +7,9 % | 11 % |
 
 ## Signaux (classement momentum)
 
