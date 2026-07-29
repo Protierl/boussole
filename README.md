@@ -1,10 +1,10 @@
 # 🧭 BOUSSOLE — bot 24h/24
 
-**SIMULATION · cours réels · capital fictif** — mis à jour le 30/07/2026 à 00:15 (Paris) · sources : directes
+**SIMULATION · cours réels · capital fictif** — mis à jour le 30/07/2026 à 01:18 (Paris) · sources : directes
 
-## 🔴 9 564,18 €
+## 🔴 9 563,52 €
 
-**-435,82 € (-4,4 %)** · jour -0,0 % depuis le 12/07/2026
+**-436,48 € (-4,4 %)** · jour -0,1 % depuis le 12/07/2026
 
 ![Courbe de performance](courbe.png)
 
@@ -14,17 +14,17 @@
 | Drawdown max | -4,6 % | Sharpe | -3,97 |
 | Exposition | 79 % | Liquidités | 2 020,15 € |
 | Trades clôturés | 31 (23 % gagnants) | Frais cumulés | 104,12 € |
-| EUR/USD | 1,1472 | P&L réalisé | -406,85 € |
+| EUR/USD | 1,1473 | P&L réalisé | -406,85 € |
 
 ## Positions
 
 | Actif | Qté | Cours | Valeur | P&L | Poids |
 |---|---|---|---|---|---|
-| **SPY** S&P 500 | 3,766 | 729,46 $ | 2 394,50 € | -2,1 % | 25 % |
-| **JPM** JPMorgan | 6,086 | 344,71 $ | 1 828,62 € | -1,4 % | 19 % |
-| **DBC** Panier mat. prem. | 61,933 | 29,42 $ | 1 588,27 € | -0,7 % | 17 % |
-| **AAPL** Apple | 3,691 | 338,19 $ | 1 088,14 € | +6,7 % | 11 % |
-| **USO** Pétrole WTI | 5,718 | 129,31 $ | 644,50 € | -1,3 % | 7 % |
+| **SPY** S&P 500 | 3,766 | 729,46 $ | 2 394,29 € | -2,1 % | 25 % |
+| **JPM** JPMorgan | 6,086 | 344,71 $ | 1 828,46 € | -1,5 % | 19 % |
+| **DBC** Panier mat. prem. | 61,933 | 29,42 $ | 1 588,14 € | -0,7 % | 17 % |
+| **AAPL** Apple | 3,691 | 338,19 $ | 1 088,04 € | +6,6 % | 11 % |
+| **USO** Pétrole WTI | 5,718 | 129,31 $ | 644,45 € | -1,3 % | 7 % |
 
 ## Signaux (classement momentum)
 
