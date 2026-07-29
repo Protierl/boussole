@@ -1,48 +1,52 @@
 # 🧭 BOUSSOLE — bot 24h/24
 
-**SIMULATION · cours réels · capital fictif** — mis à jour le 29/07/2026 à 14:22 (Paris) · sources : directes
+**SIMULATION · cours réels · capital fictif** — mis à jour le 29/07/2026 à 17:20 (Paris) · sources : directes
 
-## 🔴 9 777,73 €
+## 🔴 9 674,35 €
 
-**-222,27 € (-2,2 %)** · jour +0,1 % depuis le 12/07/2026
+**-325,65 € (-3,3 %)** · jour -1,0 % depuis le 12/07/2026
 
 ![Courbe de performance](courbe.png)
 
 | Indicateur | Valeur | Indicateur | Valeur |
 |---|---|---|---|
-| Perf. annualisée | -38,3 % | Volatilité ann. | 14,2 % |
-| Drawdown max | -2,7 % | Sharpe | -2,32 |
-| Exposition | 91 % | Liquidités | 902,22 € |
-| Trades clôturés | 29 (24 % gagnants) | Frais cumulés | 98,15 € |
-| EUR/USD | 1,1382 | P&L réalisé | -349,79 € |
+| Perf. annualisée | -50,6 % | Volatilité ann. | 14,5 % |
+| Drawdown max | -3,5 % | Sharpe | -3,34 |
+| Exposition | 79 % | Liquidités | 2 020,15 € |
+| Trades clôturés | 31 (23 % gagnants) | Frais cumulés | 104,12 € |
+| EUR/USD | 1,1384 | P&L réalisé | -406,85 € |
 
 ## Positions
 
 | Actif | Qté | Cours | Valeur | P&L | Poids |
 |---|---|---|---|---|---|
-| **SPY** S&P 500 | 3,766 | 740,86 $ | 2 451,15 € | +0,3 % | 25 % |
-| **JPM** JPMorgan | 6,086 | 357,31 $ | 1 910,45 € | +3,0 % | 20 % |
-| **EZU** Zone euro | 31,394 | 68,17 $ | 1 880,25 € | -0,2 % | 19 % |
-| **QQQ** Nasdaq 100 | 2,579 | 675,49 $ | 1 530,78 € | -0,8 % | 16 % |
-| **AAPL** Apple | 3,691 | 340,08 $ | 1 102,87 € | +8,1 % | 11 % |
+| **SPY** S&P 500 | 3,766 | 734,58 $ | 2 429,95 € | -0,6 % | 25 % |
+| **JPM** JPMorgan | 6,086 | 350,19 $ | 1 872,05 € | +0,9 % | 19 % |
+| **DBC** Panier mat. prem. | 61,933 | 29,38 $ | 1 598,10 € | -0,1 % | 17 % |
+| **AAPL** Apple | 3,691 | 339,95 $ | 1 102,26 € | +8,0 % | 11 % |
+| **USO** Pétrole WTI | 5,718 | 129,78 $ | 651,85 € | -0,2 % | 7 % |
 
 ## Signaux (classement momentum)
 
 | # | Actif | Momentum | Tendance | Cible |
 |---|---|---|---|---|
-| 1 | **AAPL** Apple | +30,1 % | ▲ | 11 % |
-| 2 | **USO** Pétrole WTI | +26,7 % | ▽ | — |
-| 3 | **JPM** JPMorgan | +16,7 % | ▲ | 17 % |
-| 4 | **DBC** Panier mat. prem. | +7,0 % | ▽ | — |
-| 5 | **SPY** S&P 500 | +5,3 % | ▲ | 25 % |
-| 6 | **QQQ** Nasdaq 100 | +4,8 % | ▲ | 15 % |
-| 7 | **EZU** Zone euro | +2,5 % | ▲ | 19 % |
-| 8 | **EEM** Marchés émergents | +1,7 % | ▽ | — |
+| 1 | **USO** Pétrole WTI | +36,5 % | ▲ | 7 % |
+| 2 | **AAPL** Apple | +30,1 % | ▲ | 14 % |
+| 3 | **JPM** JPMorgan | +14,4 % | ▲ | 20 % |
+| 4 | **DBC** Panier mat. prem. | +9,9 % | ▲ | 17 % |
+| 5 | **SPY** S&P 500 | +4,4 % | ▲ | 25 % |
+| 6 | **QQQ** Nasdaq 100 | +3,5 % | ▽ | — |
+| 7 | **EZU** Zone euro | +1,6 % | ▲ | — |
+| 8 | **EEM** Marchés émergents | -0,2 % | ▽ | — |
 
 ## Derniers ordres
 
 | Date | Sens | Actif | Montant | P&L | Raison |
 |---|---|---|---|---|---|
+| 29/07 17:20 | VENTE | **QQQ** | 1 511,57 € | -32,52 € | Filtre de tendance (< MM100) |
+| 29/07 17:20 | VENTE | **EZU** | 1 862,27 € | -24,54 € | Sorti du Top 5 |
+| 29/07 17:20 | ACHAT | **DBC** | 1 598,10 € | — | Entrée momentum · rang 4 |
+| 29/07 17:20 | ACHAT | **USO** | 651,85 € | — | Entrée momentum · rang 1 |
 | 29/07 02:10 | VENTE | **AAPL** | 398,67 € | +28,69 € | Allègement vers 11 % |
 | 28/07 05:39 | VENTE | **DBC** | 1 620,47 € | +9,02 € | Filtre de tendance (< MM100) |
 | 28/07 05:39 | ACHAT | **EZU** | 1 883,06 € | — | Entrée momentum · rang 5 |
@@ -51,19 +55,15 @@
 | 27/07 20:49 | VENTE | **JPM** | 547,61 € | +11,73 € | Allègement vers 19 % |
 | 27/07 20:49 | VENTE | **NVDA** | 1 397,12 € | -69,78 € | Momentum devenu négatif |
 | 27/07 20:49 | ACHAT | **SPY** | 2 442,23 € | — | Entrée momentum · rang 5 |
-| 27/07 20:49 | ACHAT | **QQQ** | 1 541,04 € | — | Entrée momentum · rang 4 |
-| 27/07 06:09 | VENTE | **QQQ** | 1 973,64 € | -9,68 € | Sorti du Top 5 |
-| 27/07 06:09 | ACHAT | **NVDA** | 1 464,03 € | — | Entrée momentum · rang 5 |
-| 26/07 15:59 | VENTE | **NVDA** | 1 469,14 € | -2,94 € | Sorti du Top 5 |
 
 ## Journal
 
+- `29/07 17:20` — 4 ordres exécutés
 - `29/07 08:46` — Portefeuille déjà aligné — aucun ordre
 - `29/07 02:10` — 1 ordre exécuté
 - `28/07 18:52` — Portefeuille déjà aligné — aucun ordre
 - `28/07 11:49` — Portefeuille déjà aligné — aucun ordre
 - `28/07 05:39` — 2 ordres exécutés
-- `27/07 20:49` — 6 ordres exécutés
 
 ---
 _Stratégie : momentum 3 & 6 mois, filtre MM100, Top 5 pondéré inverse-volatilité (max 25 %/ligne), bande 4 %, frais 0,10 %/ordre (min 1 €), arbitrage au plus toutes les 6 h. Passage horaire via GitHub Actions._
