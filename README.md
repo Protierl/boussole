@@ -1,6 +1,6 @@
 # 🧭 BOUSSOLE — bot 24h/24
 
-**SIMULATION · cours réels · capital fictif** — mis à jour le 04/08/2026 à 01:28 (Paris) · sources : directes
+**SIMULATION · cours réels · capital fictif** — mis à jour le 04/08/2026 à 05:40 (Paris) · sources : directes
 
 ## 🔴 9 335,27 €
 
@@ -10,7 +10,7 @@
 
 | Indicateur | Valeur | Indicateur | Valeur |
 |---|---|---|---|
-| Perf. annualisée | -67,3 % | Volatilité ann. | 14,2 % |
+| Perf. annualisée | -67,0 % | Volatilité ann. | 14,2 % |
 | Drawdown max | -6,9 % | Sharpe | -5,25 |
 | Exposition | 91 % | Liquidités | 872,78 € |
 | Trades clôturés | 38 (24 % gagnants) | Frais cumulés | 131,86 € |
@@ -30,14 +30,14 @@
 
 | # | Actif | Momentum | Tendance | Cible |
 |---|---|---|---|---|
-| 1 | **USO** Pétrole WTI | +19,5 % | ▽ | — |
-| 2 | **MSFT** Microsoft | +15,5 % | ▲ | 11 % |
-| 3 | **JPM** JPMorgan | +14,1 % | ▲ | 25 % |
-| 4 | **AAPL** Apple | +12,6 % | ▲ | 18 % |
-| 5 | **AMZN** Amazon | +12,3 % | ▲ | 11 % |
-| 6 | **QQQ** Nasdaq 100 | +8,2 % | ▲ | 25 % |
-| 7 | **SPY** S&P 500 | +7,3 % | ▲ | — |
-| 8 | **NVDA** Nvidia | +6,1 % | ▲ | — |
+| 1 | **USO** Pétrole WTI | +22,4 % | ▽ | — |
+| 2 | **MSFT** Microsoft | +16,5 % | ▲ | 11 % |
+| 3 | **JPM** JPMorgan | +14,5 % | ▲ | 25 % |
+| 4 | **AAPL** Apple | +11,0 % | ▲ | 18 % |
+| 5 | **AMZN** Amazon | +10,6 % | ▲ | 10 % |
+| 6 | **QQQ** Nasdaq 100 | +7,9 % | ▲ | 25 % |
+| 7 | **NVDA** Nvidia | +7,7 % | ▲ | — |
+| 8 | **DBC** Panier mat. prem. | +7,4 % | ▽ | — |
 
 ## Derniers ordres
 
@@ -58,12 +58,12 @@
 
 ## Journal
 
+- `04/08 05:40` — Portefeuille déjà aligné — aucun ordre
 - `03/08 20:08` — 4 ordres exécutés
 - `03/08 13:46` — Portefeuille déjà aligné — aucun ordre
 - `03/08 06:01` — Portefeuille déjà aligné — aucun ordre
 - `02/08 21:36` — Portefeuille déjà aligné — aucun ordre
 - `02/08 13:35` — Portefeuille déjà aligné — aucun ordre
-- `02/08 05:58` — Portefeuille déjà aligné — aucun ordre
 
 ---
 _Stratégie : momentum 3 & 6 mois, filtre MM100, Top 5 pondéré inverse-volatilité (max 25 %/ligne), bande 4 %, frais 0,10 %/ordre (min 1 €), arbitrage au plus toutes les 6 h. Passage horaire via GitHub Actions._
