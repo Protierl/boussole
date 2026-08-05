@@ -1,30 +1,30 @@
 # 🧭 BOUSSOLE — bot 24h/24
 
-**SIMULATION · cours réels · capital fictif** — mis à jour le 05/08/2026 à 05:35 (Paris) · sources : directes
+**SIMULATION · cours réels · capital fictif** — mis à jour le 05/08/2026 à 08:43 (Paris) · sources : directes
 
-## 🔴 9 451,95 €
+## 🔴 9 450,39 €
 
-**-548,05 € (-5,5 %)** · jour -0,1 % depuis le 12/07/2026
+**-549,61 € (-5,5 %)** · jour -0,1 % depuis le 12/07/2026
 
 ![Courbe de performance](courbe.png)
 
 | Indicateur | Valeur | Indicateur | Valeur |
 |---|---|---|---|
-| Perf. annualisée | -58,1 % | Volatilité ann. | 14,9 % |
-| Drawdown max | -6,9 % | Sharpe | -3,93 |
+| Perf. annualisée | -58,0 % | Volatilité ann. | 14,9 % |
+| Drawdown max | -6,9 % | Sharpe | -3,95 |
 | Exposition | 96 % | Liquidités | 413,75 € |
 | Trades clôturés | 39 (23 % gagnants) | Frais cumulés | 134,29 € |
-| EUR/USD | 1,1541 | P&L réalisé | -645,70 € |
+| EUR/USD | 1,1543 | P&L réalisé | -645,70 € |
 
 ## Positions
 
 | Actif | Qté | Cours | Valeur | P&L | Poids |
 |---|---|---|---|---|---|
-| **QQQ** Nasdaq 100 | 3,840 | 723,85 $ | 2 408,41 € | +2,8 % | 25 % |
-| **JPM** JPMorgan | 7,713 | 357,52 $ | 2 389,43 € | +1,7 % | 25 % |
-| **AAPL** Apple | 6,507 | 309,38 $ | 1 744,32 € | -5,3 % | 18 % |
-| **NVDA** Nvidia | 7,798 | 211,94 $ | 1 431,99 € | +0,1 % | 15 % |
-| **MSFT** Microsoft | 2,492 | 492,81 $ | 1 064,06 € | +8,9 % | 11 % |
+| **QQQ** Nasdaq 100 | 3,840 | 723,85 $ | 2 407,99 € | +2,8 % | 25 % |
+| **JPM** JPMorgan | 7,713 | 357,52 $ | 2 389,01 € | +1,7 % | 25 % |
+| **AAPL** Apple | 6,507 | 309,38 $ | 1 744,02 € | -5,3 % | 18 % |
+| **NVDA** Nvidia | 7,798 | 211,94 $ | 1 431,74 € | +0,1 % | 15 % |
+| **MSFT** Microsoft | 2,492 | 492,81 $ | 1 063,88 € | +8,9 % | 11 % |
 
 ## Signaux (classement momentum)
 
