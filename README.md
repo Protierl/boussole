@@ -1,42 +1,42 @@
 # 🧭 BOUSSOLE — bot 24h/24
 
-**SIMULATION · cours réels · capital fictif** — mis à jour le 07/08/2026 à 19:10 (Paris) · sources : directes
+**SIMULATION · cours réels · capital fictif** — mis à jour le 07/08/2026 à 20:04 (Paris) · sources : directes
 
-## 🔴 9 540,37 €
+## 🔴 9 536,09 €
 
-**-459,63 € (-4,6 %)** · jour +0,6 % depuis le 12/07/2026
+**-463,91 € (-4,6 %)** · jour +0,6 % depuis le 12/07/2026
 
 ![Courbe de performance](courbe.png)
 
 | Indicateur | Valeur | Indicateur | Valeur |
 |---|---|---|---|
-| Perf. annualisée | -48,1 % | Volatilité ann. | 14,6 % |
-| Drawdown max | -6,9 % | Sharpe | -3,09 |
+| Perf. annualisée | -48,3 % | Volatilité ann. | 14,5 % |
+| Drawdown max | -6,9 % | Sharpe | -3,12 |
 | Exposition | 88 % | Liquidités | 1 172,57 € |
 | Trades clôturés | 40 (22 % gagnants) | Frais cumulés | 137,06 € |
-| EUR/USD | 1,1563 | P&L réalisé | -725,21 € |
+| EUR/USD | 1,1562 | P&L réalisé | -725,21 € |
 
 ## Positions
 
 | Actif | Qté | Cours | Valeur | P&L | Poids |
 |---|---|---|---|---|---|
-| **QQQ** Nasdaq 100 | 3,840 | 721,31 $ | 2 395,39 € | +2,2 % | 25 % |
-| **JPM** JPMorgan | 7,713 | 357,69 $ | 2 386,01 € | +1,6 % | 25 % |
-| **NVDA** Nvidia | 7,798 | 222,18 $ | 1 498,32 € | +4,8 % | 16 % |
-| **MSFT** Microsoft | 2,492 | 500,81 $ | 1 079,28 € | +10,4 % | 11 % |
-| **AMZN** Amazon | 4,243 | 274,94 $ | 1 008,79 € | +0,6 % | 11 % |
+| **QQQ** Nasdaq 100 | 3,840 | 720,93 $ | 2 394,35 € | +2,2 % | 25 % |
+| **JPM** JPMorgan | 7,713 | 357,41 $ | 2 384,35 € | +1,5 % | 25 % |
+| **NVDA** Nvidia | 7,798 | 222,14 $ | 1 498,18 € | +4,8 % | 16 % |
+| **MSFT** Microsoft | 2,492 | 500,31 $ | 1 078,29 € | +10,3 % | 11 % |
+| **AMZN** Amazon | 4,243 | 274,80 $ | 1 008,35 € | +0,5 % | 11 % |
 
 ## Signaux (classement momentum)
 
 | # | Actif | Momentum | Tendance | Cible |
 |---|---|---|---|---|
-| 1 | **MSFT** Microsoft | +23,1 % | ▲ | 11 % |
-| 2 | **USO** Pétrole WTI | +22,2 % | ▽ | — |
-| 3 | **NVDA** Nvidia | +17,2 % | ▲ | 16 % |
-| 4 | **JPM** JPMorgan | +16,1 % | ▲ | 25 % |
+| 1 | **MSFT** Microsoft | +23,0 % | ▲ | 11 % |
+| 2 | **USO** Pétrole WTI | +22,3 % | ▽ | — |
+| 3 | **NVDA** Nvidia | +17,1 % | ▲ | 16 % |
+| 4 | **JPM** JPMorgan | +16,0 % | ▲ | 25 % |
 | 5 | **AMZN** Amazon | +12,4 % | ▲ | 11 % |
-| 6 | **QQQ** Nasdaq 100 | +12,3 % | ▲ | 25 % |
-| 7 | **AAPL** Apple | +10,9 % | ▲ | — |
+| 6 | **QQQ** Nasdaq 100 | +12,2 % | ▲ | 25 % |
+| 7 | **AAPL** Apple | +11,1 % | ▲ | — |
 | 8 | **SPY** S&P 500 | +9,8 % | ▲ | — |
 
 ## Derniers ordres
