@@ -1,6 +1,6 @@
 # 🧭 BOUSSOLE — bot 24h/24
 
-**SIMULATION · cours réels · capital fictif** — mis à jour le 08/08/2026 à 23:47 (Paris) · sources : directes
+**SIMULATION · cours réels · capital fictif** — mis à jour le 09/08/2026 à 00:48 (Paris) · sources : directes
 
 ## 🔴 9 554,23 €
 
@@ -10,8 +10,8 @@
 
 | Indicateur | Valeur | Indicateur | Valeur |
 |---|---|---|---|
-| Perf. annualisée | -45,5 % | Volatilité ann. | 14,4 % |
-| Drawdown max | -6,9 % | Sharpe | -2,92 |
+| Perf. annualisée | -45,5 % | Volatilité ann. | 14,1 % |
+| Drawdown max | -6,9 % | Sharpe | -2,86 |
 | Exposition | 88 % | Liquidités | 1 172,57 € |
 | Trades clôturés | 40 (22 % gagnants) | Frais cumulés | 137,06 € |
 | EUR/USD | 1,1562 | P&L réalisé | -725,21 € |
