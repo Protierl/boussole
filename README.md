@@ -1,6 +1,6 @@
 # 🧭 BOUSSOLE — bot 24h/24
 
-**SIMULATION · cours réels · capital fictif** — mis à jour le 11/08/2026 à 04:29 (Paris) · sources : directes
+**SIMULATION · cours réels · capital fictif** — mis à jour le 11/08/2026 à 06:41 (Paris) · sources : directes
 
 ## 🔴 9 568,70 €
 
@@ -10,7 +10,7 @@
 
 | Indicateur | Valeur | Indicateur | Valeur |
 |---|---|---|---|
-| Perf. annualisée | -41,9 % | Volatilité ann. | 13,7 % |
+| Perf. annualisée | -41,8 % | Volatilité ann. | 13,7 % |
 | Drawdown max | -6,9 % | Sharpe | -2,67 |
 | Exposition | 97 % | Liquidités | 292,82 € |
 | Trades clôturés | 42 (26 % gagnants) | Frais cumulés | 145,67 € |
@@ -58,12 +58,12 @@
 
 ## Journal
 
+- `11/08 06:41` — Portefeuille déjà aligné — aucun ordre
 - `11/08 00:00` — 2 ordres exécutés
 - `10/08 17:18` — 2 ordres exécutés
 - `10/08 10:52` — Portefeuille déjà aligné — aucun ordre
 - `10/08 04:36` — Portefeuille déjà aligné — aucun ordre
 - `09/08 21:49` — Portefeuille déjà aligné — aucun ordre
-- `09/08 15:17` — Portefeuille déjà aligné — aucun ordre
 
 ---
 _Stratégie : momentum 3 & 6 mois, filtre MM100, Top 5 pondéré inverse-volatilité (max 25 %/ligne), bande 4 %, frais 0,10 %/ordre (min 1 €), arbitrage au plus toutes les 6 h. Passage horaire via GitHub Actions._
