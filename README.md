@@ -1,30 +1,30 @@
 # 🧭 BOUSSOLE — bot 24h/24
 
-**SIMULATION · cours réels · capital fictif** — mis à jour le 14/08/2026 à 00:04 (Paris) · sources : directes
+**SIMULATION · cours réels · capital fictif** — mis à jour le 14/08/2026 à 01:04 (Paris) · sources : directes
 
-## 🔴 9 471,61 €
+## 🔴 9 469,42 €
 
-**-528,39 € (-5,3 %)** · jour -0,0 % depuis le 12/07/2026
+**-530,58 € (-5,3 %)** · jour -0,0 % depuis le 12/07/2026
 
 ![Courbe de performance](courbe.png)
 
 | Indicateur | Valeur | Indicateur | Valeur |
 |---|---|---|---|
-| Perf. annualisée | -45,7 % | Volatilité ann. | 13,1 % |
-| Drawdown max | -6,9 % | Sharpe | -3,12 |
+| Perf. annualisée | -45,8 % | Volatilité ann. | 13,1 % |
+| Drawdown max | -6,9 % | Sharpe | -3,13 |
 | Exposition | 89 % | Liquidités | 1 086,43 € |
 | Trades clôturés | 49 (29 % gagnants) | Frais cumulés | 171,02 € |
-| EUR/USD | 1,1534 | P&L réalisé | -670,81 € |
+| EUR/USD | 1,1537 | P&L réalisé | -670,81 € |
 
 ## Positions
 
 | Actif | Qté | Cours | Valeur | P&L | Poids |
 |---|---|---|---|---|---|
-| **JPM** JPMorgan | 7,713 | 363,11 $ | 2 428,26 € | +3,4 % | 26 % |
-| **QQQ** Nasdaq 100 | 3,733 | 732,07 $ | 2 369,37 € | -0,1 % | 25 % |
-| **NVDA** Nvidia | 7,878 | 225,30 $ | 1 538,80 € | -0,1 % | 16 % |
-| **MSFT** Microsoft | 2,492 | 496,88 $ | 1 073,50 € | +9,9 % | 11 % |
-| **AMZN** Amazon | 4,243 | 265,13 $ | 975,24 € | -2,8 % | 10 % |
+| **JPM** JPMorgan | 7,713 | 363,11 $ | 2 427,63 € | +3,3 % | 26 % |
+| **QQQ** Nasdaq 100 | 3,733 | 732,07 $ | 2 368,76 € | -0,2 % | 25 % |
+| **NVDA** Nvidia | 7,878 | 225,30 $ | 1 538,40 € | -0,2 % | 16 % |
+| **MSFT** Microsoft | 2,492 | 496,88 $ | 1 073,22 € | +9,8 % | 11 % |
+| **AMZN** Amazon | 4,243 | 265,13 $ | 974,99 € | -2,8 % | 10 % |
 
 ## Signaux (classement momentum)
 
