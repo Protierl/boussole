@@ -1,40 +1,40 @@
 # 🧭 BOUSSOLE — bot 24h/24
 
-**SIMULATION · cours réels · capital fictif** — mis à jour le 13/08/2026 à 12:29 (Paris) · sources : directes
+**SIMULATION · cours réels · capital fictif** — mis à jour le 13/08/2026 à 14:01 (Paris) · sources : directes
 
-## 🔴 9 534,14 €
+## 🔴 9 534,82 €
 
-**-465,86 € (-4,7 %)** · jour -0,1 % depuis le 12/07/2026
+**-465,18 € (-4,7 %)** · jour -0,1 % depuis le 12/07/2026
 
 ![Courbe de performance](courbe.png)
 
 | Indicateur | Valeur | Indicateur | Valeur |
 |---|---|---|---|
-| Perf. annualisée | -42,0 % | Volatilité ann. | 13,2 % |
+| Perf. annualisée | -41,9 % | Volatilité ann. | 13,2 % |
 | Drawdown max | -6,9 % | Sharpe | -2,80 |
 | Exposition | 83 % | Liquidités | 1 659,80 € |
 | Trades clôturés | 47 (30 % gagnants) | Frais cumulés | 163,75 € |
-| EUR/USD | 1,1539 | P&L réalisé | -617,24 € |
+| EUR/USD | 1,1538 | P&L réalisé | -617,24 € |
 
 ## Positions
 
 | Actif | Qté | Cours | Valeur | P&L | Poids |
 |---|---|---|---|---|---|
-| **JPM** JPMorgan | 7,713 | 365,18 $ | 2 441,04 € | +3,9 % | 26 % |
-| **DBC** Panier mat. prem. | 91,376 | 30,11 $ | 2 384,37 € | -0,2 % | 25 % |
-| **MSFT** Microsoft | 2,492 | 492,43 $ | 1 063,43 € | +8,8 % | 11 % |
-| **USO** Pétrole WTI | 9,089 | 127,30 $ | 1 002,76 € | -0,2 % | 11 % |
-| **AMZN** Amazon | 4,243 | 267,28 $ | 982,73 € | -2,0 % | 10 % |
+| **JPM** JPMorgan | 7,713 | 365,18 $ | 2 441,25 € | +3,9 % | 26 % |
+| **DBC** Panier mat. prem. | 91,376 | 30,11 $ | 2 384,58 € | -0,2 % | 25 % |
+| **MSFT** Microsoft | 2,492 | 492,43 $ | 1 063,52 € | +8,8 % | 11 % |
+| **USO** Pétrole WTI | 9,089 | 127,30 $ | 1 002,85 € | -0,2 % | 11 % |
+| **AMZN** Amazon | 4,243 | 267,28 $ | 982,81 € | -2,0 % | 10 % |
 
 ## Signaux (classement momentum)
 
 | # | Actif | Momentum | Tendance | Cible |
 |---|---|---|---|---|
 | 1 | **USO** Pétrole WTI | +25,5 % | ▲ | 11 % |
-| 2 | **MSFT** Microsoft | +21,7 % | ▲ | 11 % |
+| 2 | **MSFT** Microsoft | +21,7 % | ▲ | 12 % |
 | 3 | **JPM** JPMorgan | +19,6 % | ▲ | 25 % |
 | 4 | **AMZN** Amazon | +15,0 % | ▲ | 11 % |
-| 5 | **DBC** Panier mat. prem. | +9,8 % | ▲ | 25 % |
+| 5 | **DBC** Panier mat. prem. | +12,4 % | ▲ | 24 % |
 | 6 | **QQQ** Nasdaq 100 | +9,6 % | ▲ | — |
 | 7 | **NVDA** Nvidia | +8,6 % | ▲ | — |
 | 8 | **SPY** S&P 500 | +7,9 % | ▲ | — |
@@ -58,12 +58,12 @@
 
 ## Journal
 
+- `13/08 14:01` — Portefeuille déjà aligné — aucun ordre
 - `13/08 07:08` — 2 ordres exécutés
 - `12/08 23:04` — 2 ordres exécutés
 - `12/08 15:50` — 2 ordres exécutés
 - `12/08 08:44` — Portefeuille déjà aligné — aucun ordre
 - `12/08 02:01` — 2 ordres exécutés
-- `11/08 19:14` — 2 ordres exécutés
 
 ---
 _Stratégie : momentum 3 & 6 mois, filtre MM100, Top 5 pondéré inverse-volatilité (max 25 %/ligne), bande 4 %, frais 0,10 %/ordre (min 1 €), arbitrage au plus toutes les 6 h. Passage horaire via GitHub Actions._
