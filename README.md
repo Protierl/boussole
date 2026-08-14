@@ -1,30 +1,30 @@
 # 🧭 BOUSSOLE — bot 24h/24
 
-**SIMULATION · cours réels · capital fictif** — mis à jour le 14/08/2026 à 04:48 (Paris) · sources : directes
+**SIMULATION · cours réels · capital fictif** — mis à jour le 14/08/2026 à 07:04 (Paris) · sources : directes
 
-## 🔴 9 464,73 €
+## 🔴 9 462,50 €
 
-**-535,27 € (-5,4 %)** · jour -0,1 % depuis le 12/07/2026
+**-537,50 € (-5,4 %)** · jour -0,1 % depuis le 12/07/2026
 
 ![Courbe de performance](courbe.png)
 
 | Indicateur | Valeur | Indicateur | Valeur |
 |---|---|---|---|
 | Perf. annualisée | -46,0 % | Volatilité ann. | 13,1 % |
-| Drawdown max | -6,9 % | Sharpe | -3,16 |
+| Drawdown max | -6,9 % | Sharpe | -3,17 |
 | Exposition | 90 % | Liquidités | 914,83 € |
 | Trades clôturés | 50 (28 % gagnants) | Frais cumulés | 174,26 € |
-| EUR/USD | 1,1539 | P&L réalisé | -674,96 € |
+| EUR/USD | 1,1542 | P&L réalisé | -674,96 € |
 
 ## Positions
 
 | Actif | Qté | Cours | Valeur | P&L | Poids |
 |---|---|---|---|---|---|
-| **JPM** JPMorgan | 7,713 | 363,11 $ | 2 427,21 € | +3,3 % | 26 % |
-| **QQQ** Nasdaq 100 | 3,733 | 732,07 $ | 2 368,35 € | -0,2 % | 25 % |
-| **AAPL** Apple | 6,451 | 305,26 $ | 1 706,49 € | -0,1 % | 18 % |
-| **MSFT** Microsoft | 2,492 | 496,88 $ | 1 073,04 € | +9,8 % | 11 % |
-| **AMZN** Amazon | 4,243 | 265,13 $ | 974,82 € | -2,8 % | 10 % |
+| **JPM** JPMorgan | 7,713 | 363,11 $ | 2 426,58 € | +3,3 % | 26 % |
+| **QQQ** Nasdaq 100 | 3,733 | 732,07 $ | 2 367,73 € | -0,2 % | 25 % |
+| **AAPL** Apple | 6,451 | 305,26 $ | 1 706,04 € | -0,1 % | 18 % |
+| **MSFT** Microsoft | 2,492 | 496,88 $ | 1 072,76 € | +9,8 % | 11 % |
+| **AMZN** Amazon | 4,243 | 265,13 $ | 974,57 € | -2,9 % | 10 % |
 
 ## Signaux (classement momentum)
 
@@ -35,8 +35,8 @@
 | 3 | **JPM** JPMorgan | +20,5 % | ▲ | 25 % |
 | 4 | **AMZN** Amazon | +16,0 % | ▲ | 9 % |
 | 5 | **QQQ** Nasdaq 100 | +11,8 % | ▲ | 25 % |
-| 6 | **AAPL** Apple | +9,5 % | ▲ | 18 % |
-| 7 | **DBC** Panier mat. prem. | +9,3 % | ▲ | — |
+| 6 | **DBC** Panier mat. prem. | +10,4 % | ▲ | 22 % |
+| 7 | **AAPL** Apple | +9,5 % | ▲ | — |
 | 8 | **SPY** S&P 500 | +9,1 % | ▲ | — |
 
 ## Derniers ordres
