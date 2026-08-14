@@ -1,6 +1,6 @@
 # 🧭 BOUSSOLE — bot 24h/24
 
-**SIMULATION · cours réels · capital fictif** — mis à jour le 15/08/2026 à 00:42 (Paris) · sources : directes
+**SIMULATION · cours réels · capital fictif** — mis à jour le 15/08/2026 à 01:39 (Paris) · sources : directes
 
 ## 🔴 9 433,36 €
 
@@ -35,7 +35,7 @@
 | 3 | **JPM** JPMorgan | +20,4 % | ▲ | 25 % |
 | 4 | **AMZN** Amazon | +14,9 % | ▲ | 9 % |
 | 5 | **QQQ** Nasdaq 100 | +11,6 % | ▲ | 25 % |
-| 6 | **DBC** Panier mat. prem. | +11,2 % | ▲ | 22 % |
+| 6 | **DBC** Panier mat. prem. | +10,1 % | ▲ | 20 % |
 | 7 | **AAPL** Apple | +9,7 % | ▲ | — |
 | 8 | **SPY** S&P 500 | +8,9 % | ▲ | — |
 
@@ -58,12 +58,12 @@
 
 ## Journal
 
+- `15/08 01:39` — Portefeuille déjà aligné — aucun ordre
 - `14/08 19:13` — Portefeuille déjà aligné — aucun ordre
 - `14/08 12:18` — 2 ordres exécutés
 - `14/08 04:48` — 2 ordres exécutés
 - `13/08 20:11` — 4 ordres exécutés
 - `13/08 14:01` — Portefeuille déjà aligné — aucun ordre
-- `13/08 07:08` — 2 ordres exécutés
 
 ---
 _Stratégie : momentum 3 & 6 mois, filtre MM100, Top 5 pondéré inverse-volatilité (max 25 %/ligne), bande 4 %, frais 0,10 %/ordre (min 1 €), arbitrage au plus toutes les 6 h. Passage horaire via GitHub Actions._
