@@ -1,30 +1,30 @@
 # 🧭 BOUSSOLE — bot 24h/24
 
-**SIMULATION · cours réels · capital fictif** — mis à jour le 14/08/2026 à 10:38 (Paris) · sources : directes
+**SIMULATION · cours réels · capital fictif** — mis à jour le 14/08/2026 à 12:18 (Paris) · sources : directes
 
-## 🔴 9 449,93 €
+## 🔴 9 446,89 €
 
-**-550,07 € (-5,5 %)** · jour -0,2 % depuis le 12/07/2026
+**-553,11 € (-5,5 %)** · jour -0,3 % depuis le 12/07/2026
 
 ![Courbe de performance](courbe.png)
 
 | Indicateur | Valeur | Indicateur | Valeur |
 |---|---|---|---|
-| Perf. annualisée | -46,7 % | Volatilité ann. | 13,1 % |
-| Drawdown max | -6,9 % | Sharpe | -3,25 |
-| Exposition | 90 % | Liquidités | 914,83 € |
-| Trades clôturés | 50 (28 % gagnants) | Frais cumulés | 174,26 € |
-| EUR/USD | 1,1559 | P&L réalisé | -674,96 € |
+| Perf. annualisée | -46,8 % | Volatilité ann. | 13,1 % |
+| Drawdown max | -6,9 % | Sharpe | -3,27 |
+| Exposition | 94 % | Liquidités | 538,65 € |
+| Trades clôturés | 51 (27 % gagnants) | Frais cumulés | 178,04 € |
+| EUR/USD | 1,1558 | P&L réalisé | -681,18 € |
 
 ## Positions
 
 | Actif | Qté | Cours | Valeur | P&L | Poids |
 |---|---|---|---|---|---|
-| **JPM** JPMorgan | 7,713 | 363,11 $ | 2 423,01 € | +3,1 % | 26 % |
-| **QQQ** Nasdaq 100 | 3,733 | 732,07 $ | 2 364,25 € | -0,3 % | 25 % |
-| **AAPL** Apple | 6,451 | 305,26 $ | 1 703,53 € | -0,3 % | 18 % |
-| **MSFT** Microsoft | 2,492 | 496,88 $ | 1 071,18 € | +9,6 % | 11 % |
-| **AMZN** Amazon | 4,243 | 265,13 $ | 973,13 € | -3,0 % | 10 % |
+| **JPM** JPMorgan | 7,713 | 363,11 $ | 2 423,22 € | +3,2 % | 26 % |
+| **QQQ** Nasdaq 100 | 3,733 | 732,07 $ | 2 364,45 € | -0,3 % | 25 % |
+| **DBC** Panier mat. prem. | 80,575 | 29,78 $ | 2 076,08 € | -0,1 % | 22 % |
+| **MSFT** Microsoft | 2,492 | 496,88 $ | 1 071,27 € | +9,6 % | 11 % |
+| **AMZN** Amazon | 4,243 | 265,13 $ | 973,22 € | -3,0 % | 10 % |
 
 ## Signaux (classement momentum)
 
@@ -43,6 +43,8 @@
 
 | Date | Sens | Actif | Montant | P&L | Raison |
 |---|---|---|---|---|---|
+| 14/08 12:18 | VENTE | **AAPL** | 1 703,68 € | -6,22 € | Sorti du Top 5 |
+| 14/08 12:18 | ACHAT | **DBC** | 2 076,08 € | — | Entrée momentum · rang 5 |
 | 14/08 04:48 | VENTE | **NVDA** | 1 538,13 € | -4,15 € | Sorti du Top 5 |
 | 14/08 04:48 | ACHAT | **AAPL** | 1 706,49 € | — | Entrée momentum · rang 5 |
 | 13/08 20:11 | VENTE | **USO** | 984,49 € | -21,06 € | Filtre de tendance (< MM100) |
@@ -53,17 +55,15 @@
 | 13/08 07:08 | ACHAT | **DBC** | 2 386,44 € | — | Entrée momentum · rang 5 |
 | 12/08 23:04 | VENTE | **NVDA** | 1 552,49 € | +7,70 € | Sorti du Top 5 |
 | 12/08 23:04 | ACHAT | **USO** | 1 003,55 € | — | Entrée momentum · rang 1 |
-| 12/08 15:50 | VENTE | **USO** | 1 023,99 € | -8,61 € | Filtre de tendance (< MM100) |
-| 12/08 15:50 | ACHAT | **NVDA** | 1 541,69 € | — | Entrée momentum · rang 5 |
 
 ## Journal
 
+- `14/08 12:18` — 2 ordres exécutés
 - `14/08 04:48` — 2 ordres exécutés
 - `13/08 20:11` — 4 ordres exécutés
 - `13/08 14:01` — Portefeuille déjà aligné — aucun ordre
 - `13/08 07:08` — 2 ordres exécutés
 - `12/08 23:04` — 2 ordres exécutés
-- `12/08 15:50` — 2 ordres exécutés
 
 ---
 _Stratégie : momentum 3 & 6 mois, filtre MM100, Top 5 pondéré inverse-volatilité (max 25 %/ligne), bande 4 %, frais 0,10 %/ordre (min 1 €), arbitrage au plus toutes les 6 h. Passage horaire via GitHub Actions._
