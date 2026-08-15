@@ -1,6 +1,6 @@
 # 🧭 BOUSSOLE — bot 24h/24
 
-**SIMULATION · cours réels · capital fictif** — mis à jour le 15/08/2026 à 01:39 (Paris) · sources : directes
+**SIMULATION · cours réels · capital fictif** — mis à jour le 15/08/2026 à 03:51 (Paris) · sources : directes
 
 ## 🔴 9 433,36 €
 
@@ -10,7 +10,7 @@
 
 | Indicateur | Valeur | Indicateur | Valeur |
 |---|---|---|---|
-| Perf. annualisée | -47,1 % | Volatilité ann. | 12,9 % |
+| Perf. annualisée | -47,0 % | Volatilité ann. | 12,9 % |
 | Drawdown max | -6,9 % | Sharpe | -3,30 |
 | Exposition | 94 % | Liquidités | 538,65 € |
 | Trades clôturés | 51 (27 % gagnants) | Frais cumulés | 178,04 € |
@@ -30,14 +30,14 @@
 
 | # | Actif | Momentum | Tendance | Cible |
 |---|---|---|---|---|
-| 1 | **USO** Pétrole WTI | +27,1 % | ▽ | — |
-| 2 | **MSFT** Microsoft | +22,1 % | ▲ | 10 % |
-| 3 | **JPM** JPMorgan | +20,4 % | ▲ | 25 % |
-| 4 | **AMZN** Amazon | +14,9 % | ▲ | 9 % |
-| 5 | **QQQ** Nasdaq 100 | +11,6 % | ▲ | 25 % |
-| 6 | **DBC** Panier mat. prem. | +10,1 % | ▲ | 20 % |
-| 7 | **AAPL** Apple | +9,7 % | ▲ | — |
-| 8 | **SPY** S&P 500 | +8,9 % | ▲ | — |
+| 1 | **USO** Pétrole WTI | +25,8 % | ▽ | — |
+| 2 | **JPM** JPMorgan | +20,9 % | ▲ | 25 % |
+| 3 | **MSFT** Microsoft | +20,4 % | ▲ | 10 % |
+| 4 | **AMZN** Amazon | +15,8 % | ▲ | 10 % |
+| 5 | **QQQ** Nasdaq 100 | +12,3 % | ▲ | 25 % |
+| 6 | **NVDA** Nvidia | +11,5 % | ▲ | 16 % |
+| 7 | **DBC** Panier mat. prem. | +10,9 % | ▲ | — |
+| 8 | **AAPL** Apple | +10,8 % | ▲ | — |
 
 ## Derniers ordres
 
