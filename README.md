@@ -1,6 +1,6 @@
 # 🧭 BOUSSOLE — bot 24h/24
 
-**SIMULATION · cours réels · capital fictif** — mis à jour le 15/08/2026 à 05:56 (Paris) · sources : directes
+**SIMULATION · cours réels · capital fictif** — mis à jour le 15/08/2026 à 06:49 (Paris) · sources : directes
 
 ## 🔴 9 433,36 €
 
@@ -10,7 +10,7 @@
 
 | Indicateur | Valeur | Indicateur | Valeur |
 |---|---|---|---|
-| Perf. annualisée | -46,9 % | Volatilité ann. | 12,9 % |
+| Perf. annualisée | -46,8 % | Volatilité ann. | 12,9 % |
 | Drawdown max | -6,9 % | Sharpe | -3,30 |
 | Exposition | 94 % | Liquidités | 538,65 € |
 | Trades clôturés | 51 (27 % gagnants) | Frais cumulés | 178,04 € |
@@ -36,8 +36,8 @@
 | 4 | **AMZN** Amazon | +15,8 % | ▲ | 10 % |
 | 5 | **QQQ** Nasdaq 100 | +12,3 % | ▲ | 25 % |
 | 6 | **NVDA** Nvidia | +11,5 % | ▲ | 16 % |
-| 7 | **AAPL** Apple | +10,8 % | ▲ | — |
-| 8 | **DBC** Panier mat. prem. | +9,5 % | ▲ | — |
+| 7 | **DBC** Panier mat. prem. | +10,9 % | ▲ | — |
+| 8 | **AAPL** Apple | +10,8 % | ▲ | — |
 
 ## Derniers ordres
 
