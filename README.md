@@ -1,30 +1,30 @@
 # 🧭 BOUSSOLE — bot 24h/24
 
-**SIMULATION · cours réels · capital fictif** — mis à jour le 16/08/2026 à 23:35 (Paris) · sources : directes
+**SIMULATION · cours réels · capital fictif** — mis à jour le 17/08/2026 à 00:38 (Paris) · sources : directes
 
-## 🔴 9 431,89 €
+## 🔴 9 428,29 €
 
-**-568,11 € (-5,7 %)** · jour +0,0 % depuis le 12/07/2026
+**-571,71 € (-5,7 %)** · jour -0,0 % depuis le 12/07/2026
 
 ![Courbe de performance](courbe.png)
 
 | Indicateur | Valeur | Indicateur | Valeur |
 |---|---|---|---|
-| Perf. annualisée | -45,3 % | Volatilité ann. | 12,8 % |
-| Drawdown max | -6,9 % | Sharpe | -3,26 |
+| Perf. annualisée | -45,5 % | Volatilité ann. | 12,6 % |
+| Drawdown max | -6,9 % | Sharpe | -3,23 |
 | Exposition | 89 % | Liquidités | 1 082,77 € |
 | Trades clôturés | 52 (29 % gagnants) | Frais cumulés | 181,67 € |
-| EUR/USD | 1,1570 | P&L réalisé | -672,72 € |
+| EUR/USD | 1,1575 | P&L réalisé | -672,72 € |
 
 ## Positions
 
 | Actif | Qté | Cours | Valeur | P&L | Poids |
 |---|---|---|---|---|---|
-| **JPM** JPMorgan | 7,713 | 362,84 $ | 2 418,90 € | +3,0 % | 26 % |
-| **QQQ** Nasdaq 100 | 3,733 | 731,07 $ | 2 358,77 € | -0,6 % | 25 % |
-| **NVDA** Nvidia | 7,920 | 225,16 $ | 1 541,35 € | -0,1 % | 16 % |
-| **MSFT** Microsoft | 2,492 | 495,40 $ | 1 066,98 € | +9,2 % | 11 % |
-| **AMZN** Amazon | 4,243 | 262,65 $ | 963,12 € | -4,0 % | 10 % |
+| **JPM** JPMorgan | 7,713 | 362,84 $ | 2 417,86 € | +2,9 % | 26 % |
+| **QQQ** Nasdaq 100 | 3,733 | 731,07 $ | 2 357,75 € | -0,6 % | 25 % |
+| **NVDA** Nvidia | 7,920 | 225,16 $ | 1 540,69 € | -0,1 % | 16 % |
+| **MSFT** Microsoft | 2,492 | 495,40 $ | 1 066,52 € | +9,1 % | 11 % |
+| **AMZN** Amazon | 4,243 | 262,65 $ | 962,70 € | -4,0 % | 10 % |
 
 ## Signaux (classement momentum)
 
@@ -36,8 +36,8 @@
 | 4 | **AMZN** Amazon | +15,8 % | ▲ | 10 % |
 | 5 | **QQQ** Nasdaq 100 | +12,3 % | ▲ | 25 % |
 | 6 | **NVDA** Nvidia | +11,5 % | ▲ | 16 % |
-| 7 | **AAPL** Apple | +10,8 % | ▲ | — |
-| 8 | **DBC** Panier mat. prem. | +9,5 % | ▲ | — |
+| 7 | **DBC** Panier mat. prem. | +10,9 % | ▲ | — |
+| 8 | **AAPL** Apple | +10,8 % | ▲ | — |
 
 ## Derniers ordres
 
@@ -58,12 +58,12 @@
 
 ## Journal
 
+- `17/08 00:38` — Portefeuille déjà aligné — aucun ordre
 - `16/08 17:38` — Portefeuille déjà aligné — aucun ordre
 - `16/08 10:48` — Portefeuille déjà aligné — aucun ordre
 - `16/08 03:58` — Portefeuille déjà aligné — aucun ordre
 - `15/08 21:37` — Portefeuille déjà aligné — aucun ordre
 - `15/08 15:00` — Portefeuille déjà aligné — aucun ordre
-- `15/08 07:43` — 2 ordres exécutés
 
 ---
 _Stratégie : momentum 3 & 6 mois, filtre MM100, Top 5 pondéré inverse-volatilité (max 25 %/ligne), bande 4 %, frais 0,10 %/ordre (min 1 €), arbitrage au plus toutes les 6 h. Passage horaire via GitHub Actions._
