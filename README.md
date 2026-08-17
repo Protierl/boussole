@@ -1,30 +1,30 @@
 # 🧭 BOUSSOLE — bot 24h/24
 
-**SIMULATION · cours réels · capital fictif** — mis à jour le 17/08/2026 à 05:14 (Paris) · sources : directes
+**SIMULATION · cours réels · capital fictif** — mis à jour le 17/08/2026 à 06:06 (Paris) · sources : directes
 
-## 🔴 9 423,24 €
+## 🔴 9 418,21 €
 
-**-576,76 € (-5,8 %)** · jour -0,1 % depuis le 12/07/2026
+**-581,79 € (-5,8 %)** · jour -0,1 % depuis le 12/07/2026
 
 ![Courbe de performance](courbe.png)
 
 | Indicateur | Valeur | Indicateur | Valeur |
 |---|---|---|---|
-| Perf. annualisée | -45,6 % | Volatilité ann. | 12,6 % |
-| Drawdown max | -6,9 % | Sharpe | -3,27 |
+| Perf. annualisée | -45,9 % | Volatilité ann. | 12,6 % |
+| Drawdown max | -6,9 % | Sharpe | -3,30 |
 | Exposition | 89 % | Liquidités | 1 082,77 € |
 | Trades clôturés | 52 (29 % gagnants) | Frais cumulés | 181,67 € |
-| EUR/USD | 1,1582 | P&L réalisé | -672,72 € |
+| EUR/USD | 1,1589 | P&L réalisé | -672,72 € |
 
 ## Positions
 
 | Actif | Qté | Cours | Valeur | P&L | Poids |
 |---|---|---|---|---|---|
-| **JPM** JPMorgan | 7,713 | 362,84 $ | 2 416,40 € | +2,9 % | 26 % |
-| **QQQ** Nasdaq 100 | 3,733 | 731,07 $ | 2 356,33 € | -0,7 % | 25 % |
-| **NVDA** Nvidia | 7,920 | 225,16 $ | 1 539,76 € | -0,2 % | 16 % |
-| **MSFT** Microsoft | 2,492 | 495,40 $ | 1 065,87 € | +9,1 % | 11 % |
-| **AMZN** Amazon | 4,243 | 262,65 $ | 962,12 € | -4,1 % | 10 % |
+| **JPM** JPMorgan | 7,713 | 362,84 $ | 2 414,94 € | +2,8 % | 26 % |
+| **QQQ** Nasdaq 100 | 3,733 | 731,07 $ | 2 354,91 € | -0,7 % | 25 % |
+| **NVDA** Nvidia | 7,920 | 225,16 $ | 1 538,83 € | -0,2 % | 16 % |
+| **MSFT** Microsoft | 2,492 | 495,40 $ | 1 065,23 € | +9,0 % | 11 % |
+| **AMZN** Amazon | 4,243 | 262,65 $ | 961,54 € | -4,2 % | 10 % |
 
 ## Signaux (classement momentum)
 
@@ -36,8 +36,8 @@
 | 4 | **AMZN** Amazon | +15,8 % | ▲ | 10 % |
 | 5 | **QQQ** Nasdaq 100 | +12,3 % | ▲ | 25 % |
 | 6 | **NVDA** Nvidia | +11,5 % | ▲ | 16 % |
-| 7 | **DBC** Panier mat. prem. | +10,9 % | ▲ | — |
-| 8 | **AAPL** Apple | +10,8 % | ▲ | — |
+| 7 | **AAPL** Apple | +10,8 % | ▲ | — |
+| 8 | **DBC** Panier mat. prem. | +9,5 % | ▲ | — |
 
 ## Derniers ordres
 
