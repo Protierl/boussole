@@ -1,30 +1,30 @@
 # 🧭 BOUSSOLE — bot 24h/24
 
-**SIMULATION · cours réels · capital fictif** — mis à jour le 17/08/2026 à 11:02 (Paris) · sources : directes
+**SIMULATION · cours réels · capital fictif** — mis à jour le 17/08/2026 à 11:59 (Paris) · sources : directes
 
-## 🔴 9 408,87 €
+## 🔴 9 409,58 €
 
-**-591,13 € (-5,9 %)** · jour -0,2 % depuis le 12/07/2026
+**-590,42 € (-5,9 %)** · jour -0,2 % depuis le 12/07/2026
 
 ![Courbe de performance](courbe.png)
 
 | Indicateur | Valeur | Indicateur | Valeur |
 |---|---|---|---|
-| Perf. annualisée | -46,2 % | Volatilité ann. | 12,6 % |
+| Perf. annualisée | -46,1 % | Volatilité ann. | 12,6 % |
 | Drawdown max | -6,9 % | Sharpe | -3,35 |
 | Exposition | 88 % | Liquidités | 1 082,77 € |
 | Trades clôturés | 52 (29 % gagnants) | Frais cumulés | 181,67 € |
-| EUR/USD | 1,1602 | P&L réalisé | -672,72 € |
+| EUR/USD | 1,1601 | P&L réalisé | -672,72 € |
 
 ## Positions
 
 | Actif | Qté | Cours | Valeur | P&L | Poids |
 |---|---|---|---|---|---|
-| **JPM** JPMorgan | 7,713 | 362,84 $ | 2 412,23 € | +2,7 % | 26 % |
-| **QQQ** Nasdaq 100 | 3,733 | 731,07 $ | 2 352,27 € | -0,8 % | 25 % |
-| **NVDA** Nvidia | 7,920 | 225,16 $ | 1 537,10 € | -0,3 % | 16 % |
-| **MSFT** Microsoft | 2,492 | 495,40 $ | 1 064,03 € | +8,9 % | 11 % |
-| **AMZN** Amazon | 4,243 | 262,65 $ | 960,46 € | -4,3 % | 10 % |
+| **JPM** JPMorgan | 7,713 | 362,84 $ | 2 412,44 € | +2,7 % | 26 % |
+| **QQQ** Nasdaq 100 | 3,733 | 731,07 $ | 2 352,47 € | -0,8 % | 25 % |
+| **NVDA** Nvidia | 7,920 | 225,16 $ | 1 537,24 € | -0,3 % | 16 % |
+| **MSFT** Microsoft | 2,492 | 495,40 $ | 1 064,12 € | +8,9 % | 11 % |
+| **AMZN** Amazon | 4,243 | 262,65 $ | 960,54 € | -4,3 % | 10 % |
 
 ## Signaux (classement momentum)
 
@@ -36,8 +36,8 @@
 | 4 | **AMZN** Amazon | +15,8 % | ▲ | 10 % |
 | 5 | **QQQ** Nasdaq 100 | +12,3 % | ▲ | 25 % |
 | 6 | **NVDA** Nvidia | +11,5 % | ▲ | 16 % |
-| 7 | **AAPL** Apple | +10,8 % | ▲ | — |
-| 8 | **DBC** Panier mat. prem. | +9,5 % | ▲ | — |
+| 7 | **DBC** Panier mat. prem. | +10,9 % | ▲ | — |
+| 8 | **AAPL** Apple | +10,8 % | ▲ | — |
 
 ## Derniers ordres
 
