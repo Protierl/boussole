@@ -1,17 +1,17 @@
 # 🧭 BOUSSOLE — bot 24h/24
 
-**SIMULATION · cours réels · capital fictif** — mis à jour le 19/08/2026 à 23:43 (Paris) · sources : directes
+**SIMULATION · cours réels · capital fictif** — mis à jour le 20/08/2026 à 00:44 (Paris) · sources : directes
 
 ## 🔴 9 288,98 €
 
-**-711,02 € (-7,1 %)** · jour -0,6 % depuis le 12/07/2026
+**-711,02 € (-7,1 %)** · jour +0,0 % depuis le 12/07/2026
 
 ![Courbe de performance](courbe.png)
 
 | Indicateur | Valeur | Indicateur | Valeur |
 |---|---|---|---|
-| Perf. annualisée | -50,4 % | Volatilité ann. | 12,3 % |
-| Drawdown max | -7,3 % | Sharpe | -3,93 |
+| Perf. annualisée | -50,4 % | Volatilité ann. | 12,2 % |
+| Drawdown max | -7,3 % | Sharpe | -3,87 |
 | Exposition | 83 % | Liquidités | 1 600,14 € |
 | Trades clôturés | 56 (30 % gagnants) | Frais cumulés | 198,26 € |
 | EUR/USD | 1,1680 | P&L réalisé | -731,17 € |
@@ -30,12 +30,12 @@
 
 | # | Actif | Momentum | Tendance | Cible |
 |---|---|---|---|---|
-| 1 | **USO** Pétrole WTI | +25,2 % | ▲ | 12 % |
+| 1 | **USO** Pétrole WTI | +25,2 % | ▲ | 11 % |
 | 2 | **MSFT** Microsoft | +18,6 % | ▲ | 12 % |
 | 3 | **JPM** JPMorgan | +18,3 % | ▲ | 25 % |
 | 4 | **AMZN** Amazon | +16,2 % | ▲ | 11 % |
-| 5 | **AAPL** Apple | +12,9 % | ▲ | 21 % |
-| 6 | **DBC** Panier mat. prem. | +12,2 % | ▲ | — |
+| 5 | **DBC** Panier mat. prem. | +14,0 % | ▲ | 24 % |
+| 6 | **AAPL** Apple | +12,9 % | ▲ | — |
 | 7 | **QQQ** Nasdaq 100 | +10,1 % | ▲ | — |
 | 8 | **SPY** S&P 500 | +8,4 % | ▲ | — |
 
