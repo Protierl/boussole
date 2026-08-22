@@ -1,6 +1,6 @@
 # 🧭 BOUSSOLE — bot 24h/24
 
-**SIMULATION · cours réels · capital fictif** — mis à jour le 22/08/2026 à 01:41 (Paris) · sources : directes
+**SIMULATION · cours réels · capital fictif** — mis à jour le 22/08/2026 à 03:52 (Paris) · sources : directes
 
 ## 🔴 9 230,23 €
 
@@ -30,14 +30,14 @@
 
 | # | Actif | Momentum | Tendance | Cible |
 |---|---|---|---|---|
-| 1 | **USO** Pétrole WTI | +30,5 % | ▲ | 11 % |
-| 2 | **MSFT** Microsoft | +18,5 % | ▲ | 12 % |
-| 3 | **JPM** JPMorgan | +14,6 % | ▲ | 25 % |
-| 4 | **DBC** Panier mat. prem. | +14,4 % | ▲ | 25 % |
-| 5 | **AMZN** Amazon | +9,7 % | ▲ | 11 % |
-| 6 | **AAPL** Apple | +9,2 % | ▲ | — |
-| 7 | **QQQ** Nasdaq 100 | +8,5 % | ▲ | — |
-| 8 | **SPY** S&P 500 | +7,1 % | ▲ | — |
+| 1 | **USO** Pétrole WTI | +31,0 % | ▲ | 12 % |
+| 2 | **MSFT** Microsoft | +20,6 % | ▲ | 11 % |
+| 3 | **JPM** JPMorgan | +16,4 % | ▲ | 25 % |
+| 4 | **DBC** Panier mat. prem. | +14,3 % | ▲ | 25 % |
+| 5 | **AMZN** Amazon | +11,6 % | ▲ | 10 % |
+| 6 | **QQQ** Nasdaq 100 | +9,0 % | ▲ | — |
+| 7 | **AAPL** Apple | +8,2 % | ▲ | — |
+| 8 | **SPY** S&P 500 | +7,5 % | ▲ | — |
 
 ## Derniers ordres
 
