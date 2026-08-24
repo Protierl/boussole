@@ -1,42 +1,42 @@
 # 🧭 BOUSSOLE — bot 24h/24
 
-**SIMULATION · cours réels · capital fictif** — mis à jour le 24/08/2026 à 16:06 (Paris) · sources : directes
+**SIMULATION · cours réels · capital fictif** — mis à jour le 24/08/2026 à 17:03 (Paris) · sources : directes
 
-## 🔴 9 263,06 €
+## 🔴 9 257,42 €
 
-**-736,94 € (-7,4 %)** · jour +0,4 % depuis le 12/07/2026
+**-742,58 € (-7,4 %)** · jour +0,3 % depuis le 12/07/2026
 
 ![Courbe de performance](courbe.png)
 
 | Indicateur | Valeur | Indicateur | Valeur |
 |---|---|---|---|
-| Perf. annualisée | -47,7 % | Volatilité ann. | 11,8 % |
-| Drawdown max | -8,0 % | Sharpe | -3,77 |
+| Perf. annualisée | -48,0 % | Volatilité ann. | 11,8 % |
+| Drawdown max | -8,0 % | Sharpe | -3,80 |
 | Exposition | 83 % | Liquidités | 1 586,26 € |
 | Trades clôturés | 58 (29 % gagnants) | Frais cumulés | 206,78 € |
-| EUR/USD | 1,1669 | P&L réalisé | -772,95 € |
+| EUR/USD | 1,1670 | P&L réalisé | -772,95 € |
 
 ## Positions
 
 | Actif | Qté | Cours | Valeur | P&L | Poids |
 |---|---|---|---|---|---|
-| **JPM** JPMorgan | 7,713 | 357,12 $ | 2 360,56 € | +0,5 % | 25 % |
-| **DBC** Panier mat. prem. | 86,702 | 31,09 $ | 2 310,03 € | -0,0 % | 25 % |
-| **MSFT** Microsoft | 2,492 | 486,57 $ | 1 039,08 € | +6,3 % | 11 % |
-| **USO** Pétrole WTI | 8,935 | 132,81 $ | 1 016,99 € | +1,7 % | 11 % |
-| **AMZN** Amazon | 4,243 | 261,33 $ | 950,14 € | -5,3 % | 10 % |
+| **JPM** JPMorgan | 7,713 | 357,37 $ | 2 361,99 € | +0,5 % | 26 % |
+| **DBC** Panier mat. prem. | 86,702 | 31,02 $ | 2 304,26 € | -0,3 % | 25 % |
+| **MSFT** Microsoft | 2,492 | 487,15 $ | 1 040,22 € | +6,4 % | 11 % |
+| **USO** Pétrole WTI | 8,935 | 132,25 $ | 1 012,58 € | +1,2 % | 11 % |
+| **AMZN** Amazon | 4,243 | 261,89 $ | 952,12 € | -5,1 % | 10 % |
 
 ## Signaux (classement momentum)
 
 | # | Actif | Momentum | Tendance | Cible |
 |---|---|---|---|---|
-| 1 | **USO** Pétrole WTI | +29,2 % | ▲ | 13 % |
-| 2 | **MSFT** Microsoft | +21,4 % | ▲ | 11 % |
+| 1 | **USO** Pétrole WTI | +28,7 % | ▲ | 13 % |
+| 2 | **MSFT** Microsoft | +21,5 % | ▲ | 11 % |
 | 3 | **JPM** JPMorgan | +18,3 % | ▲ | 25 % |
-| 4 | **DBC** Panier mat. prem. | +13,7 % | ▲ | 25 % |
-| 5 | **AMZN** Amazon | +12,7 % | ▲ | 11 % |
-| 6 | **AAPL** Apple | +9,3 % | ▲ | — |
-| 7 | **QQQ** Nasdaq 100 | +7,5 % | ▲ | — |
+| 4 | **DBC** Panier mat. prem. | +13,4 % | ▲ | 25 % |
+| 5 | **AMZN** Amazon | +13,0 % | ▲ | 11 % |
+| 6 | **AAPL** Apple | +9,4 % | ▲ | — |
+| 7 | **QQQ** Nasdaq 100 | +7,8 % | ▲ | — |
 | 8 | **SPY** S&P 500 | +7,1 % | ▲ | — |
 
 ## Derniers ordres
