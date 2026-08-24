@@ -1,10 +1,10 @@
 # 🧭 BOUSSOLE — bot 24h/24
 
-**SIMULATION · cours réels · capital fictif** — mis à jour le 24/08/2026 à 05:18 (Paris) · sources : directes
+**SIMULATION · cours réels · capital fictif** — mis à jour le 24/08/2026 à 07:03 (Paris) · sources : directes
 
-## 🔴 9 226,30 €
+## 🔴 9 225,65 €
 
-**-773,70 € (-7,7 %)** · jour -0,0 % depuis le 12/07/2026
+**-774,35 € (-7,7 %)** · jour -0,0 % depuis le 12/07/2026
 
 ![Courbe de performance](courbe.png)
 
@@ -14,17 +14,17 @@
 | Drawdown max | -8,0 % | Sharpe | -3,99 |
 | Exposition | 83 % | Liquidités | 1 586,26 € |
 | Trades clôturés | 58 (29 % gagnants) | Frais cumulés | 206,78 € |
-| EUR/USD | 1,1684 | P&L réalisé | -772,95 € |
+| EUR/USD | 1,1685 | P&L réalisé | -772,95 € |
 
 ## Positions
 
 | Actif | Qté | Cours | Valeur | P&L | Poids |
 |---|---|---|---|---|---|
-| **JPM** JPMorgan | 7,713 | 351,58 $ | 2 320,97 € | -1,2 % | 25 % |
-| **DBC** Panier mat. prem. | 86,702 | 31,26 $ | 2 319,68 € | +0,4 % | 25 % |
-| **MSFT** Microsoft | 2,492 | 483,24 $ | 1 030,63 € | +5,5 % | 11 % |
-| **USO** Pétrole WTI | 8,935 | 134,64 $ | 1 029,64 € | +2,9 % | 11 % |
-| **AMZN** Amazon | 4,243 | 258,63 $ | 939,12 € | -6,4 % | 10 % |
+| **JPM** JPMorgan | 7,713 | 351,58 $ | 2 320,77 € | -1,2 % | 25 % |
+| **DBC** Panier mat. prem. | 86,702 | 31,26 $ | 2 319,48 € | +0,4 % | 25 % |
+| **MSFT** Microsoft | 2,492 | 483,24 $ | 1 030,54 € | +5,5 % | 11 % |
+| **USO** Pétrole WTI | 8,935 | 134,64 $ | 1 029,55 € | +2,9 % | 11 % |
+| **AMZN** Amazon | 4,243 | 258,63 $ | 939,04 € | -6,4 % | 10 % |
 
 ## Signaux (classement momentum)
 
@@ -58,12 +58,12 @@
 
 ## Journal
 
+- `24/08 07:03` — Portefeuille déjà aligné — aucun ordre
 - `24/08 00:40` — Portefeuille déjà aligné — aucun ordre
 - `23/08 17:39` — Portefeuille déjà aligné — aucun ordre
 - `23/08 10:50` — Portefeuille déjà aligné — aucun ordre
 - `23/08 04:01` — Portefeuille déjà aligné — aucun ordre
 - `22/08 19:38` — Portefeuille déjà aligné — aucun ordre
-- `22/08 13:37` — Portefeuille déjà aligné — aucun ordre
 
 ---
 _Stratégie : momentum 3 & 6 mois, filtre MM100, Top 5 pondéré inverse-volatilité (max 25 %/ligne), bande 4 %, frais 0,10 %/ordre (min 1 €), arbitrage au plus toutes les 6 h. Passage horaire via GitHub Actions._
