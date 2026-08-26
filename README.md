@@ -1,30 +1,30 @@
 # 🧭 BOUSSOLE — bot 24h/24
 
-**SIMULATION · cours réels · capital fictif** — mis à jour le 26/08/2026 à 07:52 (Paris) · sources : directes
+**SIMULATION · cours réels · capital fictif** — mis à jour le 26/08/2026 à 09:10 (Paris) · sources : directes
 
-## 🔴 9 169,43 €
+## 🔴 9 166,56 €
 
-**-830,57 € (-8,3 %)** · jour +0,1 % depuis le 12/07/2026
+**-833,44 € (-8,3 %)** · jour +0,1 % depuis le 12/07/2026
 
 ![Courbe de performance](courbe.png)
 
 | Indicateur | Valeur | Indicateur | Valeur |
 |---|---|---|---|
-| Perf. annualisée | -50,7 % | Volatilité ann. | 11,6 % |
-| Drawdown max | -8,6 % | Sharpe | -4,13 |
+| Perf. annualisée | -50,8 % | Volatilité ann. | 11,6 % |
+| Drawdown max | -8,6 % | Sharpe | -4,15 |
 | Exposition | 91 % | Liquidités | 785,54 € |
 | Trades clôturés | 59 (29 % gagnants) | Frais cumulés | 209,55 € |
-| EUR/USD | 1,1667 | P&L réalisé | -809,01 € |
+| EUR/USD | 1,1671 | P&L réalisé | -809,01 € |
 
 ## Positions
 
 | Actif | Qté | Cours | Valeur | P&L | Poids |
 |---|---|---|---|---|---|
-| **JPM** JPMorgan | 7,713 | 356,69 $ | 2 358,13 € | +0,4 % | 26 % |
-| **DBC** Panier mat. prem. | 86,702 | 30,43 $ | 2 261,38 € | -2,1 % | 25 % |
-| **AAPL** Apple | 6,644 | 309,90 $ | 1 764,84 € | -0,0 % | 19 % |
-| **MSFT** Microsoft | 2,492 | 491,71 $ | 1 050,22 € | +7,5 % | 11 % |
-| **AMZN** Amazon | 4,243 | 261,06 $ | 949,33 € | -5,4 % | 10 % |
+| **JPM** JPMorgan | 7,713 | 356,69 $ | 2 357,33 € | +0,3 % | 26 % |
+| **DBC** Panier mat. prem. | 86,702 | 30,43 $ | 2 260,60 € | -2,2 % | 25 % |
+| **AAPL** Apple | 6,644 | 309,90 $ | 1 764,23 € | -0,0 % | 19 % |
+| **MSFT** Microsoft | 2,492 | 491,71 $ | 1 049,86 € | +7,4 % | 11 % |
+| **AMZN** Amazon | 4,243 | 261,06 $ | 949,00 € | -5,4 % | 10 % |
 
 ## Signaux (classement momentum)
 
