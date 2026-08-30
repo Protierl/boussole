@@ -1,30 +1,30 @@
 # 🧭 BOUSSOLE — bot 24h/24
 
-**SIMULATION · cours réels · capital fictif** — mis à jour le 30/08/2026 à 23:09 (Paris) · sources : directes
+**SIMULATION · cours réels · capital fictif** — mis à jour le 31/08/2026 à 01:32 (Paris) · sources : directes
 
-## 🔴 9 240,57 €
+## 🔴 9 235,44 €
 
-**-759,43 € (-7,6 %)** · jour +0,0 % depuis le 12/07/2026
+**-764,56 € (-7,6 %)** · jour -0,1 % depuis le 12/07/2026
 
 ![Courbe de performance](courbe.png)
 
 | Indicateur | Valeur | Indicateur | Valeur |
 |---|---|---|---|
-| Perf. annualisée | -44,2 % | Volatilité ann. | 11,3 % |
-| Drawdown max | -8,6 % | Sharpe | -3,54 |
+| Perf. annualisée | -44,4 % | Volatilité ann. | 11,2 % |
+| Drawdown max | -8,6 % | Sharpe | -3,53 |
 | Exposition | 92 % | Liquidités | 740,61 € |
 | Trades clôturés | 69 (28 % gagnants) | Frais cumulés | 240,43 € |
-| EUR/USD | 1,1583 | P&L réalisé | -938,20 € |
+| EUR/USD | 1,1590 | P&L réalisé | -938,20 € |
 
 ## Positions
 
 | Actif | Qté | Cours | Valeur | P&L | Poids |
 |---|---|---|---|---|---|
-| **JPM** JPMorgan | 7,713 | 357,62 $ | 2 381,43 € | +1,4 % | 26 % |
-| **AAPL** Apple | 7,704 | 319,70 $ | 2 126,47 € | -0,1 % | 23 % |
-| **MSFT** Microsoft | 3,630 | 513,53 $ | 1 609,51 € | +10,0 % | 17 % |
-| **AMZN** Amazon | 6,289 | 266,43 $ | 1 446,53 € | -0,1 % | 16 % |
-| **USO** Pétrole WTI | 8,359 | 129,70 $ | 936,03 € | +0,3 % | 10 % |
+| **JPM** JPMorgan | 7,713 | 357,62 $ | 2 379,99 € | +1,3 % | 26 % |
+| **AAPL** Apple | 7,704 | 319,70 $ | 2 125,19 € | -0,1 % | 23 % |
+| **MSFT** Microsoft | 3,630 | 513,53 $ | 1 608,53 € | +9,9 % | 17 % |
+| **AMZN** Amazon | 6,289 | 266,43 $ | 1 445,65 € | -0,1 % | 16 % |
+| **USO** Pétrole WTI | 8,359 | 129,70 $ | 935,46 € | +0,2 % | 10 % |
 
 ## Signaux (classement momentum)
 
