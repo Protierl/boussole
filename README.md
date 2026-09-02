@@ -1,30 +1,30 @@
 # 🧭 BOUSSOLE — bot 24h/24
 
-**SIMULATION · cours réels · capital fictif** — mis à jour le 02/09/2026 à 07:52 (Paris) · sources : directes
+**SIMULATION · cours réels · capital fictif** — mis à jour le 02/09/2026 à 13:23 (Paris) · sources : directes
 
-## 🔴 9 219,13 €
+## 🔴 9 220,65 €
 
-**-780,87 € (-7,8 %)** · jour +0,1 % depuis le 12/07/2026
+**-779,35 € (-7,8 %)** · jour +0,1 % depuis le 12/07/2026
 
 ![Courbe de performance](courbe.png)
 
 | Indicateur | Valeur | Indicateur | Valeur |
 |---|---|---|---|
-| Perf. annualisée | -43,6 % | Volatilité ann. | 11,2 % |
+| Perf. annualisée | -43,4 % | Volatilité ann. | 11,2 % |
 | Drawdown max | -8,6 % | Sharpe | -3,46 |
 | Exposition | 95 % | Liquidités | 458,37 € |
 | Trades clôturés | 73 (26 % gagnants) | Frais cumulés | 252,57 € |
-| EUR/USD | 1,1583 | P&L réalisé | -1 032,42 € |
+| EUR/USD | 1,1581 | P&L réalisé | -1 032,42 € |
 
 ## Positions
 
 | Actif | Qté | Cours | Valeur | P&L | Poids |
 |---|---|---|---|---|---|
-| **JPM** JPMorgan | 7,713 | 354,95 $ | 2 363,65 € | +0,6 % | 26 % |
-| **DBC** Panier mat. prem. | 71,098 | 31,93 $ | 1 959,90 € | +2,2 % | 21 % |
-| **AAPL** Apple | 6,588 | 325,13 $ | 1 849,34 € | +0,2 % | 20 % |
-| **MSFT** Microsoft | 3,630 | 501,02 $ | 1 570,30 € | +7,3 % | 17 % |
-| **USO** Pétrole WTI | 8,359 | 141,00 $ | 1 017,58 € | +9,0 % | 11 % |
+| **JPM** JPMorgan | 7,713 | 354,95 $ | 2 364,06 € | +0,6 % | 26 % |
+| **DBC** Panier mat. prem. | 71,098 | 31,93 $ | 1 960,24 € | +2,2 % | 21 % |
+| **AAPL** Apple | 6,588 | 325,13 $ | 1 849,66 € | +0,2 % | 20 % |
+| **MSFT** Microsoft | 3,630 | 501,02 $ | 1 570,57 € | +7,3 % | 17 % |
+| **USO** Pétrole WTI | 8,359 | 141,00 $ | 1 017,75 € | +9,0 % | 11 % |
 
 ## Signaux (classement momentum)
 
