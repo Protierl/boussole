@@ -1,48 +1,50 @@
 # 🧭 BOUSSOLE — bot 24h/24
 
-**SIMULATION · cours réels · capital fictif** — mis à jour le 02/09/2026 à 21:49 (Paris) · sources : directes
+**SIMULATION · cours réels · capital fictif** — mis à jour le 03/09/2026 à 00:40 (Paris) · sources : directes
 
-## 🔴 9 199,63 €
+## 🔴 9 193,63 €
 
-**-800,37 € (-8,0 %)** · jour -0,1 % depuis le 12/07/2026
+**-806,37 € (-8,1 %)** · jour -0,1 % depuis le 12/07/2026
 
 ![Courbe de performance](courbe.png)
 
 | Indicateur | Valeur | Indicateur | Valeur |
 |---|---|---|---|
-| Perf. annualisée | -44,1 % | Volatilité ann. | 11,2 % |
-| Drawdown max | -8,6 % | Sharpe | -3,56 |
-| Exposition | 83 % | Liquidités | 1 562,65 € |
-| Trades clôturés | 74 (27 % gagnants) | Frais cumulés | 255,53 € |
-| EUR/USD | 1,1587 | P&L réalisé | -992,25 € |
+| Perf. annualisée | -44,3 % | Volatilité ann. | 11,1 % |
+| Drawdown max | -8,6 % | Sharpe | -3,55 |
+| Exposition | 94 % | Liquidités | 561,62 € |
+| Trades clôturés | 75 (27 % gagnants) | Frais cumulés | 258,37 € |
+| EUR/USD | 1,1592 | P&L réalisé | -1 004,19 € |
 
 ## Positions
 
 | Actif | Qté | Cours | Valeur | P&L | Poids |
 |---|---|---|---|---|---|
-| **JPM** JPMorgan | 7,713 | 355,59 $ | 2 367,09 € | +0,8 % | 26 % |
-| **AAPL** Apple | 6,588 | 325,41 $ | 1 850,29 € | +0,3 % | 20 % |
-| **MSFT** Microsoft | 3,630 | 497,09 $ | 1 557,44 € | +6,4 % | 17 % |
-| **USO** Pétrole WTI | 8,359 | 141,34 $ | 1 019,72 € | +9,2 % | 11 % |
-| **NVDA** Nvidia | 4,354 | 224,21 $ | 842,44 € | -1,3 % | 9 % |
+| **JPM** JPMorgan | 7,713 | 356,22 $ | 2 370,26 € | +0,9 % | 26 % |
+| **AAPL** Apple | 6,588 | 324,96 $ | 1 846,94 € | +0,1 % | 20 % |
+| **DBC** Panier mat. prem. | 66,837 | 31,93 $ | 1 841,01 € | -0,1 % | 20 % |
+| **MSFT** Microsoft | 3,630 | 496,82 $ | 1 555,93 € | +6,3 % | 17 % |
+| **USO** Pétrole WTI | 8,359 | 141,15 $ | 1 017,87 € | +9,0 % | 11 % |
 
 ## Signaux (classement momentum)
 
 | # | Actif | Momentum | Tendance | Cible |
 |---|---|---|---|---|
-| 1 | **USO** Pétrole WTI | +27,4 % | ▲ | 9 % |
-| 2 | **MSFT** Microsoft | +19,5 % | ▲ | 17 % |
-| 3 | **JPM** JPMorgan | +18,5 % | ▲ | 25 % |
-| 4 | **DBC** Panier mat. prem. | +14,6 % | ▲ | 20 % |
-| 5 | **AAPL** Apple | +14,4 % | ▲ | 20 % |
-| 6 | **NVDA** Nvidia | +13,4 % | ▲ | — |
-| 7 | **AMZN** Amazon | +9,9 % | ▲ | — |
+| 1 | **USO** Pétrole WTI | +27,2 % | ▲ | 9 % |
+| 2 | **MSFT** Microsoft | +19,4 % | ▲ | 17 % |
+| 3 | **JPM** JPMorgan | +18,7 % | ▲ | 25 % |
+| 4 | **AAPL** Apple | +14,3 % | ▲ | 20 % |
+| 5 | **DBC** Panier mat. prem. | +13,8 % | ▲ | 20 % |
+| 6 | **NVDA** Nvidia | +13,5 % | ▲ | — |
+| 7 | **AMZN** Amazon | +9,8 % | ▲ | — |
 | 8 | **SPY** S&P 500 | +6,6 % | ▲ | — |
 
 ## Derniers ordres
 
 | Date | Sens | Actif | Montant | P&L | Raison |
 |---|---|---|---|---|---|
+| 03/09 00:40 | VENTE | **NVDA** | 842,83 € | -11,94 € | Sorti du Top 5 |
+| 03/09 00:40 | ACHAT | **DBC** | 1 841,01 € | — | Entrée momentum · rang 5 |
 | 02/09 18:37 | VENTE | **DBC** | 1 960,00 € | +40,16 € | Sorti du Top 5 |
 | 02/09 18:37 | ACHAT | **NVDA** | 852,77 € | — | Entrée momentum · rang 4 |
 | 01/09 16:56 | VENTE | **AMZN** | 1 419,90 € | -29,88 € | Filtre de tendance (< MM100) |
@@ -53,17 +55,15 @@
 | 31/08 22:08 | ACHAT | **NVDA** | 969,79 € | — | Entrée momentum · rang 5 |
 | 31/08 15:57 | VENTE | **AAPL** | 2 108,74 € | -21,23 € | Sorti du Top 5 |
 | 31/08 15:57 | ACHAT | **DBC** | 1 915,96 € | — | Entrée momentum · rang 5 |
-| 29/08 20:33 | VENTE | **DBC** | 2 097,57 € | -4,20 € | Sorti du Top 5 |
-| 29/08 20:33 | VENTE | **NVDA** | 952,90 € | -2,00 € | Sorti du Top 5 |
 
 ## Journal
 
+- `03/09 00:40` — 2 ordres exécutés
 - `02/09 18:37` — 2 ordres exécutés
 - `02/09 07:52` — Portefeuille déjà aligné — aucun ordre
 - `01/09 23:49` — Portefeuille déjà aligné — aucun ordre
 - `01/09 16:56` — 2 ordres exécutés
 - `01/09 07:14` — 2 ordres exécutés
-- `31/08 22:08` — 2 ordres exécutés
 
 ---
 _Stratégie : momentum 3 & 6 mois, filtre MM100, Top 5 pondéré inverse-volatilité (max 25 %/ligne), bande 4 %, frais 0,10 %/ordre (min 1 €), arbitrage au plus toutes les 6 h. Passage horaire via GitHub Actions._
