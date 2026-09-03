@@ -1,40 +1,40 @@
 # 🧭 BOUSSOLE — bot 24h/24
 
-**SIMULATION · cours réels · capital fictif** — mis à jour le 03/09/2026 à 21:52 (Paris) · sources : directes
+**SIMULATION · cours réels · capital fictif** — mis à jour le 04/09/2026 à 00:37 (Paris) · sources : directes
 
-## 🔴 9 277,12 €
+## 🔴 9 275,84 €
 
-**-722,88 € (-7,2 %)** · jour +0,8 % depuis le 12/07/2026
+**-724,16 € (-7,2 %)** · jour -0,0 % depuis le 12/07/2026
 
 ![Courbe de performance](courbe.png)
 
 | Indicateur | Valeur | Indicateur | Valeur |
 |---|---|---|---|
-| Perf. annualisée | -40,2 % | Volatilité ann. | 11,3 % |
-| Drawdown max | -8,6 % | Sharpe | -3,11 |
+| Perf. annualisée | -40,2 % | Volatilité ann. | 11,2 % |
+| Drawdown max | -8,6 % | Sharpe | -3,08 |
 | Exposition | 84 % | Liquidités | 1 488,58 € |
 | Trades clôturés | 76 (26 % gagnants) | Frais cumulés | 261,21 € |
-| EUR/USD | 1,1632 | P&L réalisé | -1 013,01 € |
+| EUR/USD | 1,1629 | P&L réalisé | -1 013,01 € |
 
 ## Positions
 
 | Actif | Qté | Cours | Valeur | P&L | Poids |
 |---|---|---|---|---|---|
-| **JPM** JPMorgan | 7,713 | 362,13 $ | 2 401,33 € | +2,2 % | 26 % |
-| **AAPL** Apple | 6,588 | 327,96 $ | 1 857,61 € | +0,7 % | 20 % |
-| **MSFT** Microsoft | 3,630 | 510,93 $ | 1 594,60 € | +9,0 % | 17 % |
-| **USO** Pétrole WTI | 8,359 | 142,01 $ | 1 020,55 € | +9,3 % | 11 % |
-| **NVDA** Nvidia | 4,645 | 229,01 $ | 914,45 € | +0,8 % | 10 % |
+| **JPM** JPMorgan | 7,713 | 362,06 $ | 2 401,46 € | +2,2 % | 26 % |
+| **AAPL** Apple | 6,588 | 328,21 $ | 1 859,47 € | +0,8 % | 20 % |
+| **MSFT** Microsoft | 3,630 | 510,12 $ | 1 592,49 € | +8,8 % | 17 % |
+| **USO** Pétrole WTI | 8,359 | 142,09 $ | 1 021,39 € | +9,4 % | 11 % |
+| **NVDA** Nvidia | 4,645 | 228,45 $ | 912,45 € | +0,6 % | 10 % |
 
 ## Signaux (classement momentum)
 
 | # | Actif | Momentum | Tendance | Cible |
 |---|---|---|---|---|
 | 1 | **USO** Pétrole WTI | +25,7 % | ▲ | 11 % |
-| 2 | **MSFT** Microsoft | +21,9 % | ▲ | 20 % |
+| 2 | **MSFT** Microsoft | +21,7 % | ▲ | 20 % |
 | 3 | **JPM** JPMorgan | +19,9 % | ▲ | 25 % |
-| 4 | **AAPL** Apple | +15,7 % | ▲ | 23 % |
-| 5 | **NVDA** Nvidia | +14,8 % | ▲ | 10 % |
+| 4 | **AAPL** Apple | +15,8 % | ▲ | 23 % |
+| 5 | **NVDA** Nvidia | +14,5 % | ▲ | 10 % |
 | 6 | **DBC** Panier mat. prem. | +13,7 % | ▲ | — |
 | 7 | **AMZN** Amazon | +10,1 % | ▲ | — |
 | 8 | **SPY** S&P 500 | +7,8 % | ▲ | — |
@@ -58,12 +58,12 @@
 
 ## Journal
 
+- `04/09 00:37` — Portefeuille déjà aligné — aucun ordre
 - `03/09 18:28` — 2 ordres exécutés
 - `03/09 07:51` — Portefeuille déjà aligné — aucun ordre
 - `03/09 00:40` — 2 ordres exécutés
 - `02/09 18:37` — 2 ordres exécutés
 - `02/09 07:52` — Portefeuille déjà aligné — aucun ordre
-- `01/09 23:49` — Portefeuille déjà aligné — aucun ordre
 
 ---
 _Stratégie : momentum 3 & 6 mois, filtre MM100, Top 5 pondéré inverse-volatilité (max 25 %/ligne), bande 4 %, frais 0,10 %/ordre (min 1 €), arbitrage au plus toutes les 6 h. Passage horaire via GitHub Actions._
