@@ -1,43 +1,43 @@
 # 🧭 BOUSSOLE — bot 24h/24
 
-**SIMULATION · cours réels · capital fictif** — mis à jour le 04/09/2026 à 21:38 (Paris) · sources : directes
+**SIMULATION · cours réels · capital fictif** — mis à jour le 05/09/2026 à 00:22 (Paris) · sources : directes
 
-## 🔴 9 188,56 €
+## 🔴 9 185,94 €
 
-**-811,44 € (-8,1 %)** · jour -1,0 % depuis le 12/07/2026
+**-814,06 € (-8,1 %)** · jour -0,0 % depuis le 12/07/2026
 
 ![Courbe de performance](courbe.png)
 
 | Indicateur | Valeur | Indicateur | Valeur |
 |---|---|---|---|
-| Perf. annualisée | -43,4 % | Volatilité ann. | 11,4 % |
-| Drawdown max | -8,6 % | Sharpe | -3,43 |
+| Perf. annualisée | -43,4 % | Volatilité ann. | 11,3 % |
+| Drawdown max | -8,6 % | Sharpe | -3,41 |
 | Exposition | 84 % | Liquidités | 1 488,58 € |
 | Trades clôturés | 76 (26 % gagnants) | Frais cumulés | 261,21 € |
-| EUR/USD | 1,1617 | P&L réalisé | -1 013,01 € |
+| EUR/USD | 1,1621 | P&L réalisé | -1 013,01 € |
 
 ## Positions
 
 | Actif | Qté | Cours | Valeur | P&L | Poids |
 |---|---|---|---|---|---|
-| **JPM** JPMorgan | 7,713 | 357,72 $ | 2 375,12 € | +1,1 % | 26 % |
-| **AAPL** Apple | 6,588 | 321,37 $ | 1 822,60 € | -1,2 % | 20 % |
-| **MSFT** Microsoft | 3,630 | 499,69 $ | 1 561,53 € | +6,7 % | 17 % |
-| **USO** Pétrole WTI | 8,359 | 142,07 $ | 1 022,30 € | +9,5 % | 11 % |
-| **NVDA** Nvidia | 4,645 | 229,71 $ | 918,43 € | +1,3 % | 10 % |
+| **JPM** JPMorgan | 7,713 | 358,64 $ | 2 380,41 € | +1,3 % | 26 % |
+| **AAPL** Apple | 6,588 | 319,97 $ | 1 814,04 € | -1,7 % | 20 % |
+| **MSFT** Microsoft | 3,630 | 499,70 $ | 1 561,04 € | +6,7 % | 17 % |
+| **USO** Pétrole WTI | 8,359 | 141,96 $ | 1 021,16 € | +9,4 % | 11 % |
+| **NVDA** Nvidia | 4,645 | 230,36 $ | 920,71 € | +1,5 % | 10 % |
 
 ## Signaux (classement momentum)
 
 | # | Actif | Momentum | Tendance | Cible |
 |---|---|---|---|---|
 | 1 | **MSFT** Microsoft | +21,1 % | ▲ | 20 % |
-| 2 | **NVDA** Nvidia | +20,6 % | ▲ | 10 % |
-| 3 | **JPM** JPMorgan | +19,0 % | ▲ | 25 % |
-| 4 | **USO** Pétrole WTI | +18,7 % | ▲ | 12 % |
-| 5 | **AAPL** Apple | +14,7 % | ▲ | 22 % |
-| 6 | **AMZN** Amazon | +13,1 % | ▲ | — |
-| 7 | **EEM** Marchés émergents | +12,8 % | ▲ | — |
-| 8 | **DBC** Panier mat. prem. | +12,7 % | ▲ | — |
+| 2 | **NVDA** Nvidia | +20,9 % | ▲ | 10 % |
+| 3 | **JPM** JPMorgan | +19,4 % | ▲ | 25 % |
+| 4 | **USO** Pétrole WTI | +18,6 % | ▲ | 12 % |
+| 5 | **AAPL** Apple | +14,2 % | ▲ | 22 % |
+| 6 | **AMZN** Amazon | +13,2 % | ▲ | — |
+| 7 | **EEM** Marchés émergents | +13,1 % | ▲ | — |
+| 8 | **DBC** Panier mat. prem. | +12,5 % | ▲ | — |
 
 ## Derniers ordres
 
