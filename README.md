@@ -1,30 +1,30 @@
 # 🧭 BOUSSOLE — bot 24h/24
 
-**SIMULATION · cours réels · capital fictif** — mis à jour le 04/09/2026 à 00:37 (Paris) · sources : directes
+**SIMULATION · cours réels · capital fictif** — mis à jour le 04/09/2026 à 03:01 (Paris) · sources : directes
 
-## 🔴 9 275,84 €
+## 🔴 9 273,84 €
 
-**-724,16 € (-7,2 %)** · jour -0,0 % depuis le 12/07/2026
+**-726,16 € (-7,3 %)** · jour -0,0 % depuis le 12/07/2026
 
 ![Courbe de performance](courbe.png)
 
 | Indicateur | Valeur | Indicateur | Valeur |
 |---|---|---|---|
 | Perf. annualisée | -40,2 % | Volatilité ann. | 11,2 % |
-| Drawdown max | -8,6 % | Sharpe | -3,08 |
+| Drawdown max | -8,6 % | Sharpe | -3,09 |
 | Exposition | 84 % | Liquidités | 1 488,58 € |
 | Trades clôturés | 76 (26 % gagnants) | Frais cumulés | 261,21 € |
-| EUR/USD | 1,1629 | P&L réalisé | -1 013,01 € |
+| EUR/USD | 1,1632 | P&L réalisé | -1 013,01 € |
 
 ## Positions
 
 | Actif | Qté | Cours | Valeur | P&L | Poids |
 |---|---|---|---|---|---|
-| **JPM** JPMorgan | 7,713 | 362,06 $ | 2 401,46 € | +2,2 % | 26 % |
-| **AAPL** Apple | 6,588 | 328,21 $ | 1 859,47 € | +0,8 % | 20 % |
-| **MSFT** Microsoft | 3,630 | 510,12 $ | 1 592,49 € | +8,8 % | 17 % |
-| **USO** Pétrole WTI | 8,359 | 142,09 $ | 1 021,39 € | +9,4 % | 11 % |
-| **NVDA** Nvidia | 4,645 | 228,45 $ | 912,45 € | +0,6 % | 10 % |
+| **JPM** JPMorgan | 7,713 | 362,06 $ | 2 400,84 € | +2,2 % | 26 % |
+| **AAPL** Apple | 6,588 | 328,21 $ | 1 858,99 € | +0,7 % | 20 % |
+| **MSFT** Microsoft | 3,630 | 510,12 $ | 1 592,08 € | +8,8 % | 17 % |
+| **USO** Pétrole WTI | 8,359 | 142,09 $ | 1 021,12 € | +9,4 % | 11 % |
+| **NVDA** Nvidia | 4,645 | 228,45 $ | 912,21 € | +0,6 % | 10 % |
 
 ## Signaux (classement momentum)
 
