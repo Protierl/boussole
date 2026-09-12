@@ -1,6 +1,6 @@
 # 🧭 BOUSSOLE — bot 24h/24
 
-**SIMULATION · cours réels · capital fictif** — mis à jour le 12/09/2026 à 03:09 (Paris) · sources : directes
+**SIMULATION · cours réels · capital fictif** — mis à jour le 12/09/2026 à 07:50 (Paris) · sources : directes
 
 ## 🔴 9 228,93 €
 
@@ -10,7 +10,7 @@
 
 | Indicateur | Valeur | Indicateur | Valeur |
 |---|---|---|---|
-| Perf. annualisée | -37,9 % | Volatilité ann. | 10,9 % |
+| Perf. annualisée | -37,8 % | Volatilité ann. | 10,9 % |
 | Drawdown max | -9,0 % | Sharpe | -2,94 |
 | Exposition | 98 % | Liquidités | 229,55 € |
 | Trades clôturés | 82 (26 % gagnants) | Frais cumulés | 281,92 € |
@@ -30,14 +30,14 @@
 
 | # | Actif | Momentum | Tendance | Cible |
 |---|---|---|---|---|
-| 1 | **USO** Pétrole WTI | +25,5 % | ▲ | 10 % |
-| 2 | **MSFT** Microsoft | +25,2 % | ▲ | 19 % |
-| 3 | **AAPL** Apple | +21,2 % | ▲ | 17 % |
-| 4 | **JPM** JPMorgan | +19,8 % | ▲ | 25 % |
-| 5 | **DBC** Panier mat. prem. | +14,9 % | ▲ | 23 % |
-| 6 | **AMZN** Amazon | +14,4 % | ▲ | — |
-| 7 | **NVDA** Nvidia | +12,9 % | ▲ | — |
-| 8 | **EEM** Marchés émergents | +9,8 % | ▲ | — |
+| 1 | **USO** Pétrole WTI | +26,3 % | ▲ | 10 % |
+| 2 | **MSFT** Microsoft | +26,1 % | ▲ | 19 % |
+| 3 | **AAPL** Apple | +23,5 % | ▲ | 17 % |
+| 4 | **JPM** JPMorgan | +18,4 % | ▲ | 25 % |
+| 5 | **DBC** Panier mat. prem. | +15,8 % | ▲ | 23 % |
+| 6 | **AMZN** Amazon | +15,6 % | ▲ | — |
+| 7 | **NVDA** Nvidia | +13,7 % | ▲ | — |
+| 8 | **META** Meta | +9,9 % | ▲ | — |
 
 ## Derniers ordres
 
@@ -58,12 +58,12 @@
 
 ## Journal
 
+- `12/09 07:50` — Portefeuille déjà aligné — aucun ordre
 - `12/09 00:37` — Portefeuille déjà aligné — aucun ordre
 - `11/09 18:31` — Portefeuille déjà aligné — aucun ordre
 - `11/09 08:02` — Portefeuille déjà aligné — aucun ordre
 - `10/09 21:44` — 2 ordres exécutés
 - `10/09 13:24` — 2 ordres exécutés
-- `10/09 03:06` — 2 ordres exécutés
 
 ---
 _Stratégie : momentum 3 & 6 mois, filtre MM100, Top 5 pondéré inverse-volatilité (max 25 %/ligne), bande 4 %, frais 0,10 %/ordre (min 1 €), arbitrage au plus toutes les 6 h. Passage horaire via GitHub Actions._
