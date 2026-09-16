@@ -1,43 +1,43 @@
 # 🧭 BOUSSOLE — bot 24h/24
 
-**SIMULATION · cours réels · capital fictif** — mis à jour le 16/09/2026 à 19:01 (Paris) · sources : directes
+**SIMULATION · cours réels · capital fictif** — mis à jour le 16/09/2026 à 22:10 (Paris) · sources : directes
 
-## 🔴 9 256,87 €
+## 🔴 9 275,65 €
 
-**-743,13 € (-7,4 %)** · jour -0,8 % depuis le 12/07/2026
+**-724,35 € (-7,2 %)** · jour -0,6 % depuis le 12/07/2026
 
 ![Courbe de performance](courbe.png)
 
 | Indicateur | Valeur | Indicateur | Valeur |
 |---|---|---|---|
-| Perf. annualisée | -34,7 % | Volatilité ann. | 10,9 % |
-| Drawdown max | -9,0 % | Sharpe | -2,67 |
+| Perf. annualisée | -33,9 % | Volatilité ann. | 10,8 % |
+| Drawdown max | -9,0 % | Sharpe | -2,61 |
 | Exposition | 98 % | Liquidités | 229,55 € |
 | Trades clôturés | 82 (26 % gagnants) | Frais cumulés | 281,92 € |
-| EUR/USD | 1,1537 | P&L réalisé | -1 129,11 € |
+| EUR/USD | 1,1472 | P&L réalisé | -1 129,11 € |
 
 ## Positions
 
 | Actif | Qté | Cours | Valeur | P&L | Poids |
 |---|---|---|---|---|---|
-| **JPM** JPMorgan | 7,713 | 349,95 $ | 2 339,64 € | -0,4 % | 25 % |
-| **DBC** Panier mat. prem. | 80,950 | 33,33 $ | 2 338,62 € | +2,6 % | 25 % |
-| **AAPL** Apple | 5,763 | 332,41 $ | 1 660,51 € | +2,7 % | 18 % |
-| **MSFT** Microsoft | 3,630 | 493,33 $ | 1 552,36 € | +6,1 % | 17 % |
-| **USO** Pétrole WTI | 8,359 | 156,81 $ | 1 136,19 € | +21,7 % | 12 % |
+| **JPM** JPMorgan | 7,713 | 349,08 $ | 2 347,05 € | -0,1 % | 25 % |
+| **DBC** Panier mat. prem. | 80,950 | 33,16 $ | 2 339,52 € | +2,6 % | 25 % |
+| **AAPL** Apple | 5,763 | 332,41 $ | 1 669,92 € | +3,3 % | 18 % |
+| **MSFT** Microsoft | 3,630 | 490,30 $ | 1 551,57 € | +6,0 % | 17 % |
+| **USO** Pétrole WTI | 8,359 | 156,18 $ | 1 138,04 € | +21,9 % | 12 % |
 
 ## Signaux (classement momentum)
 
 | # | Actif | Momentum | Tendance | Cible |
 |---|---|---|---|---|
-| 1 | **USO** Pétrole WTI | +33,9 % | ▲ | 10 % |
-| 2 | **MSFT** Microsoft | +24,4 % | ▲ | 20 % |
+| 1 | **USO** Pétrole WTI | +33,3 % | ▲ | 10 % |
+| 2 | **MSFT** Microsoft | +23,6 % | ▲ | 20 % |
 | 3 | **AAPL** Apple | +20,9 % | ▲ | 18 % |
-| 4 | **DBC** Panier mat. prem. | +17,7 % | ▲ | 23 % |
-| 5 | **JPM** JPMorgan | +13,8 % | ▲ | 25 % |
-| 6 | **NVDA** Nvidia | +11,3 % | ▲ | — |
-| 7 | **META** Meta | +10,6 % | ▲ | — |
-| 8 | **AMZN** Amazon | +7,9 % | ▽ | — |
+| 4 | **DBC** Panier mat. prem. | +17,1 % | ▲ | 22 % |
+| 5 | **JPM** JPMorgan | +13,5 % | ▲ | 25 % |
+| 6 | **NVDA** Nvidia | +10,4 % | ▲ | — |
+| 7 | **META** Meta | +10,2 % | ▲ | — |
+| 8 | **AMZN** Amazon | +7,1 % | ▽ | — |
 
 ## Derniers ordres
 
@@ -58,12 +58,12 @@
 
 ## Journal
 
+- `16/09 22:10` — Portefeuille déjà aligné — aucun ordre
 - `16/09 13:40` — Portefeuille déjà aligné — aucun ordre
 - `16/09 02:24` — Portefeuille déjà aligné — aucun ordre
 - `15/09 20:14` — Portefeuille déjà aligné — aucun ordre
 - `15/09 09:48` — Portefeuille déjà aligné — aucun ordre
 - `15/09 01:10` — Portefeuille déjà aligné — aucun ordre
-- `14/09 16:07` — Portefeuille déjà aligné — aucun ordre
 
 ---
 _Stratégie : momentum 3 & 6 mois, filtre MM100, Top 5 pondéré inverse-volatilité (max 25 %/ligne), bande 4 %, frais 0,10 %/ordre (min 1 €), arbitrage au plus toutes les 6 h. Passage horaire via GitHub Actions._
