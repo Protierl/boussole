@@ -1,6 +1,6 @@
 # 🧭 BOUSSOLE — bot 24h/24
 
-**SIMULATION · cours réels · capital fictif** — mis à jour le 19/09/2026 à 03:13 (Paris) · sources : directes
+**SIMULATION · cours réels · capital fictif** — mis à jour le 19/09/2026 à 07:57 (Paris) · sources : directes
 
 ## 🔴 9 256,36 €
 
@@ -30,14 +30,14 @@
 
 | # | Actif | Momentum | Tendance | Cible |
 |---|---|---|---|---|
-| 1 | **USO** Pétrole WTI | +32,5 % | ▲ | 12 % |
-| 2 | **MSFT** Microsoft | +28,5 % | ▲ | 23 % |
-| 3 | **AAPL** Apple | +23,9 % | ▲ | 24 % |
-| 4 | **DBC** Panier mat. prem. | +16,7 % | ▲ | 25 % |
-| 5 | **NVDA** Nvidia | +15,0 % | ▲ | 11 % |
-| 6 | **JPM** JPMorgan | +14,5 % | ▲ | — |
-| 7 | **AMZN** Amazon | +12,7 % | ▽ | — |
-| 8 | **META** Meta | +12,5 % | ▲ | — |
+| 1 | **MSFT** Microsoft | +31,9 % | ▲ | 23 % |
+| 2 | **USO** Pétrole WTI | +31,6 % | ▲ | 12 % |
+| 3 | **AAPL** Apple | +24,4 % | ▲ | 24 % |
+| 4 | **NVDA** Nvidia | +17,6 % | ▲ | 11 % |
+| 5 | **DBC** Panier mat. prem. | +17,0 % | ▲ | 25 % |
+| 6 | **AMZN** Amazon | +16,3 % | ▽ | — |
+| 7 | **META** Meta | +15,1 % | ▲ | — |
+| 8 | **JPM** JPMorgan | +13,8 % | ▲ | — |
 
 ## Derniers ordres
 
@@ -58,12 +58,12 @@
 
 ## Journal
 
+- `19/09 07:57` — Portefeuille déjà aligné — aucun ordre
 - `18/09 21:39` — 3 ordres exécutés
 - `18/09 13:20` — Portefeuille déjà aligné — aucun ordre
 - `18/09 02:23` — Portefeuille déjà aligné — aucun ordre
 - `17/09 20:17` — Portefeuille déjà aligné — aucun ordre
 - `17/09 09:43` — 3 ordres exécutés
-- `16/09 22:10` — Portefeuille déjà aligné — aucun ordre
 
 ---
 _Stratégie : momentum 3 & 6 mois, filtre MM100, Top 5 pondéré inverse-volatilité (max 25 %/ligne), bande 4 %, frais 0,10 %/ordre (min 1 €), arbitrage au plus toutes les 6 h. Passage horaire via GitHub Actions._
