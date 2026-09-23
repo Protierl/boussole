@@ -1,30 +1,30 @@
 # 🧭 BOUSSOLE — bot 24h/24
 
-**SIMULATION · cours réels · capital fictif** — mis à jour le 23/09/2026 à 00:13 (Paris) · sources : directes
+**SIMULATION · cours réels · capital fictif** — mis à jour le 23/09/2026 à 02:38 (Paris) · sources : directes
 
-## 🔴 9 305,00 €
+## 🔴 9 306,40 €
 
-**-695,00 € (-6,9 %)** · jour -0,3 % depuis le 12/07/2026
+**-693,60 € (-6,9 %)** · jour -0,3 % depuis le 12/07/2026
 
 ![Courbe de performance](courbe.png)
 
 | Indicateur | Valeur | Indicateur | Valeur |
 |---|---|---|---|
 | Perf. annualisée | -30,4 % | Volatilité ann. | 10,6 % |
-| Drawdown max | -9,0 % | Sharpe | -2,30 |
+| Drawdown max | -9,0 % | Sharpe | -2,29 |
 | Exposition | 86 % | Liquidités | 1 320,58 € |
 | Trades clôturés | 85 (26 % gagnants) | Frais cumulés | 294,22 € |
-| EUR/USD | 1,1452 | P&L réalisé | -1 133,13 € |
+| EUR/USD | 1,1450 | P&L réalisé | -1 133,13 € |
 
 ## Positions
 
 | Actif | Qté | Cours | Valeur | P&L | Poids |
 |---|---|---|---|---|---|
-| **AAPL** Apple | 7,432 | 339,75 $ | 2 204,93 € | +4,7 % | 24 % |
-| **MSFT** Microsoft | 4,876 | 498,00 $ | 2 120,29 € | +6,2 % | 23 % |
-| **META** Meta | 2,387 | 736,60 $ | 1 535,11 € | +3,4 % | 16 % |
-| **NVDA** Nvidia | 5,366 | 228,87 $ | 1 072,39 € | +4,4 % | 12 % |
-| **USO** Pétrole WTI | 8,359 | 144,08 $ | 1 051,70 € | +12,7 % | 11 % |
+| **AAPL** Apple | 7,432 | 339,75 $ | 2 205,32 € | +4,8 % | 24 % |
+| **MSFT** Microsoft | 4,876 | 498,00 $ | 2 120,66 € | +6,2 % | 23 % |
+| **META** Meta | 2,387 | 736,60 $ | 1 535,38 € | +3,5 % | 16 % |
+| **NVDA** Nvidia | 5,366 | 228,87 $ | 1 072,57 € | +4,4 % | 12 % |
+| **USO** Pétrole WTI | 8,359 | 144,08 $ | 1 051,88 € | +12,7 % | 11 % |
 
 ## Signaux (classement momentum)
 
