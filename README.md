@@ -1,6 +1,6 @@
 # 🧭 BOUSSOLE — bot 24h/24
 
-**SIMULATION · cours réels · capital fictif** — mis à jour le 26/09/2026 à 00:24 (Paris) · sources : directes
+**SIMULATION · cours réels · capital fictif** — mis à jour le 26/09/2026 à 03:36 (Paris) · sources : directes
 
 ## 🔴 9 495,62 €
 
@@ -10,7 +10,7 @@
 
 | Indicateur | Valeur | Indicateur | Valeur |
 |---|---|---|---|
-| Perf. annualisée | -22,2 % | Volatilité ann. | 10,6 % |
+| Perf. annualisée | -22,1 % | Volatilité ann. | 10,6 % |
 | Drawdown max | -9,0 % | Sharpe | -1,57 |
 | Exposition | 86 % | Liquidités | 1 315,10 € |
 | Trades clôturés | 88 (28 % gagnants) | Frais cumulés | 302,73 € |
@@ -30,14 +30,14 @@
 
 | # | Actif | Momentum | Tendance | Cible |
 |---|---|---|---|---|
-| 1 | **MSFT** Microsoft | +39,7 % | ▲ | 25 % |
-| 2 | **META** Meta | +36,9 % | ▲ | 12 % |
-| 3 | **USO** Pétrole WTI | +33,6 % | ▲ | 14 % |
-| 4 | **AAPL** Apple | +27,5 % | ▲ | 25 % |
-| 5 | **NVDA** Nvidia | +24,2 % | ▲ | 19 % |
-| 6 | **DBC** Panier mat. prem. | +18,7 % | ▲ | — |
-| 7 | **QQQ** Nasdaq 100 | +17,6 % | ▲ | — |
-| 8 | **AMZN** Amazon | +13,8 % | ▽ | — |
+| 1 | **MSFT** Microsoft | +42,4 % | ▲ | 24 % |
+| 2 | **META** Meta | +38,3 % | ▲ | 11 % |
+| 3 | **AAPL** Apple | +29,1 % | ▲ | 25 % |
+| 4 | **USO** Pétrole WTI | +29,0 % | ▲ | 13 % |
+| 5 | **NVDA** Nvidia | +24,9 % | ▲ | 22 % |
+| 6 | **QQQ** Nasdaq 100 | +17,6 % | ▲ | — |
+| 7 | **DBC** Panier mat. prem. | +17,5 % | ▲ | — |
+| 8 | **AMZN** Amazon | +14,6 % | ▽ | — |
 
 ## Derniers ordres
 
@@ -58,12 +58,12 @@
 
 ## Journal
 
+- `26/09 03:36` — Portefeuille déjà aligné — aucun ordre
 - `25/09 20:39` — Portefeuille déjà aligné — aucun ordre
 - `25/09 09:52` — Portefeuille déjà aligné — aucun ordre
 - `25/09 03:33` — 2 ordres exécutés
 - `24/09 21:13` — 3 ordres exécutés
 - `24/09 12:04` — Portefeuille déjà aligné — aucun ordre
-- `24/09 01:44` — Portefeuille déjà aligné — aucun ordre
 
 ---
 _Stratégie : momentum 3 & 6 mois, filtre MM100, Top 5 pondéré inverse-volatilité (max 25 %/ligne), bande 4 %, frais 0,10 %/ordre (min 1 €), arbitrage au plus toutes les 6 h. Passage horaire via GitHub Actions._
