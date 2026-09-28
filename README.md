@@ -1,10 +1,10 @@
 # 🧭 BOUSSOLE — bot 24h/24
 
-**SIMULATION · cours réels · capital fictif** — mis à jour le 28/09/2026 à 00:15 (Paris) · sources : directes
+**SIMULATION · cours réels · capital fictif** — mis à jour le 28/09/2026 à 02:52 (Paris) · sources : directes
 
-## 🔴 9 499,21 €
+## 🔴 9 498,49 €
 
-**-500,79 € (-5,0 %)** · jour +0,1 % depuis le 12/07/2026
+**-501,51 € (-5,0 %)** · jour +0,1 % depuis le 12/07/2026
 
 ![Courbe de performance](courbe.png)
 
@@ -14,17 +14,17 @@
 | Drawdown max | -9,0 % | Sharpe | -1,54 |
 | Exposition | 86 % | Liquidités | 1 315,10 € |
 | Trades clôturés | 88 (28 % gagnants) | Frais cumulés | 302,73 € |
-| EUR/USD | 1,1387 | P&L réalisé | -1 047,04 € |
+| EUR/USD | 1,1388 | P&L réalisé | -1 047,04 € |
 
 ## Positions
 
 | Actif | Qté | Cours | Valeur | P&L | Poids |
 |---|---|---|---|---|---|
-| **AAPL** Apple | 7,432 | 341,07 $ | 2 226,14 € | +5,7 % | 23 % |
-| **MSFT** Microsoft | 4,876 | 516,17 $ | 2 210,20 € | +10,7 % | 23 % |
-| **NVDA** Nvidia | 8,650 | 225,07 $ | 1 709,68 € | +0,0 % | 18 % |
-| **USO** Pétrole WTI | 8,359 | 148,33 $ | 1 088,90 € | +16,7 % | 11 % |
-| **META** Meta | 1,438 | 751,66 $ | 949,19 € | +6,2 % | 10 % |
+| **AAPL** Apple | 7,432 | 341,07 $ | 2 225,94 € | +5,7 % | 23 % |
+| **MSFT** Microsoft | 4,876 | 516,17 $ | 2 210,01 € | +10,7 % | 23 % |
+| **NVDA** Nvidia | 8,650 | 225,07 $ | 1 709,53 € | +0,0 % | 18 % |
+| **USO** Pétrole WTI | 8,359 | 148,33 $ | 1 088,81 € | +16,6 % | 11 % |
+| **META** Meta | 1,438 | 751,66 $ | 949,10 € | +6,1 % | 10 % |
 
 ## Signaux (classement momentum)
 
@@ -58,12 +58,12 @@
 
 ## Journal
 
+- `28/09 02:52` — Portefeuille déjà aligné — aucun ordre
 - `27/09 20:27` — Portefeuille déjà aligné — aucun ordre
 - `27/09 10:15` — Portefeuille déjà aligné — aucun ordre
 - `27/09 03:30` — Portefeuille déjà aligné — aucun ordre
 - `26/09 19:12` — Portefeuille déjà aligné — aucun ordre
 - `26/09 09:46` — Portefeuille déjà aligné — aucun ordre
-- `26/09 03:36` — Portefeuille déjà aligné — aucun ordre
 
 ---
 _Stratégie : momentum 3 & 6 mois, filtre MM100, Top 5 pondéré inverse-volatilité (max 25 %/ligne), bande 4 %, frais 0,10 %/ordre (min 1 €), arbitrage au plus toutes les 6 h. Passage horaire via GitHub Actions._
