@@ -1,44 +1,44 @@
 # 🧭 BOUSSOLE — bot 24h/24
 
-**SIMULATION · cours réels · capital fictif** — mis à jour le 29/09/2026 à 17:55 (Paris) · sources : directes
+**SIMULATION · cours réels · capital fictif** — mis à jour le 29/09/2026 à 22:50 (Paris) · sources : directes
 
-## 🔴 9 405,72 €
+## 🔴 9 384,36 €
 
-**-594,28 € (-5,9 %)** · jour -1,1 % depuis le 12/07/2026
+**-615,64 € (-6,2 %)** · jour -1,4 % depuis le 12/07/2026
 
 ![Courbe de performance](courbe.png)
 
 | Indicateur | Valeur | Indicateur | Valeur |
 |---|---|---|---|
-| Perf. annualisée | -24,6 % | Volatilité ann. | 10,6 % |
-| Drawdown max | -9,0 % | Sharpe | -1,80 |
+| Perf. annualisée | -25,3 % | Volatilité ann. | 10,7 % |
+| Drawdown max | -9,0 % | Sharpe | -1,85 |
 | Exposition | 100 % | Liquidités | 1,00 € |
 | Trades clôturés | 88 (28 % gagnants) | Frais cumulés | 304,04 € |
-| EUR/USD | 1,1337 | P&L réalisé | -1 047,04 € |
+| EUR/USD | 1,1346 | P&L réalisé | -1 047,04 € |
 
 ## Positions
 
 | Actif | Qté | Cours | Valeur | P&L | Poids |
 |---|---|---|---|---|---|
-| **MSFT** Microsoft | 4,876 | 509,52 $ | 2 191,35 € | +9,8 % | 23 % |
-| **AAPL** Apple | 7,432 | 331,12 $ | 2 170,73 € | +3,1 % | 23 % |
-| **NVDA** Nvidia | 8,650 | 230,29 $ | 1 757,05 € | +2,8 % | 19 % |
-| **QQQ** Nasdaq 100 | 2,020 | 736,78 $ | 1 312,79 € | -0,1 % | 14 % |
-| **USO** Pétrole WTI | 8,359 | 144,08 $ | 1 062,37 € | +13,8 % | 11 % |
-| **META** Meta | 1,438 | 717,81 $ | 910,44 € | +1,8 % | 10 % |
+| **MSFT** Microsoft | 4,876 | 508,96 $ | 2 187,20 € | +9,6 % | 23 % |
+| **AAPL** Apple | 7,432 | 329,40 $ | 2 157,74 € | +2,5 % | 23 % |
+| **NVDA** Nvidia | 8,650 | 227,21 $ | 1 732,18 € | +1,4 % | 18 % |
+| **QQQ** Nasdaq 100 | 2,020 | 737,93 $ | 1 313,79 € | -0,0 % | 14 % |
+| **USO** Pétrole WTI | 8,359 | 143,35 $ | 1 056,15 € | +13,1 % | 11 % |
+| **META** Meta | 1,438 | 738,79 $ | 936,31 € | +4,7 % | 10 % |
 
 ## Signaux (classement momentum)
 
 | # | Actif | Momentum | Tendance | Cible |
 |---|---|---|---|---|
-| 1 | **MSFT** Microsoft | +39,3 % | ▲ | 20 % |
-| 2 | **META** Meta | +30,6 % | ▲ | 9 % |
-| 3 | **USO** Pétrole WTI | +29,9 % | ▲ | — |
-| 4 | **NVDA** Nvidia | +27,3 % | ▲ | 18 % |
-| 5 | **AAPL** Apple | +24,3 % | ▲ | 21 % |
-| 6 | **QQQ** Nasdaq 100 | +16,0 % | ▲ | 25 % |
-| 7 | **DBC** Panier mat. prem. | +15,4 % | ▲ | — |
-| 8 | **AMZN** Amazon | +12,9 % | ▽ | — |
+| 1 | **MSFT** Microsoft | +39,1 % | ▲ | 25 % |
+| 2 | **META** Meta | +34,4 % | ▲ | 11 % |
+| 3 | **NVDA** Nvidia | +25,6 % | ▲ | 22 % |
+| 4 | **AAPL** Apple | +23,7 % | ▲ | 25 % |
+| 5 | **USO** Pétrole WTI | +22,5 % | ▲ | 13 % |
+| 6 | **QQQ** Nasdaq 100 | +16,2 % | ▲ | — |
+| 7 | **DBC** Panier mat. prem. | +14,7 % | ▲ | — |
+| 8 | **AMZN** Amazon | +13,1 % | ▽ | — |
 
 ## Derniers ordres
 
