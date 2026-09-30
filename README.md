@@ -1,43 +1,43 @@
 # 🧭 BOUSSOLE — bot 24h/24
 
-**SIMULATION · cours réels · capital fictif** — mis à jour le 30/09/2026 à 21:24 (Paris) · sources : directes
+**SIMULATION · cours réels · capital fictif** — mis à jour le 01/10/2026 à 01:53 (Paris) · sources : directes
 
-## 🔴 9 503,44 €
+## 🔴 9 444,20 €
 
-**-496,56 € (-5,0 %)** · jour +1,3 % depuis le 12/07/2026
+**-555,80 € (-5,6 %)** · jour -0,6 % depuis le 12/07/2026
 
 ![Courbe de performance](courbe.png)
 
 | Indicateur | Valeur | Indicateur | Valeur |
 |---|---|---|---|
-| Perf. annualisée | -20,7 % | Volatilité ann. | 10,9 % |
-| Drawdown max | -9,0 % | Sharpe | -1,43 |
+| Perf. annualisée | -22,8 % | Volatilité ann. | 10,9 % |
+| Drawdown max | -9,0 % | Sharpe | -1,59 |
 | Exposition | 86 % | Liquidités | 1 313,83 € |
 | Trades clôturés | 89 (28 % gagnants) | Frais cumulés | 305,35 € |
-| EUR/USD | 1,1334 | P&L réalisé | -1 048,31 € |
+| EUR/USD | 1,1330 | P&L réalisé | -1 048,31 € |
 
 ## Positions
 
 | Actif | Qté | Cours | Valeur | P&L | Poids |
 |---|---|---|---|---|---|
-| **MSFT** Microsoft | 4,876 | 517,38 $ | 2 225,72 € | +11,5 % | 23 % |
-| **AAPL** Apple | 7,432 | 335,52 $ | 2 200,15 € | +4,5 % | 23 % |
-| **NVDA** Nvidia | 8,650 | 230,65 $ | 1 760,23 € | +3,0 % | 19 % |
-| **USO** Pétrole WTI | 8,359 | 145,62 $ | 1 074,01 € | +15,1 % | 11 % |
-| **META** Meta | 1,438 | 732,65 $ | 929,51 € | +4,0 % | 10 % |
+| **MSFT** Microsoft | 4,876 | 512,90 $ | 2 207,25 € | +10,6 % | 23 % |
+| **AAPL** Apple | 7,432 | 333,02 $ | 2 184,53 € | +3,8 % | 23 % |
+| **NVDA** Nvidia | 8,650 | 228,38 $ | 1 743,56 € | +2,0 % | 18 % |
+| **USO** Pétrole WTI | 8,359 | 145,66 $ | 1 074,68 € | +15,1 % | 11 % |
+| **META** Meta | 1,438 | 725,18 $ | 920,36 € | +2,9 % | 10 % |
 
 ## Signaux (classement momentum)
 
 | # | Actif | Momentum | Tendance | Cible |
 |---|---|---|---|---|
-| 1 | **MSFT** Microsoft | +37,2 % | ▲ | 25 % |
-| 2 | **USO** Pétrole WTI | +27,7 % | ▲ | 14 % |
-| 3 | **NVDA** Nvidia | +24,5 % | ▲ | 22 % |
-| 4 | **META** Meta | +23,8 % | ▲ | 11 % |
-| 5 | **AAPL** Apple | +23,1 % | ▲ | 25 % |
-| 6 | **DBC** Panier mat. prem. | +17,0 % | ▲ | — |
-| 7 | **QQQ** Nasdaq 100 | +15,6 % | ▲ | — |
-| 8 | **AMZN** Amazon | +11,7 % | ▽ | — |
+| 1 | **MSFT** Microsoft | +36,0 % | ▲ | 25 % |
+| 2 | **USO** Pétrole WTI | +27,8 % | ▲ | 13 % |
+| 3 | **NVDA** Nvidia | +23,3 % | ▲ | 22 % |
+| 4 | **META** Meta | +22,5 % | ▲ | 10 % |
+| 5 | **AAPL** Apple | +22,2 % | ▲ | 25 % |
+| 6 | **DBC** Panier mat. prem. | +16,9 % | ▲ | — |
+| 7 | **QQQ** Nasdaq 100 | +15,1 % | ▲ | — |
+| 8 | **AMZN** Amazon | +11,4 % | ▽ | — |
 
 ## Derniers ordres
 
@@ -58,12 +58,12 @@
 
 ## Journal
 
+- `01/10 01:53` — Portefeuille déjà aligné — aucun ordre
 - `30/09 15:47` — Portefeuille déjà aligné — aucun ordre
 - `30/09 08:46` — Portefeuille déjà aligné — aucun ordre
 - `30/09 02:30` — 1 ordre exécuté
 - `29/09 17:55` — 1 ordre exécuté
 - `29/09 10:35` — Portefeuille déjà aligné — aucun ordre
-- `29/09 00:04` — Portefeuille déjà aligné — aucun ordre
 
 ---
 _Stratégie : momentum 3 & 6 mois, filtre MM100, Top 5 pondéré inverse-volatilité (max 25 %/ligne), bande 4 %, frais 0,10 %/ordre (min 1 €), arbitrage au plus toutes les 6 h. Passage horaire via GitHub Actions._
