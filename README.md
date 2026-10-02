@@ -1,48 +1,50 @@
 # 🧭 BOUSSOLE — bot 24h/24
 
-**SIMULATION · cours réels · capital fictif** — mis à jour le 02/10/2026 à 01:55 (Paris) · sources : directes
+**SIMULATION · cours réels · capital fictif** — mis à jour le 02/10/2026 à 07:43 (Paris) · sources : directes
 
-## 🔴 9 527,47 €
+## 🔴 9 519,53 €
 
-**-472,53 € (-4,7 %)** · jour -0,3 % depuis le 12/07/2026
+**-480,47 € (-4,8 %)** · jour -0,4 % depuis le 12/07/2026
 
 ![Courbe de performance](courbe.png)
 
 | Indicateur | Valeur | Indicateur | Valeur |
 |---|---|---|---|
-| Perf. annualisée | -19,5 % | Volatilité ann. | 10,8 % |
-| Drawdown max | -9,0 % | Sharpe | -1,33 |
-| Exposition | 94 % | Liquidités | 606,32 € |
-| Trades clôturés | 90 (29 % gagnants) | Frais cumulés | 310,92 € |
-| EUR/USD | 1,1250 | P&L réalisé | -981,72 € |
+| Perf. annualisée | -19,7 % | Volatilité ann. | 10,8 % |
+| Drawdown max | -9,0 % | Sharpe | -1,35 |
+| Exposition | 94 % | Liquidités | 606,42 € |
+| Trades clôturés | 91 (29 % gagnants) | Frais cumulés | 315,69 € |
+| EUR/USD | 1,1254 | P&L réalisé | -990,74 € |
 
 ## Positions
 
 | Actif | Qté | Cours | Valeur | P&L | Poids |
 |---|---|---|---|---|---|
-| **DBC** Panier mat. prem. | 81,989 | 32,75 $ | 2 386,79 € | -0,2 % | 25 % |
-| **NVDA** Nvidia | 11,058 | 230,86 $ | 2 269,27 € | +3,4 % | 24 % |
-| **MSFT** Microsoft | 4,876 | 512,80 $ | 2 222,51 € | +11,3 % | 23 % |
-| **USO** Pétrole WTI | 8,359 | 150,02 $ | 1 114,72 € | +19,4 % | 12 % |
-| **META** Meta | 1,438 | 725,93 $ | 927,86 € | +3,8 % | 10 % |
+| **AAPL** Apple | 8,112 | 330,32 $ | 2 381,08 € | -0,1 % | 25 % |
+| **NVDA** Nvidia | 11,058 | 230,86 $ | 2 268,46 € | +3,3 % | 24 % |
+| **MSFT** Microsoft | 4,876 | 512,80 $ | 2 221,72 € | +11,3 % | 23 % |
+| **USO** Pétrole WTI | 8,359 | 150,02 $ | 1 114,32 € | +19,4 % | 12 % |
+| **META** Meta | 1,438 | 725,93 $ | 927,53 € | +3,7 % | 10 % |
 
 ## Signaux (classement momentum)
 
 | # | Actif | Momentum | Tendance | Cible |
 |---|---|---|---|---|
-| 1 | **MSFT** Microsoft | +35,1 % | ▲ | 23 % |
-| 2 | **USO** Pétrole WTI | +32,6 % | ▲ | 12 % |
-| 3 | **META** Meta | +24,9 % | ▲ | 10 % |
-| 4 | **NVDA** Nvidia | +24,9 % | ▲ | 22 % |
-| 5 | **DBC** Panier mat. prem. | +18,7 % | ▲ | 25 % |
-| 6 | **AAPL** Apple | +18,1 % | ▲ | — |
-| 7 | **QQQ** Nasdaq 100 | +15,6 % | ▲ | — |
-| 8 | **AMZN** Amazon | +10,1 % | ▽ | — |
+| 1 | **MSFT** Microsoft | +35,0 % | ▲ | 25 % |
+| 2 | **USO** Pétrole WTI | +26,3 % | ▲ | 12 % |
+| 3 | **NVDA** Nvidia | +24,1 % | ▲ | 24 % |
+| 4 | **META** Meta | +23,6 % | ▲ | 10 % |
+| 5 | **AAPL** Apple | +17,4 % | ▲ | 25 % |
+| 6 | **DBC** Panier mat. prem. | +16,5 % | ▲ | — |
+| 7 | **QQQ** Nasdaq 100 | +14,8 % | ▲ | — |
+| 8 | **AMZN** Amazon | +10,0 % | ▽ | — |
 
 ## Derniers ordres
 
 | Date | Sens | Actif | Montant | P&L | Raison |
 |---|---|---|---|---|---|
+| 02/10 07:43 | VENTE | **DBC** | 2 385,94 € | -9,03 € | Sorti du Top 5 |
+| 02/10 07:43 | ACHAT | **AAPL** | 2 381,08 € | — | Entrée momentum · rang 5 |
 | 01/10 21:34 | VENTE | **AAPL** | 2 173,95 € | +66,59 € | Sorti du Top 5 |
 | 01/10 21:34 | ACHAT | **DBC** | 2 390,19 € | — | Entrée momentum · rang 5 |
 | 01/10 08:01 | ACHAT | **NVDA** | 485,70 € | — | Renforcement vers 24 % |
@@ -53,17 +55,15 @@
 | 24/09 21:13 | VENTE | **NVDA** | 1 056,86 € | +28,46 € | Sorti du Top 5 |
 | 24/09 21:13 | VENTE | **META** | 648,02 € | +57,07 € | Allègement vers 10 % |
 | 24/09 21:13 | ACHAT | **DBC** | 2 367,30 € | — | Entrée momentum · rang 5 |
-| 21/09 16:13 | VENTE | **DBC** | 2 298,09 € | +16,38 € | Sorti du Top 5 |
-| 21/09 16:13 | ACHAT | **META** | 1 482,62 € | — | Entrée momentum · rang 4 |
 
 ## Journal
 
+- `02/10 07:43` — 2 ordres exécutés
 - `01/10 21:34` — 2 ordres exécutés
 - `01/10 15:23` — Portefeuille déjà aligné — aucun ordre
 - `01/10 08:01` — 1 ordre exécuté
 - `01/10 01:53` — Portefeuille déjà aligné — aucun ordre
 - `30/09 15:47` — Portefeuille déjà aligné — aucun ordre
-- `30/09 08:46` — Portefeuille déjà aligné — aucun ordre
 
 ---
 _Stratégie : momentum 3 & 6 mois, filtre MM100, Top 5 pondéré inverse-volatilité (max 25 %/ligne), bande 4 %, frais 0,10 %/ordre (min 1 €), arbitrage au plus toutes les 6 h. Passage horaire via GitHub Actions._
