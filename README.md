@@ -1,6 +1,6 @@
 # 🧭 BOUSSOLE — bot 24h/24
 
-**SIMULATION · cours réels · capital fictif** — mis à jour le 03/10/2026 à 01:00 (Paris) · sources : directes
+**SIMULATION · cours réels · capital fictif** — mis à jour le 03/10/2026 à 04:02 (Paris) · sources : directes
 
 ## 🔴 9 575,35 €
 
@@ -30,14 +30,14 @@
 
 | # | Actif | Momentum | Tendance | Cible |
 |---|---|---|---|---|
-| 1 | **MSFT** Microsoft | +36,2 % | ▲ | 25 % |
-| 2 | **NVDA** Nvidia | +25,8 % | ▲ | 23 % |
-| 3 | **USO** Pétrole WTI | +24,0 % | ▲ | 12 % |
-| 4 | **META** Meta | +24,0 % | ▲ | 10 % |
-| 5 | **AAPL** Apple | +18,6 % | ▲ | 25 % |
-| 6 | **QQQ** Nasdaq 100 | +15,9 % | ▲ | — |
-| 7 | **DBC** Panier mat. prem. | +15,7 % | ▲ | — |
-| 8 | **AMZN** Amazon | +11,5 % | ▽ | — |
+| 1 | **MSFT** Microsoft | +35,9 % | ▲ | 25 % |
+| 2 | **NVDA** Nvidia | +25,2 % | ▲ | 23 % |
+| 3 | **META** Meta | +22,7 % | ▲ | 10 % |
+| 4 | **USO** Pétrole WTI | +20,7 % | ▲ | 12 % |
+| 5 | **AAPL** Apple | +18,2 % | ▲ | 25 % |
+| 6 | **QQQ** Nasdaq 100 | +16,5 % | ▲ | — |
+| 7 | **DBC** Panier mat. prem. | +14,7 % | ▲ | — |
+| 8 | **EEM** Marchés émergents | +10,7 % | ▲ | — |
 
 ## Derniers ordres
 
