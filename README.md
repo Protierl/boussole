@@ -1,17 +1,17 @@
 # 🧭 BOUSSOLE — bot 24h/24
 
-**SIMULATION · cours réels · capital fictif** — mis à jour le 03/10/2026 à 23:20 (Paris) · sources : directes
+**SIMULATION · cours réels · capital fictif** — mis à jour le 04/10/2026 à 02:41 (Paris) · sources : directes
 
 ## 🔴 9 575,35 €
 
-**-424,65 € (-4,2 %)** · jour +0,1 % depuis le 12/07/2026
+**-424,65 € (-4,2 %)** · jour +0,0 % depuis le 12/07/2026
 
 ![Courbe de performance](courbe.png)
 
 | Indicateur | Valeur | Indicateur | Valeur |
 |---|---|---|---|
-| Perf. annualisée | -17,3 % | Volatilité ann. | 10,8 % |
-| Drawdown max | -9,0 % | Sharpe | -1,18 |
+| Perf. annualisée | -17,3 % | Volatilité ann. | 10,7 % |
+| Drawdown max | -9,0 % | Sharpe | -1,17 |
 | Exposition | 94 % | Liquidités | 606,42 € |
 | Trades clôturés | 91 (29 % gagnants) | Frais cumulés | 315,69 € |
 | EUR/USD | 1,1257 | P&L réalisé | -990,74 € |
@@ -58,12 +58,12 @@
 
 ## Journal
 
+- `04/10 02:41` — Portefeuille déjà aligné — aucun ordre
 - `03/10 19:58` — Portefeuille déjà aligné — aucun ordre
 - `03/10 10:10` — Portefeuille déjà aligné — aucun ordre
 - `03/10 01:00` — Portefeuille déjà aligné — aucun ordre
 - `02/10 14:41` — Portefeuille déjà aligné — aucun ordre
 - `02/10 07:43` — 2 ordres exécutés
-- `01/10 21:34` — 2 ordres exécutés
 
 ---
 _Stratégie : momentum 3 & 6 mois, filtre MM100, Top 5 pondéré inverse-volatilité (max 25 %/ligne), bande 4 %, frais 0,10 %/ordre (min 1 €), arbitrage au plus toutes les 6 h. Passage horaire via GitHub Actions._
