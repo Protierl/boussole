@@ -1,6 +1,6 @@
 # 🧭 BOUSSOLE — bot 24h/24
 
-**SIMULATION · cours réels · capital fictif** — mis à jour le 10/10/2026 à 02:55 (Paris) · sources : directes
+**SIMULATION · cours réels · capital fictif** — mis à jour le 10/10/2026 à 09:12 (Paris) · sources : directes
 
 ## 🔴 9 705,38 €
 
@@ -10,7 +10,7 @@
 
 | Indicateur | Valeur | Indicateur | Valeur |
 |---|---|---|---|
-| Perf. annualisée | -11,5 % | Volatilité ann. | 10,6 % |
+| Perf. annualisée | -11,4 % | Volatilité ann. | 10,6 % |
 | Drawdown max | -9,0 % | Sharpe | -0,75 |
 | Exposition | 99 % | Liquidités | 57,28 € |
 | Trades clôturés | 97 (33 % gagnants) | Frais cumulés | 329,85 € |
@@ -30,14 +30,14 @@
 
 | # | Actif | Momentum | Tendance | Cible |
 |---|---|---|---|---|
-| 1 | **MSFT** Microsoft | +40,6 % | ▲ | 19 % |
-| 2 | **USO** Pétrole WTI | +22,3 % | ▲ | 10 % |
-| 3 | **AAPL** Apple | +17,7 % | ▲ | 25 % |
-| 4 | **NVDA** Nvidia | +17,1 % | ▲ | 17 % |
-| 5 | **DBC** Panier mat. prem. | +16,0 % | ▲ | 25 % |
-| 6 | **QQQ** Nasdaq 100 | +14,2 % | ▲ | — |
-| 7 | **META** Meta | +11,8 % | ▲ | — |
-| 8 | **SPY** S&P 500 | +9,3 % | ▲ | — |
+| 1 | **MSFT** Microsoft | +39,1 % | ▲ | 18 % |
+| 2 | **USO** Pétrole WTI | +19,3 % | ▲ | 10 % |
+| 3 | **AAPL** Apple | +18,4 % | ▲ | 25 % |
+| 4 | **NVDA** Nvidia | +14,7 % | ▲ | 19 % |
+| 5 | **DBC** Panier mat. prem. | +14,5 % | ▲ | 25 % |
+| 6 | **QQQ** Nasdaq 100 | +13,0 % | ▲ | — |
+| 7 | **META** Meta | +11,0 % | ▲ | — |
+| 8 | **SPY** S&P 500 | +8,5 % | ▲ | — |
 
 ## Derniers ordres
 
@@ -58,12 +58,12 @@
 
 ## Journal
 
+- `10/10 09:11` — Portefeuille déjà aligné — aucun ordre
 - `10/10 02:55` — Portefeuille déjà aligné — aucun ordre
 - `09/10 18:16` — Portefeuille déjà aligné — aucun ordre
 - `09/10 11:10` — Portefeuille déjà aligné — aucun ordre
 - `09/10 04:13` — Portefeuille déjà aligné — aucun ordre
 - `08/10 18:32` — Portefeuille déjà aligné — aucun ordre
-- `08/10 11:02` — Portefeuille déjà aligné — aucun ordre
 
 ---
 _Stratégie : momentum 3 & 6 mois, filtre MM100, Top 5 pondéré inverse-volatilité (max 25 %/ligne), bande 4 %, frais 0,10 %/ordre (min 1 €), arbitrage au plus toutes les 6 h. Passage horaire via GitHub Actions._
