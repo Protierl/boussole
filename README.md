@@ -1,6 +1,6 @@
 # 🧭 BOUSSOLE — bot 24h/24
 
-**SIMULATION · cours réels · capital fictif** — mis à jour le 17/10/2026 à 01:39 (Paris) · sources : directes
+**SIMULATION · cours réels · capital fictif** — mis à jour le 17/10/2026 à 06:32 (Paris) · sources : directes
 
 ## 🔴 9 770,03 €
 
@@ -30,14 +30,14 @@
 
 | # | Actif | Momentum | Tendance | Cible |
 |---|---|---|---|---|
-| 1 | **USO** Pétrole WTI | +34,1 % | ▲ | 12 % |
-| 2 | **MSFT** Microsoft | +28,3 % | ▲ | 20 % |
-| 3 | **DBC** Panier mat. prem. | +17,5 % | ▲ | 25 % |
-| 4 | **AAPL** Apple | +16,1 % | ▲ | 25 % |
-| 5 | **META** Meta | +6,4 % | ▲ | 8 % |
-| 6 | **NVDA** Nvidia | +5,8 % | ▽ | — |
-| 7 | **QQQ** Nasdaq 100 | +5,7 % | ▽ | — |
-| 8 | **SPY** S&P 500 | +5,2 % | ▲ | — |
+| 1 | **MSFT** Microsoft | +29,8 % | ▲ | 20 % |
+| 2 | **USO** Pétrole WTI | +29,4 % | ▲ | 12 % |
+| 3 | **DBC** Panier mat. prem. | +15,9 % | ▲ | 25 % |
+| 4 | **AAPL** Apple | +15,3 % | ▲ | 25 % |
+| 5 | **META** Meta | +8,0 % | ▲ | 11 % |
+| 6 | **QQQ** Nasdaq 100 | +4,9 % | ▽ | — |
+| 7 | **SPY** S&P 500 | +4,8 % | ▲ | — |
+| 8 | **NVDA** Nvidia | +4,6 % | ▽ | — |
 
 ## Derniers ordres
 
