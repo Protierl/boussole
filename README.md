@@ -1,37 +1,37 @@
 # 🧭 BOUSSOLE — bot 24h/24
 
-**SIMULATION · cours réels · capital fictif** — mis à jour le 22/10/2026 à 22:10 (Paris) · sources : directes
+**SIMULATION · cours réels · capital fictif** — mis à jour le 23/10/2026 à 01:25 (Paris) · sources : directes
 
-## 🔴 9 674,29 €
+## 🔴 9 670,04 €
 
-**-325,71 € (-3,3 %)** · jour -0,5 % depuis le 12/07/2026
+**-329,96 € (-3,3 %)** · jour -0,0 % depuis le 12/07/2026
 
 ![Courbe de performance](courbe.png)
 
 | Indicateur | Valeur | Indicateur | Valeur |
 |---|---|---|---|
-| Perf. annualisée | -11,1 % | Volatilité ann. | 10,3 % |
-| Drawdown max | -9,0 % | Sharpe | -0,75 |
+| Perf. annualisée | -11,3 % | Volatilité ann. | 10,3 % |
+| Drawdown max | -9,0 % | Sharpe | -0,76 |
 | Exposition | 96 % | Liquidités | 393,23 € |
 | Trades clôturés | 105 (33 % gagnants) | Frais cumulés | 348,63 € |
-| EUR/USD | 1,1217 | P&L réalisé | -791,69 € |
+| EUR/USD | 1,1222 | P&L réalisé | -791,69 € |
 
 ## Positions
 
 | Actif | Qté | Cours | Valeur | P&L | Poids |
 |---|---|---|---|---|---|
-| **DBC** Panier mat. prem. | 81,856 | 33,57 $ | 2 449,77 € | +3,1 % | 25 % |
-| **SPY** S&P 500 | 3,553 | 764,06 $ | 2 419,93 € | -0,1 % | 25 % |
-| **AAPL** Apple | 5,792 | 348,22 $ | 1 798,16 € | +5,7 % | 19 % |
-| **MSFT** Microsoft | 2,835 | 521,08 $ | 1 316,91 € | +13,5 % | 14 % |
-| **USO** Pétrole WTI | 8,949 | 162,49 $ | 1 296,30 € | +12,3 % | 13 % |
+| **DBC** Panier mat. prem. | 81,856 | 33,57 $ | 2 448,68 € | +3,1 % | 25 % |
+| **SPY** S&P 500 | 3,553 | 763,96 $ | 2 418,53 € | -0,2 % | 25 % |
+| **AAPL** Apple | 5,792 | 348,22 $ | 1 797,36 € | +5,6 % | 19 % |
+| **MSFT** Microsoft | 2,835 | 521,08 $ | 1 316,32 € | +13,4 % | 14 % |
+| **USO** Pétrole WTI | 8,949 | 162,51 $ | 1 295,92 € | +12,3 % | 13 % |
 
 ## Signaux (classement momentum)
 
 | # | Actif | Momentum | Tendance | Cible |
 |---|---|---|---|---|
 | 1 | **MSFT** Microsoft | +30,9 % | ▲ | 14 % |
-| 2 | **USO** Pétrole WTI | +19,7 % | ▲ | 10 % |
+| 2 | **USO** Pétrole WTI | +19,8 % | ▲ | 10 % |
 | 3 | **AAPL** Apple | +16,0 % | ▲ | 19 % |
 | 4 | **DBC** Panier mat. prem. | +11,9 % | ▲ | 23 % |
 | 5 | **SPY** S&P 500 | +5,6 % | ▲ | 25 % |
