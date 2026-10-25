@@ -1,30 +1,30 @@
 # 🧭 BOUSSOLE — bot 24h/24
 
-**SIMULATION · cours réels · capital fictif** — mis à jour le 25/10/2026 à 20:40 (Paris) · sources : directes
+**SIMULATION · cours réels · capital fictif** — mis à jour le 25/10/2026 à 23:36 (Paris) · sources : directes
 
-## 🔴 9 755,56 €
+## 🔴 9 760,36 €
 
-**-244,44 € (-2,4 %)** · jour -0,1 % depuis le 12/07/2026
+**-239,64 € (-2,4 %)** · jour -0,1 % depuis le 12/07/2026
 
 ![Courbe de performance](courbe.png)
 
 | Indicateur | Valeur | Indicateur | Valeur |
 |---|---|---|---|
-| Perf. annualisée | -8,2 % | Volatilité ann. | 10,3 % |
-| Drawdown max | -9,0 % | Sharpe | -0,54 |
+| Perf. annualisée | -8,1 % | Volatilité ann. | 10,3 % |
+| Drawdown max | -9,0 % | Sharpe | -0,52 |
 | Exposition | 92 % | Liquidités | 785,13 € |
 | Trades clôturés | 106 (34 % gagnants) | Frais cumulés | 349,63 € |
-| EUR/USD | 1,1218 | P&L réalisé | -739,34 € |
+| EUR/USD | 1,1212 | P&L réalisé | -739,34 € |
 
 ## Positions
 
 | Actif | Qté | Cours | Valeur | P&L | Poids |
 |---|---|---|---|---|---|
-| **DBC** Panier mat. prem. | 81,856 | 34,10 $ | 2 488,22 € | +4,7 % | 26 % |
-| **SPY** S&P 500 | 3,553 | 759,97 $ | 2 406,76 € | -0,6 % | 25 % |
-| **AAPL** Apple | 5,792 | 347,73 $ | 1 795,44 € | +5,5 % | 18 % |
-| **MSFT** Microsoft | 2,835 | 524,51 $ | 1 325,46 € | +14,2 % | 14 % |
-| **USO** Pétrole WTI | 6,316 | 169,53 $ | 954,56 € | +17,2 % | 10 % |
+| **DBC** Panier mat. prem. | 81,856 | 34,10 $ | 2 489,55 € | +4,8 % | 26 % |
+| **SPY** S&P 500 | 3,553 | 759,97 $ | 2 408,05 € | -0,6 % | 25 % |
+| **AAPL** Apple | 5,792 | 347,73 $ | 1 796,40 € | +5,6 % | 18 % |
+| **MSFT** Microsoft | 2,835 | 524,51 $ | 1 326,17 € | +14,3 % | 14 % |
+| **USO** Pétrole WTI | 6,316 | 169,53 $ | 955,07 € | +17,2 % | 10 % |
 
 ## Signaux (classement momentum)
 
