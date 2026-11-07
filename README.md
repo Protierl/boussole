@@ -1,6 +1,6 @@
 # 🧭 BOUSSOLE — bot 24h/24
 
-**SIMULATION · cours réels · capital fictif** — mis à jour le 07/11/2026 à 00:12 (Paris) · sources : directes
+**SIMULATION · cours réels · capital fictif** — mis à jour le 07/11/2026 à 03:51 (Paris) · sources : directes
 
 ## 🔴 9 300,36 €
 
@@ -29,13 +29,13 @@
 
 | # | Actif | Momentum | Tendance | Cible |
 |---|---|---|---|---|
-| 1 | **MSFT** Microsoft | +16,3 % | ▲ | 20 % |
-| 2 | **USO** Pétrole WTI | +14,5 % | ▲ | 15 % |
-| 3 | **AAPL** Apple | +13,9 % | ▲ | 25 % |
-| 4 | **DBC** Panier mat. prem. | +4,7 % | ▲ | 25 % |
-| 5 | **JPM** JPMorgan | +1,8 % | ▽ | — |
-| 6 | **META** Meta | +1,3 % | ▽ | — |
-| 7 | **TLT** Obligations US 20 ans | -2,5 % | ▽ | — |
+| 1 | **MSFT** Microsoft | +17,0 % | ▲ | 20 % |
+| 2 | **AAPL** Apple | +14,6 % | ▲ | 25 % |
+| 3 | **USO** Pétrole WTI | +11,7 % | ▲ | 15 % |
+| 4 | **DBC** Panier mat. prem. | +3,4 % | ▲ | 25 % |
+| 5 | **JPM** JPMorgan | +1,9 % | ▽ | — |
+| 6 | **META** Meta | +1,9 % | ▽ | — |
+| 7 | **TLT** Obligations US 20 ans | -2,3 % | ▽ | — |
 | 8 | **SPY** S&P 500 | -2,6 % | ▽ | — |
 
 ## Derniers ordres
@@ -57,12 +57,12 @@
 
 ## Journal
 
+- `07/11 03:51` — Portefeuille déjà aligné — aucun ordre
 - `06/11 19:01` — Portefeuille déjà aligné — aucun ordre
 - `06/11 11:58` — Portefeuille déjà aligné — aucun ordre
 - `05/11 23:01` — 2 ordres exécutés
 - `05/11 16:30` — Portefeuille déjà aligné — aucun ordre
 - `05/11 07:53` — 2 ordres exécutés
-- `04/11 19:00` — 3 ordres exécutés
 
 ---
 _Stratégie : momentum 3 & 6 mois, filtre MM100, Top 5 pondéré inverse-volatilité (max 25 %/ligne), bande 4 %, frais 0,10 %/ordre (min 1 €), arbitrage au plus toutes les 6 h. Passage horaire via GitHub Actions._
