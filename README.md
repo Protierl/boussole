@@ -1,29 +1,29 @@
 # 🧭 BOUSSOLE — bot 24h/24
 
-**SIMULATION · cours réels · capital fictif** — mis à jour le 08/11/2026 à 16:16 (Paris) · sources : directes
+**SIMULATION · cours réels · capital fictif** — mis à jour le 08/11/2026 à 20:46 (Paris) · sources : directes
 
-## 🔴 9 300,36 €
+## 🔴 9 303,77 €
 
-**-699,64 € (-7,0 %)** · jour -0,0 % depuis le 12/07/2026
+**-696,23 € (-7,0 %)** · jour +0,0 % depuis le 12/07/2026
 
 ![Courbe de performance](courbe.png)
 
 | Indicateur | Valeur | Indicateur | Valeur |
 |---|---|---|---|
-| Perf. annualisée | -19,9 % | Volatilité ann. | 10,6 % |
+| Perf. annualisée | -19,8 % | Volatilité ann. | 10,6 % |
 | Drawdown max | -9,0 % | Sharpe | -1,40 |
 | Exposition | 82 % | Liquidités | 1 696,61 € |
 | Trades clôturés | 118 (36 % gagnants) | Frais cumulés | 387,13 € |
-| EUR/USD | 1,1143 | P&L réalisé | -801,72 € |
+| EUR/USD | 1,1138 | P&L réalisé | -801,72 € |
 
 ## Positions
 
 | Actif | Qté | Cours | Valeur | P&L | Poids |
 |---|---|---|---|---|---|
-| **AAPL** Apple | 7,558 | 342,37 $ | 2 322,12 € | +2,0 % | 25 % |
-| **DBC** Panier mat. prem. | 81,856 | 31,54 $ | 2 316,91 € | -2,5 % | 25 % |
-| **MSFT** Microsoft | 3,659 | 530,61 $ | 1 742,28 € | +10,3 % | 19 % |
-| **USO** Pétrole WTI | 9,178 | 148,41 $ | 1 222,44 € | -3,6 % | 13 % |
+| **AAPL** Apple | 7,558 | 342,37 $ | 2 323,16 € | +2,0 % | 25 % |
+| **DBC** Panier mat. prem. | 81,856 | 31,54 $ | 2 317,95 € | -2,4 % | 25 % |
+| **MSFT** Microsoft | 3,659 | 530,61 $ | 1 743,06 € | +10,4 % | 19 % |
+| **USO** Pétrole WTI | 9,178 | 148,41 $ | 1 222,99 € | -3,6 % | 13 % |
 
 ## Signaux (classement momentum)
 
