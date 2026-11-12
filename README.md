@@ -1,41 +1,41 @@
 # 🧭 BOUSSOLE — bot 24h/24
 
-**SIMULATION · cours réels · capital fictif** — mis à jour le 11/11/2026 à 23:03 (Paris) · sources : directes
+**SIMULATION · cours réels · capital fictif** — mis à jour le 12/11/2026 à 04:04 (Paris) · sources : directes
 
-## 🔴 9 232,26 €
+## 🔴 9 241,67 €
 
-**-767,74 € (-7,7 %)** · jour +0,3 % depuis le 12/07/2026
+**-758,33 € (-7,6 %)** · jour +0,1 % depuis le 12/07/2026
 
 ![Courbe de performance](courbe.png)
 
 | Indicateur | Valeur | Indicateur | Valeur |
 |---|---|---|---|
-| Perf. annualisée | -21,2 % | Volatilité ann. | 10,5 % |
-| Drawdown max | -9,0 % | Sharpe | -1,52 |
+| Perf. annualisée | -20,9 % | Volatilité ann. | 10,5 % |
+| Drawdown max | -9,0 % | Sharpe | -1,49 |
 | Exposition | 75 % | Liquidités | 2 278,96 € |
 | Trades clôturés | 122 (35 % gagnants) | Frais cumulés | 401,89 € |
-| EUR/USD | 1,1093 | P&L réalisé | -952,38 € |
+| EUR/USD | 1,1078 | P&L réalisé | -952,38 € |
 
 ## Positions
 
 | Actif | Qté | Cours | Valeur | P&L | Poids |
 |---|---|---|---|---|---|
-| **AAPL** Apple | 7,558 | 355,63 $ | 2 422,93 € | +6,4 % | 26 % |
-| **MSFT** Microsoft | 4,916 | 521,12 $ | 2 309,48 € | +6,4 % | 25 % |
-| **USO** Pétrole WTI | 17,415 | 141,47 $ | 2 220,89 € | -4,3 % | 24 % |
+| **AAPL** Apple | 7,558 | 355,63 $ | 2 426,21 € | +6,5 % | 26 % |
+| **MSFT** Microsoft | 4,916 | 521,12 $ | 2 312,61 € | +6,5 % | 25 % |
+| **USO** Pétrole WTI | 17,415 | 141,47 $ | 2 223,90 € | -4,1 % | 24 % |
 
 ## Signaux (classement momentum)
 
 | # | Actif | Momentum | Tendance | Cible |
 |---|---|---|---|---|
-| 1 | **AAPL** Apple | +17,7 % | ▲ | 25 % |
-| 2 | **MSFT** Microsoft | +16,7 % | ▲ | 25 % |
-| 3 | **USO** Pétrole WTI | +6,4 % | ▲ | 24 % |
-| 4 | **JPM** JPMorgan | +4,5 % | ▽ | — |
-| 5 | **META** Meta | +3,8 % | ▽ | — |
+| 1 | **AAPL** Apple | +17,8 % | ▲ | 25 % |
+| 2 | **MSFT** Microsoft | +16,2 % | ▲ | 24 % |
+| 3 | **USO** Pétrole WTI | +5,3 % | ▲ | 19 % |
+| 4 | **JPM** JPMorgan | +4,6 % | ▽ | — |
+| 5 | **META** Meta | +4,1 % | ▽ | — |
 | 6 | **DBC** Panier mat. prem. | +0,9 % | ▽ | — |
-| 7 | **SPY** S&P 500 | +0,0 % | ▽ | — |
-| 8 | **AMZN** Amazon | -0,5 % | ▲ | — |
+| 7 | **AMZN** Amazon | +0,5 % | ▲ | 21 % |
+| 8 | **SPY** S&P 500 | -0,3 % | ▽ | — |
 
 ## Derniers ordres
 
