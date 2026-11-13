@@ -1,42 +1,42 @@
 # 🧭 BOUSSOLE — bot 24h/24
 
-**SIMULATION · cours réels · capital fictif** — mis à jour le 13/11/2026 à 09:03 (Paris) · sources : directes
+**SIMULATION · cours réels · capital fictif** — mis à jour le 13/11/2026 à 17:29 (Paris) · sources : directes
 
-## 🔴 9 323,97 €
+## 🔴 9 339,18 €
 
-**-676,03 € (-6,8 %)** · jour -0,1 % depuis le 12/07/2026
+**-660,82 € (-6,6 %)** · jour +0,1 % depuis le 12/07/2026
 
 ![Courbe de performance](courbe.png)
 
 | Indicateur | Valeur | Indicateur | Valeur |
 |---|---|---|---|
-| Perf. annualisée | -18,6 % | Volatilité ann. | 10,6 % |
-| Drawdown max | -9,0 % | Sharpe | -1,30 |
+| Perf. annualisée | -18,2 % | Volatilité ann. | 10,6 % |
+| Drawdown max | -9,0 % | Sharpe | -1,27 |
 | Exposition | 92 % | Liquidités | 777,91 € |
 | Trades clôturés | 123 (35 % gagnants) | Frais cumulés | 404,85 € |
-| EUR/USD | 1,1061 | P&L réalisé | -974,08 € |
+| EUR/USD | 1,1039 | P&L réalisé | -974,08 € |
 
 ## Positions
 
 | Actif | Qté | Cours | Valeur | P&L | Poids |
 |---|---|---|---|---|---|
-| **AAPL** Apple | 7,558 | 354,88 $ | 2 424,81 € | +6,5 % | 26 % |
-| **MSFT** Microsoft | 4,916 | 523,00 $ | 2 324,50 € | +7,1 % | 25 % |
-| **AMZN** Amazon | 8,169 | 267,44 $ | 1 975,27 € | +0,7 % | 21 % |
-| **USO** Pétrole WTI | 13,793 | 146,07 $ | 1 821,48 € | -0,9 % | 20 % |
+| **AAPL** Apple | 7,558 | 358,36 $ | 2 453,47 € | +7,7 % | 26 % |
+| **MSFT** Microsoft | 4,916 | 523,17 $ | 2 329,91 € | +7,3 % | 25 % |
+| **AMZN** Amazon | 8,169 | 265,12 $ | 1 962,04 € | +0,0 % | 21 % |
+| **USO** Pétrole WTI | 13,793 | 145,33 $ | 1 815,85 € | -1,2 % | 19 % |
 
 ## Signaux (classement momentum)
 
 | # | Actif | Momentum | Tendance | Cible |
 |---|---|---|---|---|
-| 1 | **AAPL** Apple | +17,2 % | ▲ | 25 % |
-| 2 | **MSFT** Microsoft | +16,4 % | ▲ | 24 % |
-| 3 | **META** Meta | +5,6 % | ▽ | — |
-| 4 | **USO** Pétrole WTI | +5,3 % | ▲ | 19 % |
-| 5 | **JPM** JPMorgan | +5,0 % | ▽ | — |
-| 6 | **AMZN** Amazon | +1,8 % | ▲ | 21 % |
-| 7 | **SPY** S&P 500 | +0,2 % | ▽ | — |
-| 8 | **DBC** Panier mat. prem. | +0,1 % | ▽ | — |
+| 1 | **AAPL** Apple | +18,3 % | ▲ | 25 % |
+| 2 | **MSFT** Microsoft | +16,5 % | ▲ | 24 % |
+| 3 | **META** Meta | +7,1 % | ▽ | — |
+| 4 | **JPM** JPMorgan | +5,7 % | ▽ | — |
+| 5 | **USO** Pétrole WTI | +4,8 % | ▲ | 19 % |
+| 6 | **AMZN** Amazon | +0,9 % | ▲ | 21 % |
+| 7 | **DBC** Panier mat. prem. | -0,2 % | ▽ | — |
+| 8 | **SPY** S&P 500 | -0,6 % | ▽ | — |
 
 ## Derniers ordres
 
@@ -57,12 +57,12 @@
 
 ## Journal
 
+- `13/11 17:29` — Portefeuille déjà aligné — aucun ordre
 - `13/11 09:03` — Portefeuille déjà aligné — aucun ordre
 - `12/11 20:58` — Portefeuille déjà aligné — aucun ordre
 - `12/11 12:21` — 2 ordres exécutés
 - `11/11 23:03` — 4 ordres exécutés
 - `11/11 16:17` — 2 ordres exécutés
-- `11/11 07:31` — Portefeuille déjà aligné — aucun ordre
 
 ---
 _Stratégie : momentum 3 & 6 mois, filtre MM100, Top 5 pondéré inverse-volatilité (max 25 %/ligne), bande 4 %, frais 0,10 %/ordre (min 1 €), arbitrage au plus toutes les 6 h. Passage horaire via GitHub Actions._
