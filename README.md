@@ -1,6 +1,6 @@
 # 🧭 BOUSSOLE — bot 24h/24
 
-**SIMULATION · cours réels · capital fictif** — mis à jour le 13/11/2026 à 02:07 (Paris) · sources : directes
+**SIMULATION · cours réels · capital fictif** — mis à jour le 13/11/2026 à 09:03 (Paris) · sources : directes
 
 ## 🔴 9 323,97 €
 
@@ -10,7 +10,7 @@
 
 | Indicateur | Valeur | Indicateur | Valeur |
 |---|---|---|---|
-| Perf. annualisée | -18,7 % | Volatilité ann. | 10,6 % |
+| Perf. annualisée | -18,6 % | Volatilité ann. | 10,6 % |
 | Drawdown max | -9,0 % | Sharpe | -1,30 |
 | Exposition | 92 % | Liquidités | 777,91 € |
 | Trades clôturés | 123 (35 % gagnants) | Frais cumulés | 404,85 € |
@@ -29,14 +29,14 @@
 
 | # | Actif | Momentum | Tendance | Cible |
 |---|---|---|---|---|
-| 1 | **AAPL** Apple | +17,5 % | ▲ | 25 % |
-| 2 | **MSFT** Microsoft | +16,7 % | ▲ | 24 % |
-| 3 | **USO** Pétrole WTI | +8,8 % | ▲ | 18 % |
-| 4 | **JPM** JPMorgan | +4,4 % | ▽ | — |
-| 5 | **META** Meta | +3,3 % | ▽ | — |
-| 6 | **DBC** Panier mat. prem. | +1,1 % | ▽ | — |
-| 7 | **AMZN** Amazon | +1,0 % | ▲ | 21 % |
-| 8 | **SPY** S&P 500 | -0,6 % | ▽ | — |
+| 1 | **AAPL** Apple | +17,2 % | ▲ | 25 % |
+| 2 | **MSFT** Microsoft | +16,4 % | ▲ | 24 % |
+| 3 | **META** Meta | +5,6 % | ▽ | — |
+| 4 | **USO** Pétrole WTI | +5,3 % | ▲ | 19 % |
+| 5 | **JPM** JPMorgan | +5,0 % | ▽ | — |
+| 6 | **AMZN** Amazon | +1,8 % | ▲ | 21 % |
+| 7 | **SPY** S&P 500 | +0,2 % | ▽ | — |
+| 8 | **DBC** Panier mat. prem. | +0,1 % | ▽ | — |
 
 ## Derniers ordres
 
@@ -57,12 +57,12 @@
 
 ## Journal
 
+- `13/11 09:03` — Portefeuille déjà aligné — aucun ordre
 - `12/11 20:58` — Portefeuille déjà aligné — aucun ordre
 - `12/11 12:21` — 2 ordres exécutés
 - `11/11 23:03` — 4 ordres exécutés
 - `11/11 16:17` — 2 ordres exécutés
 - `11/11 07:31` — Portefeuille déjà aligné — aucun ordre
-- `10/11 18:53` — 2 ordres exécutés
 
 ---
 _Stratégie : momentum 3 & 6 mois, filtre MM100, Top 5 pondéré inverse-volatilité (max 25 %/ligne), bande 4 %, frais 0,10 %/ordre (min 1 €), arbitrage au plus toutes les 6 h. Passage horaire via GitHub Actions._
