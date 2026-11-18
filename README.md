@@ -1,40 +1,40 @@
 # 🧭 BOUSSOLE — bot 24h/24
 
-**SIMULATION · cours réels · capital fictif** — mis à jour le 17/11/2026 à 23:55 (Paris) · sources : directes
+**SIMULATION · cours réels · capital fictif** — mis à jour le 18/11/2026 à 05:26 (Paris) · sources : directes
 
-## 🔴 9 114,84 €
+## 🔴 9 120,35 €
 
-**-885,16 € (-8,9 %)** · jour -0,7 % depuis le 12/07/2026
+**-879,65 € (-8,8 %)** · jour +0,1 % depuis le 12/07/2026
 
 ![Courbe de performance](courbe.png)
 
 | Indicateur | Valeur | Indicateur | Valeur |
 |---|---|---|---|
-| Perf. annualisée | -23,2 % | Volatilité ann. | 10,7 % |
-| Drawdown max | -9,1 % | Sharpe | -1,65 |
+| Perf. annualisée | -23,0 % | Volatilité ann. | 10,7 % |
+| Drawdown max | -9,1 % | Sharpe | -1,63 |
 | Exposition | 51 % | Liquidités | 4 453,80 € |
 | Trades clôturés | 129 (35 % gagnants) | Frais cumulés | 420,55 € |
-| EUR/USD | 1,1002 | P&L réalisé | -1 076,44 € |
+| EUR/USD | 1,0989 | P&L réalisé | -1 076,44 € |
 
 ## Positions
 
 | Actif | Qté | Cours | Valeur | P&L | Poids |
 |---|---|---|---|---|---|
-| **AAPL** Apple | 7,558 | 351,91 $ | 2 417,41 € | +6,1 % | 27 % |
-| **MSFT** Microsoft | 4,876 | 506,24 $ | 2 243,62 € | +2,3 % | 25 % |
+| **AAPL** Apple | 7,558 | 351,91 $ | 2 420,27 € | +6,3 % | 27 % |
+| **MSFT** Microsoft | 4,876 | 506,24 $ | 2 246,28 € | +2,5 % | 25 % |
 
 ## Signaux (classement momentum)
 
 | # | Actif | Momentum | Tendance | Cible |
 |---|---|---|---|---|
-| 1 | **AAPL** Apple | +14,4 % | ▲ | 25 % |
-| 2 | **MSFT** Microsoft | +12,9 % | ▲ | 25 % |
-| 3 | **META** Meta | +8,0 % | ▽ | — |
-| 4 | **JPM** JPMorgan | +2,0 % | ▽ | — |
-| 5 | **USO** Pétrole WTI | -0,6 % | ▲ | — |
+| 1 | **AAPL** Apple | +14,7 % | ▲ | 25 % |
+| 2 | **MSFT** Microsoft | +12,7 % | ▲ | 25 % |
+| 3 | **META** Meta | +7,8 % | ▽ | — |
+| 4 | **JPM** JPMorgan | +1,6 % | ▽ | — |
+| 5 | **USO** Pétrole WTI | +0,7 % | ▲ | 24 % |
 | 6 | **AMZN** Amazon | -1,8 % | ▲ | — |
-| 7 | **SPY** S&P 500 | -2,5 % | ▽ | — |
-| 8 | **DBC** Panier mat. prem. | -3,2 % | ▽ | — |
+| 7 | **SPY** S&P 500 | -2,6 % | ▽ | — |
+| 8 | **DBC** Panier mat. prem. | -2,6 % | ▽ | — |
 
 ## Derniers ordres
 
