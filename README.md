@@ -1,27 +1,28 @@
 # 🧭 BOUSSOLE — bot 24h/24
 
-**SIMULATION · cours réels · capital fictif** — mis à jour le 18/11/2026 à 05:26 (Paris) · sources : directes
+**SIMULATION · cours réels · capital fictif** — mis à jour le 18/11/2026 à 15:05 (Paris) · sources : directes
 
-## 🔴 9 120,35 €
+## 🔴 9 125,43 €
 
-**-879,65 € (-8,8 %)** · jour +0,1 % depuis le 12/07/2026
+**-874,57 € (-8,7 %)** · jour +0,1 % depuis le 12/07/2026
 
 ![Courbe de performance](courbe.png)
 
 | Indicateur | Valeur | Indicateur | Valeur |
 |---|---|---|---|
-| Perf. annualisée | -23,0 % | Volatilité ann. | 10,7 % |
-| Drawdown max | -9,1 % | Sharpe | -1,63 |
-| Exposition | 51 % | Liquidités | 4 453,80 € |
-| Trades clôturés | 129 (35 % gagnants) | Frais cumulés | 420,55 € |
-| EUR/USD | 1,0989 | P&L réalisé | -1 076,44 € |
+| Perf. annualisée | -22,8 % | Volatilité ann. | 10,7 % |
+| Drawdown max | -9,1 % | Sharpe | -1,62 |
+| Exposition | 75 % | Liquidités | 2 295,92 € |
+| Trades clôturés | 129 (35 % gagnants) | Frais cumulés | 422,71 € |
+| EUR/USD | 1,0972 | P&L réalisé | -1 076,44 € |
 
 ## Positions
 
 | Actif | Qté | Cours | Valeur | P&L | Poids |
 |---|---|---|---|---|---|
-| **AAPL** Apple | 7,558 | 351,91 $ | 2 420,27 € | +6,3 % | 27 % |
-| **MSFT** Microsoft | 4,876 | 506,24 $ | 2 246,28 € | +2,5 % | 25 % |
+| **AAPL** Apple | 7,558 | 351,91 $ | 2 424,02 € | +6,4 % | 27 % |
+| **MSFT** Microsoft | 4,876 | 506,24 $ | 2 249,76 € | +2,6 % | 25 % |
+| **USO** Pétrole WTI | 16,866 | 140,24 $ | 2 155,73 € | -0,1 % | 24 % |
 
 ## Signaux (classement momentum)
 
@@ -40,6 +41,7 @@
 
 | Date | Sens | Actif | Montant | P&L | Raison |
 |---|---|---|---|---|---|
+| 18/11 15:05 | ACHAT | **USO** | 2 155,73 € | — | Entrée momentum · rang 3 |
 | 17/11 05:31 | VENTE | **USO** | 2 176,60 € | -63,53 € | Momentum devenu négatif |
 | 16/11 23:09 | VENTE | **JPM** | 2 240,27 € | -52,40 € | Filtre de tendance (< MM100) |
 | 16/11 23:09 | VENTE | **META** | 1 493,32 € | -36,12 € | Filtre de tendance (< MM100) |
@@ -51,16 +53,15 @@
 | 13/11 23:40 | ACHAT | **JPM** | 2 288,14 € | — | Entrée momentum · rang 4 |
 | 13/11 23:40 | ACHAT | **META** | 1 526,42 € | — | Entrée momentum · rang 3 |
 | 12/11 12:21 | VENTE | **USO** | 461,78 € | -21,71 € | Allègement vers 19 % |
-| 12/11 12:21 | ACHAT | **AMZN** | 1 959,87 € | — | Entrée momentum · rang 4 |
 
 ## Journal
 
+- `18/11 15:05` — 1 ordre exécuté
 - `17/11 23:55` — Portefeuille déjà aligné — aucun ordre
 - `17/11 15:29` — Portefeuille déjà aligné — aucun ordre
 - `17/11 05:31` — 1 ordre exécuté
 - `16/11 23:09` — 4 ordres exécutés
 - `16/11 12:29` — Portefeuille déjà aligné — aucun ordre
-- `16/11 03:46` — Portefeuille déjà aligné — aucun ordre
 
 ---
 _Stratégie : momentum 3 & 6 mois, filtre MM100, Top 5 pondéré inverse-volatilité (max 25 %/ligne), bande 4 %, frais 0,10 %/ordre (min 1 €), arbitrage au plus toutes les 6 h. Passage horaire via GitHub Actions._
