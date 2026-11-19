@@ -1,28 +1,28 @@
 # 🧭 BOUSSOLE — bot 24h/24
 
-**SIMULATION · cours réels · capital fictif** — mis à jour le 19/11/2026 à 04:33 (Paris) · sources : directes
+**SIMULATION · cours réels · capital fictif** — mis à jour le 19/11/2026 à 14:17 (Paris) · sources : directes
 
-## 🔴 9 076,21 €
+## 🔴 9 055,95 €
 
-**-923,79 € (-9,2 %)** · jour +0,1 % depuis le 12/07/2026
+**-944,05 € (-9,4 %)** · jour -0,1 % depuis le 12/07/2026
 
 ![Courbe de performance](courbe.png)
 
 | Indicateur | Valeur | Indicateur | Valeur |
 |---|---|---|---|
-| Perf. annualisée | -23,9 % | Volatilité ann. | 10,7 % |
-| Drawdown max | -9,5 % | Sharpe | -1,71 |
+| Perf. annualisée | -24,3 % | Volatilité ann. | 10,7 % |
+| Drawdown max | -9,6 % | Sharpe | -1,75 |
 | Exposition | 77 % | Liquidités | 2 114,93 € |
 | Trades clôturés | 130 (35 % gagnants) | Frais cumulés | 427,07 € |
-| EUR/USD | 1,0963 | P&L réalisé | -1 145,12 € |
+| EUR/USD | 1,0995 | P&L réalisé | -1 145,12 € |
 
 ## Positions
 
 | Actif | Qté | Cours | Valeur | P&L | Poids |
 |---|---|---|---|---|---|
-| **AAPL** Apple | 7,558 | 352,45 $ | 2 429,74 € | +6,7 % | 27 % |
-| **AMZN** Amazon | 9,298 | 267,74 $ | 2 270,82 € | +0,0 % | 25 % |
-| **MSFT** Microsoft | 4,876 | 508,29 $ | 2 260,72 € | +3,1 % | 25 % |
+| **AAPL** Apple | 7,558 | 352,45 $ | 2 422,66 € | +6,4 % | 27 % |
+| **AMZN** Amazon | 9,298 | 267,74 $ | 2 264,21 € | -0,3 % | 25 % |
+| **MSFT** Microsoft | 4,876 | 508,29 $ | 2 254,14 € | +2,8 % | 25 % |
 
 ## Signaux (classement momentum)
 
@@ -56,12 +56,12 @@
 
 ## Journal
 
+- `19/11 14:17` — Portefeuille déjà aligné — aucun ordre
 - `18/11 22:59` — 2 ordres exécutés
 - `18/11 15:05` — 1 ordre exécuté
 - `17/11 23:55` — Portefeuille déjà aligné — aucun ordre
 - `17/11 15:29` — Portefeuille déjà aligné — aucun ordre
 - `17/11 05:31` — 1 ordre exécuté
-- `16/11 23:09` — 4 ordres exécutés
 
 ---
 _Stratégie : momentum 3 & 6 mois, filtre MM100, Top 5 pondéré inverse-volatilité (max 25 %/ligne), bande 4 %, frais 0,10 %/ordre (min 1 €), arbitrage au plus toutes les 6 h. Passage horaire via GitHub Actions._
