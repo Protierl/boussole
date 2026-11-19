@@ -1,40 +1,40 @@
 # 🧭 BOUSSOLE — bot 24h/24
 
-**SIMULATION · cours réels · capital fictif** — mis à jour le 18/11/2026 à 22:59 (Paris) · sources : directes
+**SIMULATION · cours réels · capital fictif** — mis à jour le 19/11/2026 à 04:33 (Paris) · sources : directes
 
-## 🔴 9 067,33 €
+## 🔴 9 076,21 €
 
-**-932,67 € (-9,3 %)** · jour -0,5 % depuis le 12/07/2026
+**-923,79 € (-9,2 %)** · jour +0,1 % depuis le 12/07/2026
 
 ![Courbe de performance](courbe.png)
 
 | Indicateur | Valeur | Indicateur | Valeur |
 |---|---|---|---|
-| Perf. annualisée | -24,1 % | Volatilité ann. | 10,7 % |
-| Drawdown max | -9,5 % | Sharpe | -1,74 |
+| Perf. annualisée | -23,9 % | Volatilité ann. | 10,7 % |
+| Drawdown max | -9,5 % | Sharpe | -1,71 |
 | Exposition | 77 % | Liquidités | 2 114,93 € |
 | Trades clôturés | 130 (35 % gagnants) | Frais cumulés | 427,07 € |
-| EUR/USD | 1,0977 | P&L réalisé | -1 145,12 € |
+| EUR/USD | 1,0963 | P&L réalisé | -1 145,12 € |
 
 ## Positions
 
 | Actif | Qté | Cours | Valeur | P&L | Poids |
 |---|---|---|---|---|---|
-| **AAPL** Apple | 7,558 | 352,45 $ | 2 426,64 € | +6,5 % | 27 % |
-| **AMZN** Amazon | 9,298 | 267,74 $ | 2 267,92 € | -0,1 % | 25 % |
-| **MSFT** Microsoft | 4,876 | 508,29 $ | 2 257,84 € | +3,0 % | 25 % |
+| **AAPL** Apple | 7,558 | 352,45 $ | 2 429,74 € | +6,7 % | 27 % |
+| **AMZN** Amazon | 9,298 | 267,74 $ | 2 270,82 € | +0,0 % | 25 % |
+| **MSFT** Microsoft | 4,876 | 508,29 $ | 2 260,72 € | +3,1 % | 25 % |
 
 ## Signaux (classement momentum)
 
 | # | Actif | Momentum | Tendance | Cible |
 |---|---|---|---|---|
-| 1 | **AAPL** Apple | +14,9 % | ▲ | 25 % |
+| 1 | **AAPL** Apple | +14,7 % | ▲ | 25 % |
 | 2 | **MSFT** Microsoft | +13,2 % | ▲ | 25 % |
-| 3 | **META** Meta | +7,4 % | ▽ | — |
-| 4 | **AMZN** Amazon | +2,0 % | ▲ | 25 % |
-| 5 | **JPM** JPMorgan | -0,2 % | ▽ | — |
-| 6 | **USO** Pétrole WTI | -2,2 % | ▽ | — |
-| 7 | **SPY** S&P 500 | -2,9 % | ▽ | — |
+| 3 | **META** Meta | +6,8 % | ▽ | — |
+| 4 | **AMZN** Amazon | +1,6 % | ▲ | 25 % |
+| 5 | **JPM** JPMorgan | -0,4 % | ▽ | — |
+| 6 | **USO** Pétrole WTI | -1,7 % | ▽ | — |
+| 7 | **SPY** S&P 500 | -3,2 % | ▽ | — |
 | 8 | **TLT** Obligations US 20 ans | -3,5 % | ▽ | — |
 
 ## Derniers ordres
