@@ -1,46 +1,46 @@
 # 🧭 BOUSSOLE — bot 24h/24
 
-**SIMULATION · cours réels · capital fictif** — mis à jour le 19/11/2026 à 14:17 (Paris) · sources : directes
+**SIMULATION · cours réels · capital fictif** — mis à jour le 19/11/2026 à 23:10 (Paris) · sources : directes
 
-## 🔴 9 055,95 €
+## 🔴 8 914,34 €
 
-**-944,05 € (-9,4 %)** · jour -0,1 % depuis le 12/07/2026
+**-1 085,66 € (-10,9 %)** · jour -1,7 % depuis le 12/07/2026
 
 ![Courbe de performance](courbe.png)
 
 | Indicateur | Valeur | Indicateur | Valeur |
 |---|---|---|---|
-| Perf. annualisée | -24,3 % | Volatilité ann. | 10,7 % |
-| Drawdown max | -9,6 % | Sharpe | -1,75 |
-| Exposition | 77 % | Liquidités | 2 114,93 € |
-| Trades clôturés | 130 (35 % gagnants) | Frais cumulés | 427,07 € |
-| EUR/USD | 1,0995 | P&L réalisé | -1 145,12 € |
+| Perf. annualisée | -27,5 % | Volatilité ann. | 10,9 % |
+| Drawdown max | -11,1 % | Sharpe | -1,99 |
+| Exposition | 52 % | Liquidités | 4 294,02 € |
+| Trades clôturés | 131 (34 % gagnants) | Frais cumulés | 429,25 € |
+| EUR/USD | 1,0971 | P&L réalisé | -1 236,22 € |
 
 ## Positions
 
 | Actif | Qté | Cours | Valeur | P&L | Poids |
 |---|---|---|---|---|---|
-| **AAPL** Apple | 7,558 | 352,45 $ | 2 422,66 € | +6,4 % | 27 % |
-| **AMZN** Amazon | 9,298 | 267,74 $ | 2 264,21 € | -0,3 % | 25 % |
-| **MSFT** Microsoft | 4,876 | 508,29 $ | 2 254,14 € | +2,8 % | 25 % |
+| **AAPL** Apple | 7,558 | 349,21 $ | 2 405,64 € | +5,6 % | 27 % |
+| **MSFT** Microsoft | 4,876 | 498,30 $ | 2 214,68 € | +1,0 % | 25 % |
 
 ## Signaux (classement momentum)
 
 | # | Actif | Momentum | Tendance | Cible |
 |---|---|---|---|---|
-| 1 | **AAPL** Apple | +14,7 % | ▲ | 25 % |
-| 2 | **MSFT** Microsoft | +13,2 % | ▲ | 25 % |
-| 3 | **META** Meta | +6,8 % | ▽ | — |
-| 4 | **AMZN** Amazon | +1,6 % | ▲ | 25 % |
-| 5 | **JPM** JPMorgan | -0,4 % | ▽ | — |
-| 6 | **USO** Pétrole WTI | -1,7 % | ▽ | — |
-| 7 | **SPY** S&P 500 | -3,2 % | ▽ | — |
-| 8 | **TLT** Obligations US 20 ans | -3,5 % | ▽ | — |
+| 1 | **AAPL** Apple | +13,7 % | ▲ | 25 % |
+| 2 | **MSFT** Microsoft | +11,0 % | ▲ | 25 % |
+| 3 | **META** Meta | +3,3 % | ▽ | — |
+| 4 | **USO** Pétrole WTI | -0,3 % | ▽ | — |
+| 5 | **JPM** JPMorgan | -1,6 % | ▽ | — |
+| 6 | **AMZN** Amazon | -2,3 % | ▲ | — |
+| 7 | **TLT** Obligations US 20 ans | -3,3 % | ▽ | — |
+| 8 | **DBC** Panier mat. prem. | -4,4 % | ▽ | — |
 
 ## Derniers ordres
 
 | Date | Sens | Actif | Montant | P&L | Raison |
 |---|---|---|---|---|---|
+| 19/11 23:10 | VENTE | **AMZN** | 2 181,27 € | -91,10 € | Momentum devenu négatif |
 | 18/11 22:59 | VENTE | **USO** | 2 091,29 € | -68,69 € | Momentum devenu négatif |
 | 18/11 22:59 | ACHAT | **AMZN** | 2 267,92 € | — | Entrée momentum · rang 3 |
 | 18/11 15:05 | ACHAT | **USO** | 2 155,73 € | — | Entrée momentum · rang 3 |
@@ -52,16 +52,15 @@
 | 13/11 23:40 | VENTE | **MSFT** | 636,76 € | +43,81 € | Allègement vers 18 % |
 | 13/11 23:40 | VENTE | **USO** | 512,90 € | -5,73 € | Allègement vers 14 % |
 | 13/11 23:40 | VENTE | **AMZN** | 1 975,41 € | +11,60 € | Sorti du Top 5 |
-| 13/11 23:40 | ACHAT | **JPM** | 2 288,14 € | — | Entrée momentum · rang 4 |
 
 ## Journal
 
+- `19/11 23:10` — 1 ordre exécuté
 - `19/11 14:17` — Portefeuille déjà aligné — aucun ordre
 - `18/11 22:59` — 2 ordres exécutés
 - `18/11 15:05` — 1 ordre exécuté
 - `17/11 23:55` — Portefeuille déjà aligné — aucun ordre
 - `17/11 15:29` — Portefeuille déjà aligné — aucun ordre
-- `17/11 05:31` — 1 ordre exécuté
 
 ---
 _Stratégie : momentum 3 & 6 mois, filtre MM100, Top 5 pondéré inverse-volatilité (max 25 %/ligne), bande 4 %, frais 0,10 %/ordre (min 1 €), arbitrage au plus toutes les 6 h. Passage horaire via GitHub Actions._
