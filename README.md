@@ -1,10 +1,10 @@
 # 🧭 BOUSSOLE — bot 24h/24
 
-**SIMULATION · cours réels · capital fictif** — mis à jour le 19/11/2026 à 23:10 (Paris) · sources : directes
+**SIMULATION · cours réels · capital fictif** — mis à jour le 20/11/2026 à 04:22 (Paris) · sources : directes
 
-## 🔴 8 914,34 €
+## 🔴 8 912,24 €
 
-**-1 085,66 € (-10,9 %)** · jour -1,7 % depuis le 12/07/2026
+**-1 087,76 € (-10,9 %)** · jour -0,0 % depuis le 12/07/2026
 
 ![Courbe de performance](courbe.png)
 
@@ -14,27 +14,27 @@
 | Drawdown max | -11,1 % | Sharpe | -1,99 |
 | Exposition | 52 % | Liquidités | 4 294,02 € |
 | Trades clôturés | 131 (34 % gagnants) | Frais cumulés | 429,25 € |
-| EUR/USD | 1,0971 | P&L réalisé | -1 236,22 € |
+| EUR/USD | 1,0976 | P&L réalisé | -1 236,22 € |
 
 ## Positions
 
 | Actif | Qté | Cours | Valeur | P&L | Poids |
 |---|---|---|---|---|---|
-| **AAPL** Apple | 7,558 | 349,21 $ | 2 405,64 € | +5,6 % | 27 % |
-| **MSFT** Microsoft | 4,876 | 498,30 $ | 2 214,68 € | +1,0 % | 25 % |
+| **AAPL** Apple | 7,558 | 349,21 $ | 2 404,55 € | +5,6 % | 27 % |
+| **MSFT** Microsoft | 4,876 | 498,30 $ | 2 213,67 € | +1,0 % | 25 % |
 
 ## Signaux (classement momentum)
 
 | # | Actif | Momentum | Tendance | Cible |
 |---|---|---|---|---|
-| 1 | **AAPL** Apple | +13,7 % | ▲ | 25 % |
-| 2 | **MSFT** Microsoft | +11,0 % | ▲ | 25 % |
+| 1 | **AAPL** Apple | +12,8 % | ▲ | 25 % |
+| 2 | **MSFT** Microsoft | +10,7 % | ▲ | 25 % |
 | 3 | **META** Meta | +3,3 % | ▽ | — |
-| 4 | **USO** Pétrole WTI | -0,3 % | ▽ | — |
-| 5 | **JPM** JPMorgan | -1,6 % | ▽ | — |
-| 6 | **AMZN** Amazon | -2,3 % | ▲ | — |
-| 7 | **TLT** Obligations US 20 ans | -3,3 % | ▽ | — |
-| 8 | **DBC** Panier mat. prem. | -4,4 % | ▽ | — |
+| 4 | **USO** Pétrole WTI | +1,2 % | ▽ | — |
+| 5 | **AMZN** Amazon | -2,6 % | ▲ | — |
+| 6 | **JPM** JPMorgan | -2,8 % | ▽ | — |
+| 7 | **DBC** Panier mat. prem. | -3,6 % | ▽ | — |
+| 8 | **TLT** Obligations US 20 ans | -3,9 % | ▽ | — |
 
 ## Derniers ordres
 
