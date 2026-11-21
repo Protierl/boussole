@@ -1,45 +1,45 @@
 # 🧭 BOUSSOLE — bot 24h/24
 
-**SIMULATION · cours réels · capital fictif** — mis à jour le 21/11/2026 à 03:21 (Paris) · sources : directes
+**SIMULATION · cours réels · capital fictif** — mis à jour le 21/11/2026 à 12:11 (Paris) · sources : directes
 
-## 🔴 8 800,53 €
+## 🔴 8 798,33 €
 
-**-1 199,47 € (-12,0 %)** · jour -0,1 % depuis le 12/07/2026
+**-1 201,67 € (-12,0 %)** · jour -0,1 % depuis le 12/07/2026
 
 ![Courbe de performance](courbe.png)
 
 | Indicateur | Valeur | Indicateur | Valeur |
 |---|---|---|---|
 | Perf. annualisée | -29,8 % | Volatilité ann. | 10,9 % |
-| Drawdown max | -12,2 % | Sharpe | -2,18 |
-| Exposition | 52 % | Liquidités | 4 241,74 € |
-| Trades clôturés | 132 (34 % gagnants) | Frais cumulés | 433,60 € |
-| EUR/USD | 1,0975 | P&L réalisé | -1 276,13 € |
+| Drawdown max | -12,2 % | Sharpe | -2,19 |
+| Exposition | 27 % | Liquidités | 6 439,36 € |
+| Trades clôturés | 133 (34 % gagnants) | Frais cumulés | 435,80 € |
+| EUR/USD | 1,0975 | P&L réalisé | -1 283,05 € |
 
 ## Positions
 
 | Actif | Qté | Cours | Valeur | P&L | Poids |
 |---|---|---|---|---|---|
 | **AAPL** Apple | 7,558 | 342,56 $ | 2 358,97 € | +3,6 % | 27 % |
-| **USO** Pétrole WTI | 17,291 | 139,63 $ | 2 199,82 € | -0,2 % | 25 % |
 
 ## Signaux (classement momentum)
 
 | # | Actif | Momentum | Tendance | Cible |
 |---|---|---|---|---|
-| 1 | **AAPL** Apple | +10,7 % | ▲ | 25 % |
-| 2 | **MSFT** Microsoft | +7,6 % | ▽ | — |
-| 3 | **USO** Pétrole WTI | +2,3 % | ▽ | — |
-| 4 | **TLT** Obligations US 20 ans | -2,6 % | ▽ | — |
-| 5 | **META** Meta | -3,9 % | ▽ | — |
-| 6 | **DBC** Panier mat. prem. | -4,6 % | ▽ | — |
-| 7 | **JPM** JPMorgan | -5,8 % | ▽ | — |
-| 8 | **AMZN** Amazon | -6,6 % | ▽ | — |
+| 1 | **AAPL** Apple | +10,8 % | ▲ | 25 % |
+| 2 | **MSFT** Microsoft | +7,5 % | ▽ | — |
+| 3 | **USO** Pétrole WTI | +6,3 % | ▽ | — |
+| 4 | **DBC** Panier mat. prem. | -3,0 % | ▽ | — |
+| 5 | **TLT** Obligations US 20 ans | -3,4 % | ▽ | — |
+| 6 | **META** Meta | -5,0 % | ▽ | — |
+| 7 | **JPM** JPMorgan | -5,9 % | ▽ | — |
+| 8 | **AMZN** Amazon | -6,2 % | ▽ | — |
 
 ## Derniers ordres
 
 | Date | Sens | Actif | Montant | P&L | Raison |
 |---|---|---|---|---|---|
+| 21/11 12:11 | VENTE | **USO** | 2 199,82 € | -6,92 € | Filtre de tendance (< MM100) |
 | 20/11 22:10 | VENTE | **MSFT** | 2 154,41 € | -39,91 € | Filtre de tendance (< MM100) |
 | 20/11 22:10 | ACHAT | **USO** | 2 202,34 € | — | Entrée momentum · rang 2 |
 | 19/11 23:10 | VENTE | **AMZN** | 2 181,27 € | -91,10 € | Momentum devenu négatif |
@@ -51,16 +51,15 @@
 | 16/11 23:09 | VENTE | **META** | 1 493,32 € | -36,12 € | Filtre de tendance (< MM100) |
 | 16/11 23:09 | ACHAT | **USO** | 917,00 € | — | Renforcement vers 24 % |
 | 16/11 23:09 | ACHAT | **MSFT** | 612,10 € | — | Renforcement vers 25 % |
-| 13/11 23:40 | VENTE | **MSFT** | 636,76 € | +43,81 € | Allègement vers 18 % |
 
 ## Journal
 
+- `21/11 12:11` — 1 ordre exécuté
 - `20/11 22:10` — 2 ordres exécutés
 - `20/11 13:58` — Portefeuille déjà aligné — aucun ordre
 - `19/11 23:10` — 1 ordre exécuté
 - `19/11 14:17` — Portefeuille déjà aligné — aucun ordre
 - `18/11 22:59` — 2 ordres exécutés
-- `18/11 15:05` — 1 ordre exécuté
 
 ---
 _Stratégie : momentum 3 & 6 mois, filtre MM100, Top 5 pondéré inverse-volatilité (max 25 %/ligne), bande 4 %, frais 0,10 %/ordre (min 1 €), arbitrage au plus toutes les 6 h. Passage horaire via GitHub Actions._
