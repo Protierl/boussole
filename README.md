@@ -1,10 +1,10 @@
 # 🧭 BOUSSOLE — bot 24h/24
 
-**SIMULATION · cours réels · capital fictif** — mis à jour le 22/11/2026 à 22:49 (Paris) · sources : directes
+**SIMULATION · cours réels · capital fictif** — mis à jour le 23/11/2026 à 03:50 (Paris) · sources : directes
 
-## 🔴 8 798,33 €
+## 🔴 8 795,54 €
 
-**-1 201,67 € (-12,0 %)** · jour +0,0 % depuis le 12/07/2026
+**-1 204,46 € (-12,0 %)** · jour -0,0 % depuis le 12/07/2026
 
 ![Courbe de performance](courbe.png)
 
@@ -14,13 +14,13 @@
 | Drawdown max | -12,2 % | Sharpe | -2,18 |
 | Exposition | 27 % | Liquidités | 6 439,36 € |
 | Trades clôturés | 133 (34 % gagnants) | Frais cumulés | 435,80 € |
-| EUR/USD | 1,0975 | P&L réalisé | -1 283,05 € |
+| EUR/USD | 1,0988 | P&L réalisé | -1 283,05 € |
 
 ## Positions
 
 | Actif | Qté | Cours | Valeur | P&L | Poids |
 |---|---|---|---|---|---|
-| **AAPL** Apple | 7,558 | 342,56 $ | 2 358,97 € | +3,6 % | 27 % |
+| **AAPL** Apple | 7,558 | 342,56 $ | 2 356,18 € | +3,5 % | 27 % |
 
 ## Signaux (classement momentum)
 
