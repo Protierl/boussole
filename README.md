@@ -1,40 +1,40 @@
 # 🧭 BOUSSOLE — bot 24h/24
 
-**SIMULATION · cours réels · capital fictif** — mis à jour le 24/11/2026 à 11:59 (Paris) · sources : directes
+**SIMULATION · cours réels · capital fictif** — mis à jour le 24/11/2026 à 22:16 (Paris) · sources : directes
 
-## 🔴 8 842,38 €
+## 🔴 8 881,63 €
 
-**-1 157,62 € (-11,6 %)** · jour +0,4 % depuis le 12/07/2026
+**-1 118,37 € (-11,2 %)** · jour +0,9 % depuis le 12/07/2026
 
 ![Courbe de performance](courbe.png)
 
 | Indicateur | Valeur | Indicateur | Valeur |
 |---|---|---|---|
-| Perf. annualisée | -28,3 % | Volatilité ann. | 10,8 % |
-| Drawdown max | -12,2 % | Sharpe | -2,07 |
+| Perf. annualisée | -27,4 % | Volatilité ann. | 10,9 % |
+| Drawdown max | -12,2 % | Sharpe | -1,98 |
 | Exposition | 52 % | Liquidités | 4 223,04 € |
 | Trades clôturés | 133 (34 % gagnants) | Frais cumulés | 438,02 € |
-| EUR/USD | 1,0943 | P&L réalisé | -1 283,05 € |
+| EUR/USD | 1,0970 | P&L réalisé | -1 283,05 € |
 
 ## Positions
 
 | Actif | Qté | Cours | Valeur | P&L | Poids |
 |---|---|---|---|---|---|
-| **AAPL** Apple | 7,558 | 349,08 $ | 2 410,90 € | +5,9 % | 27 % |
-| **MSFT** Microsoft | 4,907 | 492,50 $ | 2 208,45 € | -0,4 % | 25 % |
+| **AAPL** Apple | 7,558 | 354,07 $ | 2 439,35 € | +7,1 % | 27 % |
+| **MSFT** Microsoft | 4,907 | 496,13 $ | 2 219,25 € | +0,1 % | 25 % |
 
 ## Signaux (classement momentum)
 
 | # | Actif | Momentum | Tendance | Cible |
 |---|---|---|---|---|
-| 1 | **AAPL** Apple | +11,8 % | ▲ | 25 % |
-| 2 | **MSFT** Microsoft | +9,3 % | ▲ | 25 % |
-| 3 | **USO** Pétrole WTI | +3,2 % | ▽ | — |
-| 4 | **META** Meta | -1,1 % | ▽ | — |
-| 5 | **JPM** JPMorgan | -2,7 % | ▽ | — |
-| 6 | **DBC** Panier mat. prem. | -2,9 % | ▽ | — |
-| 7 | **TLT** Obligations US 20 ans | -3,1 % | ▲ | — |
-| 8 | **AMZN** Amazon | -4,0 % | ▲ | — |
+| 1 | **AAPL** Apple | +13,4 % | ▲ | 25 % |
+| 2 | **MSFT** Microsoft | +10,1 % | ▲ | 25 % |
+| 3 | **USO** Pétrole WTI | +4,9 % | ▽ | — |
+| 4 | **META** Meta | -2,4 % | ▽ | — |
+| 5 | **JPM** JPMorgan | -2,5 % | ▽ | — |
+| 6 | **DBC** Panier mat. prem. | -3,2 % | ▽ | — |
+| 7 | **TLT** Obligations US 20 ans | -3,3 % | ▲ | — |
+| 8 | **AMZN** Amazon | -5,1 % | ▽ | — |
 
 ## Derniers ordres
 
@@ -55,12 +55,12 @@
 
 ## Journal
 
+- `24/11 22:16` — Portefeuille déjà aligné — aucun ordre
 - `24/11 11:59` — Portefeuille déjà aligné — aucun ordre
 - `24/11 01:56` — 1 ordre exécuté
 - `23/11 13:55` — Portefeuille déjà aligné — aucun ordre
 - `22/11 22:49` — Portefeuille déjà aligné — aucun ordre
 - `22/11 16:23` — Portefeuille déjà aligné — aucun ordre
-- `22/11 07:55` — Portefeuille déjà aligné — aucun ordre
 
 ---
 _Stratégie : momentum 3 & 6 mois, filtre MM100, Top 5 pondéré inverse-volatilité (max 25 %/ligne), bande 4 %, frais 0,10 %/ordre (min 1 €), arbitrage au plus toutes les 6 h. Passage horaire via GitHub Actions._
