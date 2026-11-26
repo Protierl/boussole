@@ -1,39 +1,39 @@
 # 🧭 BOUSSOLE — bot 24h/24
 
-**SIMULATION · cours réels · capital fictif** — mis à jour le 25/11/2026 à 16:40 (Paris) · sources : directes
+**SIMULATION · cours réels · capital fictif** — mis à jour le 26/11/2026 à 01:25 (Paris) · sources : directes
 
-## 🔴 8 762,70 €
+## 🔴 8 821,36 €
 
-**-1 237,30 € (-12,4 %)** · jour -1,3 % depuis le 12/07/2026
+**-1 178,64 € (-11,8 %)** · jour +0,7 % depuis le 12/07/2026
 
 ![Courbe de performance](courbe.png)
 
 | Indicateur | Valeur | Indicateur | Valeur |
 |---|---|---|---|
-| Perf. annualisée | -29,8 % | Volatilité ann. | 11,0 % |
-| Drawdown max | -12,6 % | Sharpe | -2,18 |
-| Exposition | 27 % | Liquidités | 6 372,73 € |
+| Perf. annualisée | -28,5 % | Volatilité ann. | 11,0 % |
+| Drawdown max | -12,6 % | Sharpe | -2,05 |
+| Exposition | 28 % | Liquidités | 6 372,73 € |
 | Trades clôturés | 134 (34 % gagnants) | Frais cumulés | 440,17 € |
-| EUR/USD | 1,0949 | P&L réalisé | -1 349,69 € |
+| EUR/USD | 1,0975 | P&L réalisé | -1 349,69 € |
 
 ## Positions
 
 | Actif | Qté | Cours | Valeur | P&L | Poids |
 |---|---|---|---|---|---|
-| **AAPL** Apple | 7,558 | 346,24 $ | 2 389,98 € | +4,9 % | 27 % |
+| **AAPL** Apple | 7,558 | 355,58 $ | 2 448,63 € | +7,5 % | 28 % |
 
 ## Signaux (classement momentum)
 
 | # | Actif | Momentum | Tendance | Cible |
 |---|---|---|---|---|
-| 1 | **AAPL** Apple | +10,4 % | ▲ | 25 % |
-| 2 | **USO** Pétrole WTI | +6,2 % | ▽ | — |
-| 3 | **MSFT** Microsoft | +3,8 % | ▽ | — |
-| 4 | **TLT** Obligations US 20 ans | -2,2 % | ▲ | — |
-| 5 | **JPM** JPMorgan | -3,7 % | ▽ | — |
-| 6 | **META** Meta | -4,1 % | ▽ | — |
-| 7 | **DBC** Panier mat. prem. | -4,3 % | ▽ | — |
-| 8 | **SPY** S&P 500 | -8,3 % | ▽ | — |
+| 1 | **AAPL** Apple | +12,6 % | ▲ | 25 % |
+| 2 | **USO** Pétrole WTI | +8,1 % | ▽ | — |
+| 3 | **MSFT** Microsoft | +2,1 % | ▽ | — |
+| 4 | **META** Meta | +1,0 % | ▽ | — |
+| 5 | **TLT** Obligations US 20 ans | -2,4 % | ▲ | — |
+| 6 | **JPM** JPMorgan | -2,8 % | ▽ | — |
+| 7 | **DBC** Panier mat. prem. | -2,8 % | ▽ | — |
+| 8 | **SPY** S&P 500 | -6,1 % | ▽ | — |
 
 ## Derniers ordres
 
@@ -54,12 +54,12 @@
 
 ## Journal
 
+- `26/11 01:25` — Portefeuille déjà aligné — aucun ordre
 - `25/11 16:40` — 1 ordre exécuté
 - `25/11 05:20` — Portefeuille déjà aligné — aucun ordre
 - `24/11 22:16` — Portefeuille déjà aligné — aucun ordre
 - `24/11 11:59` — Portefeuille déjà aligné — aucun ordre
 - `24/11 01:56` — 1 ordre exécuté
-- `23/11 13:55` — Portefeuille déjà aligné — aucun ordre
 
 ---
 _Stratégie : momentum 3 & 6 mois, filtre MM100, Top 5 pondéré inverse-volatilité (max 25 %/ligne), bande 4 %, frais 0,10 %/ordre (min 1 €), arbitrage au plus toutes les 6 h. Passage horaire via GitHub Actions._
