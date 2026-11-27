@@ -1,26 +1,26 @@
 # 🧭 BOUSSOLE — bot 24h/24
 
-**SIMULATION · cours réels · capital fictif** — mis à jour le 26/11/2026 à 20:39 (Paris) · sources : directes
+**SIMULATION · cours réels · capital fictif** — mis à jour le 27/11/2026 à 03:53 (Paris) · sources : directes
 
-## 🔴 8 821,81 €
+## 🔴 8 819,35 €
 
-**-1 178,19 € (-11,8 %)** · jour +0,7 % depuis le 12/07/2026
+**-1 180,65 € (-11,8 %)** · jour -0,0 % depuis le 12/07/2026
 
 ![Courbe de performance](courbe.png)
 
 | Indicateur | Valeur | Indicateur | Valeur |
 |---|---|---|---|
 | Perf. annualisée | -28,3 % | Volatilité ann. | 11,0 % |
-| Drawdown max | -12,6 % | Sharpe | -2,05 |
+| Drawdown max | -12,6 % | Sharpe | -2,04 |
 | Exposition | 28 % | Liquidités | 6 372,73 € |
 | Trades clôturés | 134 (34 % gagnants) | Frais cumulés | 440,17 € |
-| EUR/USD | 1,0973 | P&L réalisé | -1 349,69 € |
+| EUR/USD | 1,0984 | P&L réalisé | -1 349,69 € |
 
 ## Positions
 
 | Actif | Qté | Cours | Valeur | P&L | Poids |
 |---|---|---|---|---|---|
-| **AAPL** Apple | 7,558 | 355,58 $ | 2 449,08 € | +7,5 % | 28 % |
+| **AAPL** Apple | 7,558 | 355,58 $ | 2 446,63 € | +7,4 % | 28 % |
 
 ## Signaux (classement momentum)
 
@@ -54,12 +54,12 @@
 
 ## Journal
 
+- `27/11 03:53` — Portefeuille déjà aligné — aucun ordre
 - `26/11 20:39` — Portefeuille déjà aligné — aucun ordre
 - `26/11 10:34` — Portefeuille déjà aligné — aucun ordre
 - `26/11 01:25` — Portefeuille déjà aligné — aucun ordre
 - `25/11 16:40` — 1 ordre exécuté
 - `25/11 05:20` — Portefeuille déjà aligné — aucun ordre
-- `24/11 22:16` — Portefeuille déjà aligné — aucun ordre
 
 ---
 _Stratégie : momentum 3 & 6 mois, filtre MM100, Top 5 pondéré inverse-volatilité (max 25 %/ligne), bande 4 %, frais 0,10 %/ordre (min 1 €), arbitrage au plus toutes les 6 h. Passage horaire via GitHub Actions._
