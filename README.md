@@ -1,40 +1,40 @@
 # 🧭 BOUSSOLE — bot 24h/24
 
-**SIMULATION · cours réels · capital fictif** — mis à jour le 27/11/2026 à 23:00 (Paris) · sources : directes
+**SIMULATION · cours réels · capital fictif** — mis à jour le 28/11/2026 à 04:56 (Paris) · sources : directes
 
-## 🔴 8 848,11 €
+## 🔴 8 847,25 €
 
-**-1 151,89 € (-11,5 %)** · jour +0,3 % depuis le 12/07/2026
+**-1 152,75 € (-11,5 %)** · jour -0,0 % depuis le 12/07/2026
 
 ![Courbe de performance](courbe.png)
 
 | Indicateur | Valeur | Indicateur | Valeur |
 |---|---|---|---|
-| Perf. annualisée | -27,6 % | Volatilité ann. | 11,0 % |
-| Drawdown max | -12,6 % | Sharpe | -1,99 |
+| Perf. annualisée | -27,6 % | Volatilité ann. | 10,9 % |
+| Drawdown max | -12,6 % | Sharpe | -1,98 |
 | Exposition | 53 % | Liquidités | 4 157,93 € |
 | Trades clôturés | 134 (34 % gagnants) | Frais cumulés | 442,38 € |
-| EUR/USD | 1,0937 | P&L réalisé | -1 349,69 € |
+| EUR/USD | 1,0939 | P&L réalisé | -1 349,69 € |
 
 ## Positions
 
 | Actif | Qté | Cours | Valeur | P&L | Poids |
 |---|---|---|---|---|---|
-| **AAPL** Apple | 7,558 | 358,54 $ | 2 477,60 € | +8,8 % | 28 % |
-| **MSFT** Microsoft | 4,910 | 492,85 $ | 2 212,58 € | -0,1 % | 25 % |
+| **AAPL** Apple | 7,558 | 358,54 $ | 2 477,14 € | +8,8 % | 28 % |
+| **MSFT** Microsoft | 4,910 | 492,85 $ | 2 212,18 € | -0,1 % | 25 % |
 
 ## Signaux (classement momentum)
 
 | # | Actif | Momentum | Tendance | Cible |
 |---|---|---|---|---|
-| 1 | **AAPL** Apple | +13,5 % | ▲ | 25 % |
-| 2 | **USO** Pétrole WTI | +6,5 % | ▽ | — |
-| 3 | **META** Meta | +4,1 % | ▽ | — |
-| 4 | **MSFT** Microsoft | +2,7 % | ▲ | 25 % |
-| 5 | **JPM** JPMorgan | -0,9 % | ▽ | — |
-| 6 | **DBC** Panier mat. prem. | -1,9 % | ▽ | — |
-| 7 | **TLT** Obligations US 20 ans | -3,6 % | ▽ | — |
-| 8 | **SPY** S&P 500 | -4,5 % | ▽ | — |
+| 1 | **AAPL** Apple | +15,1 % | ▲ | 25 % |
+| 2 | **META** Meta | +7,3 % | ▽ | — |
+| 3 | **USO** Pétrole WTI | +2,4 % | ▽ | — |
+| 4 | **MSFT** Microsoft | +2,1 % | ▲ | 25 % |
+| 5 | **JPM** JPMorgan | -0,2 % | ▽ | — |
+| 6 | **AMZN** Amazon | -2,5 % | ▽ | — |
+| 7 | **TLT** Obligations US 20 ans | -3,2 % | ▽ | — |
+| 8 | **DBC** Panier mat. prem. | -3,5 % | ▽ | — |
 
 ## Derniers ordres
 
